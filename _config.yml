@@ -1,0 +1,14 @@
+title: OCTOChti
+email: chti@octo.com
+description: >
+  OCTOChti website
+baseurl: ''
+url: 'https://chti.octo.com'
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

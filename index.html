@@ -1,0 +1,30 @@
+---
+layout: default
+title: OCTOChti
+---
+
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+        <div class="text-center">
+            <img src="assets/images/logo.png" width="70%">
+        </div>
+        {% for bbl in site.data.bbl %}
+            {% assign author = site.data.people | where: "poly", bbl.poly | first %}
+            <div class="bbl">
+                <div class="bbl-title row">
+                    <div class="bbl-title--date text-center">
+                        {% assign date = bbl.date | split: " " %}
+                        <span>{{date[0]}}</span>
+                        <span>{{date[1]}}</span>
+                    </div>
+                    <div class="bbl-title--content col">
+                        <h2>{{bbl.title}}<br><small class="emphase">{{author.name}}</small></h2>
+                    </div>
+                </div>
+                <div class="bbl--content">
+                    <p>{{bbl.description}}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</main>

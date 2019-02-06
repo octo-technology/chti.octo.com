@@ -1,0 +1,75 @@
+---
+---
+
+@charset "utf-8";
+@import "minima";
+
+$light-color: #D1F1F6;
+$dark-color: #0e2356;
+$emphase-color: #00afcb;
+$text-color: #3f3f3f;
+
+body {
+    color: $text-color;
+    font-family: "Muli", Georgia, serif;
+    background-color: $light-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.emphase {
+    color: $emphase-color;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bbl-title {
+    background-color: $dark-color;
+    color: white;
+
+    &--date {
+        background-color: #eee;
+        width: 100px;
+
+        & span:first-child {
+            background-color: red;
+            display: block;
+            font-weight: bold;
+            padding: 0.2em;
+        }
+
+        & span:last-child {
+            color: $text-color;
+            font-size: 3em;
+        }
+    }
+
+    &--content {
+        padding: 0.5em;
+        padding-left: 1.5em;
+    }
+}
+
+.bbl {
+    background-color: white;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 2em;
+
+    &--content {
+        padding: 2em;
+    }
+}

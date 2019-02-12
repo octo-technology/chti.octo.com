@@ -1,0 +1,101 @@
+@import "octo-vars";
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    color: $text-color;
+    font-family: "Muli", Georgia, serif;
+    background-color: $white-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: $brand-color;
+}
+
+a, a:hover {
+    color: $brand-light-color;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &--vertical {
+        flex-direction: column;
+    }
+
+    &--vertical .col {
+        margin-bottom: 2rem;
+    }
+
+    &--vertical .col:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.col {
+    flex-basis: 100%;
+}
+
+.box {
+    padding-top: 1rem;
+    background-color: $gray-color;
+    position: relative;
+
+    > .title--boxed {
+        position: absolute;
+        top: 0;
+    }
+}
+
+.box--lined {
+    padding: 3rem 0 3rem 3rem;
+    background: transparent url(../assets/images/pattern.svg) repeat;
+
+    > div {
+        background-color: $white-color;
+    }
+}
+
+.title--boxed, .btn {
+    color: $white-color;
+    background-color: $brand-light-color;
+    display: inline-block;
+    margin: 0;
+    padding: 0.2rem 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+        color: $white-color;
+    }
+}
+
+.content {
+    padding: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+    .col {
+        flex: 1;
+
+        &--important {
+            flex: 2;
+        }
+    }
+
+    .row {
+        &.padded > .col {
+            padding-right: 2rem;
+        }
+
+        &.padded > .col:last-child {
+            padding-right: 0;
+        }
+    }
+}

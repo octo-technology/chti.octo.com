@@ -2,34 +2,12 @@
 ---
 
 @charset "utf-8";
-@import "minima";
+@import "octo";
+@import "octo-vars";
 
-$light-color: #D1F1F6;
-$dark-color: #0e2356;
-$emphase-color: #00afcb;
-$text-color: #3f3f3f;
-
-body {
-    color: $text-color;
-    font-family: "Muli", Georgia, serif;
-    background-color: $light-color;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-}
-
-.emphase {
-    color: $emphase-color;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col {
-    flex: 1;
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .text-center {
@@ -37,11 +15,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bbl-title {
-    background-color: $dark-color;
+    background-color: $brand-color;
     color: white;
 
     &--date {
-        background-color: #eee;
+        background-color: darken($gray-color, 10%);
         width: 100px;
 
         & span:first-child {
@@ -53,21 +31,24 @@ h1, h2, h3, h4, h5, h6 {
 
         & span:last-child {
             color: $text-color;
-            font-size: 3em;
+            font-size: 2.5em;
         }
     }
 
     &--content {
-        padding: 0.5em;
-        padding-left: 1.5em;
+        padding-left: 1rem;
+
+        & > * {
+            color: $white-color;
+        }
     }
 }
 
 .bbl {
-    background-color: white;
+    background-color: $white-color;
     border-radius: 0.5em;
     overflow: hidden;
-    margin: 2em;
+    margin-bottom: 2rem;
 
     &--content {
         padding: 2em;

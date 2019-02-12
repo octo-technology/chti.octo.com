@@ -14,6 +14,14 @@
     text-align: center;
 }
 
+footer {
+    background-color: $brand-color;
+
+    * {
+        color: $white-color !important;
+    }
+}
+
 .bbl-title {
     background-color: $brand-color;
     color: white;
@@ -22,14 +30,14 @@
         background-color: darken($gray-color, 10%);
         width: 100px;
 
-        & span:first-child {
+        span:first-child {
             background-color: red;
             display: block;
             font-weight: bold;
             padding: 0.2em;
         }
 
-        & span:last-child {
+        span:last-child {
             color: $text-color;
             font-size: 2.5em;
         }
@@ -38,7 +46,7 @@
     &--content {
         padding-left: 1rem;
 
-        & > * {
+        > * {
             color: $white-color;
         }
     }

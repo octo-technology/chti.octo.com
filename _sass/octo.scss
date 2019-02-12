@@ -19,6 +19,10 @@ a, a:hover {
     color: $brand-light-color;
 }
 
+img {
+    width: 100%;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -28,12 +32,8 @@ a, a:hover {
         flex-direction: column;
     }
 
-    &--vertical .col {
+    &--vertical > .col {
         margin-bottom: 2rem;
-    }
-
-    &--vertical .col:last-child {
-        margin-bottom: 0;
     }
 }
 

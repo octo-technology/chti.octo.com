@@ -62,3 +62,13 @@ footer {
         padding: 2em;
     }
 }
+
+.brand-image {
+    width: 100%;
+}
+
+@media screen and (min-width: $desktop-size) {
+    .brand-image {
+        width: 350px;
+    }
+}

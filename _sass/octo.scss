@@ -80,7 +80,7 @@ img {
     padding: 3rem;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: $desktop-size) {
     .col {
         flex: 1;
 

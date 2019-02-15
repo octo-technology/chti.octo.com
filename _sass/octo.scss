@@ -27,6 +27,14 @@ p {
     text-align: justify;
 }
 
+hr {
+    max-width: 60%;
+    background-color: darken($gray-color, 20%);
+    border: 0;
+    height: 1px;
+    margin: $desktop-padding auto;
+}
+
 img {
     width: 100%;
 }

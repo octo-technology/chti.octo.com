@@ -43,15 +43,17 @@ title: OCTOChti
 
             <div class="col">
                 <div class="box content">
-                    <h3>Nos matinales</h3>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                        anim
-                        id est laborum.</p>
-                    <a href="">Abonnez-vous</a>
+                    <h3 class="title--boxed">Nos BBL</h3>
+
+                    {% for bbl in site.data.bbl %}
+                    {% assign author = site.data.people | where: "poly", bbl.poly | first %}
+                    <h3>{{bbl.title}}<br>
+                        <small>– {{author.name}} ({{author.poly}})</small>
+                    </h3>
+                    <p>{{bbl.description}}</p>
+                    <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}">Contactez {{author.poly}}</a>
+                    <hr>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -63,7 +65,8 @@ title: OCTOChti
                 <div class="box content">
                     <h2>OCTO recrute à Lille</h2>
 
-                    <p>Plus qu'une <b class="emphase">Great Place To Work</b>, OCTO se vit en interne comme une véritable <b class="emphase">Best Place To Grow</b>.</p>
+                    <p>Plus qu'une <b class="emphase">Great Place To Work</b>, OCTO se vit en interne comme une
+                        véritable <b class="emphase">Best Place To Grow</b>.</p>
 
                     <a href="/join-us.html" class="btn">Rejoignez-nous !</a>
                 </div>
@@ -71,26 +74,24 @@ title: OCTOChti
 
             <div class="col">
                 <div class="box">
-                    <h3 class="title--boxed">Nos BBL</h3>
+                    <h3 class="title--boxed">Nos évenements</h3>
 
                     <div class="content">
-                        {% for bbl in site.data.bbl %}
-                        {% assign author = site.data.people | where: "poly", bbl.poly | first %}
-                        <div class="bbl">
-                            <div class="bbl-title row">
-                                <div class="bbl-title--date text-center">
-                                    {% assign date = bbl.date | split: " " %}
+                        {% for event in site.data.events %}
+                        <div class="event">
+                            <div class="event-title row">
+                                <div class="event-title--date text-center">
+                                    {% assign date = event.date | split: " " %}
                                     <span>{{date[0]}}</span>
                                     <span>{{date[1]}}</span>
                                 </div>
-                                <div class="bbl-title--content col">
-                                    <h3>{{bbl.title}}<br>
-                                        <small>{{author.name}}</small>
-                                    </h3>
+                                <div class="event-title--content col">
+                                    <h3>{{event.title}}</h3>
                                 </div>
                             </div>
-                            <div class="bbl--content">
-                                <p>{{bbl.description}}</p>
+                            <div class="event--content">
+                                <p>{{event.description}}</p>
+                                <b>#{{event.tag}}</b>
                             </div>
                         </div>
                         {% endfor %}

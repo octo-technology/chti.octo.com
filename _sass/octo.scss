@@ -15,8 +15,16 @@ h1, h2, h3, h4, h5, h6 {
     color: $brand-color;
 }
 
-a, a:hover {
+a {
     color: $brand-light-color;
+
+    &:hover {
+        color: darken($brand-light-color, 10%);
+    }
+}
+
+p {
+    text-align: justify;
 }
 
 img {
@@ -27,6 +35,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-grow: 1;
 
     &--vertical {
         flex-direction: column;
@@ -53,7 +62,7 @@ img {
 }
 
 .box--lined {
-    padding: 3rem 0 3rem 3rem;
+    padding: $desktop-padding 0 $padding $padding;
     background: transparent url(../assets/images/pattern.svg) repeat;
 
     > div {
@@ -66,7 +75,7 @@ img {
     background-color: $brand-light-color;
     display: inline-block;
     margin: 0;
-    padding: 0.2rem 3rem;
+    padding: 0.2rem $padding;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
@@ -76,8 +85,14 @@ img {
     }
 }
 
+.btn {
+    &:hover {
+        background-color: darken($brand-light-color, 10%);
+    }
+}
+
 .content {
-    padding: 3rem;
+    padding: $padding;
 }
 
 @media screen and (min-width: $desktop-size) {
@@ -97,5 +112,17 @@ img {
         &.padded > .col:last-child {
             padding-right: 0;
         }
+    }
+
+    .content {
+        padding: $desktop-padding;
+    }
+
+    .title--boxed, .btn {
+        padding: 0.2rem $desktop-padding;
+    }
+
+    .box--lined {
+        padding: $desktop-padding 0 $desktop-padding $desktop-padding;
     }
 }

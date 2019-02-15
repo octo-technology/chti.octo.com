@@ -3,138 +3,126 @@ layout: default
 title: OCTOChti
 ---
 
-<main class="wrapper">
-    <img src="assets/images/logo.png" class="brand-image">
+<div class="row padded">
+    <div class="col col--important">
+        <div class="row row--vertical">
+            <div class="col">
+                <div class="box box--lined">
+                    <h3 class="title--boxed">A propos de OCTO CHTI</h3>
 
-    <div class="row padded">
-        <div class="col col--important">
-            <div class="row row--vertical">
-                <div class="col">
-                    <div class="box box--lined">
-                        <h3 class="title--boxed">A propos de OCTO CHTI</h3>
-
-                        <div class="content">
-                            <h2>Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore magna aliqua.</p>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                eu
-                                fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim
-                                id est laborum.</p>
-                        </div>
-                        <div class="content">
-                            <h2>Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore magna aliqua.</p>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                eu
-                                fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim
-                                id est laborum.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="box content">
-                        <h3>Nos matinales</h3>
+                    <div class="content">
+                        <h2>Title</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore et dolore magna aliqua.</p>
                         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                             commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                            eu
                             fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                            anim
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim
                             id est laborum.</p>
-                        <a href="">Abonnez-vous</a>
+                    </div>
+                    <div class="content">
+                        <h2>Title</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore et dolore magna aliqua.</p>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                            eu
+                            fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim
+                            id est laborum.</p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col">
-            <div class="row row--vertical">
-                <div class="col">
-                    <div class="box content">
-                        <h2>Rejoignez-nous</h2>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
-
-                        <a href="" class="btn">Rejoignez-nous !</a>
-                    </div>
+            <div class="col">
+                <div class="box content">
+                    <h3>Nos matinales</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim
+                        id est laborum.</p>
+                    <a href="">Abonnez-vous</a>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="col">
-                    <div class="box">
-                        <h3 class="title--boxed">Nos BBL</h3>
+    <div class="col">
+        <div class="row row--vertical">
+            <div class="col">
+                <div class="box content">
+                    <h2>OCTO recrute à Lille</h2>
 
-                        <div class="content">
-                            {% for bbl in site.data.bbl %}
-                            {% assign author = site.data.people | where: "poly", bbl.poly | first %}
-                            <div class="bbl">
-                                <div class="bbl-title row">
-                                    <div class="bbl-title--date text-center">
-                                        {% assign date = bbl.date | split: " " %}
-                                        <span>{{date[0]}}</span>
-                                        <span>{{date[1]}}</span>
-                                    </div>
-                                    <div class="bbl-title--content col">
-                                        <h3>{{bbl.title}}<br>
-                                            <small class="emphase">{{author.name}}</small>
-                                        </h3>
-                                    </div>
+                    <p>Plus qu'une <b class="emphase">Great Place To Work</b>, OCTO se vit en interne comme une véritable <b class="emphase">Best Place To Grow</b>.</p>
+
+                    <a href="/join-us.html" class="btn">Rejoignez-nous !</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="box">
+                    <h3 class="title--boxed">Nos BBL</h3>
+
+                    <div class="content">
+                        {% for bbl in site.data.bbl %}
+                        {% assign author = site.data.people | where: "poly", bbl.poly | first %}
+                        <div class="bbl">
+                            <div class="bbl-title row">
+                                <div class="bbl-title--date text-center">
+                                    {% assign date = bbl.date | split: " " %}
+                                    <span>{{date[0]}}</span>
+                                    <span>{{date[1]}}</span>
                                 </div>
-                                <div class="bbl--content">
-                                    <p>{{bbl.description}}</p>
+                                <div class="bbl-title--content col">
+                                    <h3>{{bbl.title}}<br>
+                                        <small>{{author.name}}</small>
+                                    </h3>
                                 </div>
                             </div>
-                            {% endfor %}
+                            <div class="bbl--content">
+                                <p>{{bbl.description}}</p>
+                            </div>
                         </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="row row--vertical">
-        <div class="col">
-            <div class="box content">
-                <h3>Le campement en photos</h3>
+<div class="row row--vertical">
+    <div class="col">
+        <div class="box content">
+            <h3>Le campement en photos</h3>
 
-                <div class="row padded">
-                    <div class="col">
-                        <img src="https://now-coworking.com/wp-content/uploads/2017/06/now_lille_galerie10.jpg" alt="">
-                    </div>
+            <div class="row padded">
+                <div class="col">
+                    <img src="https://now-coworking.com/wp-content/uploads/2017/06/now_lille_galerie10.jpg" alt="">
+                </div>
 
-                    <div class="col">
-                        <img src="https://now-coworking.com/wp-content/uploads/2017/06/now_lille_galerie16.jpg" alt="">
-                    </div>
+                <div class="col">
+                    <img src="https://now-coworking.com/wp-content/uploads/2017/06/now_lille_galerie16.jpg" alt="">
+                </div>
 
-                    <div class="col">
-                        <img src="https://now-coworking.com/wp-content/uploads/2017/06/now_lille_galerie19.jpg" alt="">
-                    </div>
+                <div class="col">
+                    <img src="https://now-coworking.com/wp-content/uploads/2017/06/now_lille_galerie19.jpg" alt="">
+                </div>
 
-                    <div class="col">
-                        <img src="https://now-coworking.com/wp-content/uploads/2017/06/now_lille_galerie12.jpg" alt="">
-                    </div>
+                <div class="col">
+                    <img src="https://now-coworking.com/wp-content/uploads/2017/06/now_lille_galerie12.jpg" alt="">
                 </div>
             </div>
         </div>
     </div>
-</main>
-
-<footer>
-    <div class="wrapper content">
-        <h2>OCTO Chti</h2>
-        <a href="">Contactez-nous</a>
-    </div>
-</footer>
+</div>

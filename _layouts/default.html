@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1, user-scalable=no, minimal-ui">
 
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="description"
+          content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -18,7 +19,18 @@
 
 <body>
 
-{{ content }}
+<main class="wrapper">
+    <a href="/"><img src="assets/images/logo.png" class="brand-image"></a>
+
+    {{ content }}
+</main>
+
+<footer>
+    <div class="wrapper content">
+        <h2>OCTO Chti</h2>
+        <a href="">Contactez-nous</a>
+    </div>
+</footer>
 
 </body>
 </html>

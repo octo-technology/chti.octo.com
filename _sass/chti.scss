@@ -1,0 +1,104 @@
+@import "octo-vars";
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.brand-image {
+    width: 100%;
+}
+
+.emphase {
+    color: $yellow-color;
+}
+
+.bbl-title {
+    background-color: $brand-color;
+    color: white;
+
+    &--date {
+        background-color: darken($gray-color, 10%);
+        width: 100px;
+
+        span:first-child {
+            background-color: red;
+            display: block;
+            font-weight: bold;
+            padding: 0.2em;
+        }
+
+        span:last-child {
+            color: $text-color;
+            font-size: 2.5em;
+        }
+    }
+
+    &--content {
+        padding-left: 1rem;
+
+        > * {
+            color: $white-color;
+        }
+    }
+}
+
+.bbl {
+    background-color: $white-color;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin-bottom: 2rem;
+
+    &--content {
+        padding: 2em;
+    }
+}
+
+.job {
+    background-color: #C0E5E4;
+    text-decoration: none;
+    color: $text-color;
+
+    &:hover, &:hover h2 {
+        color: $white-color !important;
+    }
+
+    img {
+        height: 12rem;
+        padding: 2rem;
+    }
+
+    &-image {
+        background-color: $gray-color;
+    }
+
+    &:nth-child(even) {
+        background-color: #8ACFCF;
+    }
+
+    &:nth-child(odd) .job-image {
+        background-color: darken($gray-color, 3%);
+    }
+}
+
+footer {
+    background-color: $brand-color;
+
+    * {
+        color: $white-color !important;
+    }
+}
+
+@media screen and (min-width: $desktop-size) {
+    .wrapper {
+        width: 80%;
+    }
+
+    .brand-image {
+        width: 350px;
+    }
+}

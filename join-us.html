@@ -1,0 +1,38 @@
+---
+layout: default
+title: Rejoignez-nous
+---
+
+<div class="row padded">
+    <div class="col">
+        <div class="row row--vertical">
+            <div class="col">
+                <div class="box box--lined">
+                    <h3 class="title--boxed">Rejoignez-nous !</h3>
+
+                    <div class="content">
+                        {% for job in site.data.jobs %}
+                        <a class="row job" href="{{job.url}}" target="_blank">
+                            <div class="col text-center job-image">
+                                <img src="assets/images/jobs/{{job.image}}.svg" alt="{{job.title}}">
+                            </div>
+                            <div class="col col--important">
+                                <div class="content">
+                                    <h2>{{job.title}}</h2>
+                                    <p>{{job.description}}</p>
+                                </div>
+                            </div>
+                        </a>
+                        {% endfor %}
+                    </div>
+
+                    <div class="content">
+                        <a class="btn" href="mailto:chti@octo.com?subject=Je veux rejoindre OCTO Chti">Candidature
+                            spontanée</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

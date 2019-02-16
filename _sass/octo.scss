@@ -103,6 +103,13 @@ img {
     padding: $padding;
 }
 
+.social {
+    img {
+        width: 3.125rem;
+        margin: 0.3125rem;
+    }
+}
+
 @media screen and (min-width: $desktop-size) {
     .col {
         flex: 1;

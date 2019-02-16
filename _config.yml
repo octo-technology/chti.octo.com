@@ -1,14 +1,15 @@
 title: OCTOChti
 email: chti@octo.com
 description: >
-  OCTOChti website
+    OCTOChti website
 baseurl: ''
 url: 'https://chti.octo.com'
+twitter: 'https://twitter.com/octochti'
 
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+    - Gemfile
+    - Gemfile.lock

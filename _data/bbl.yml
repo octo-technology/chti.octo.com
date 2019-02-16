@@ -1,17 +1,20 @@
 - title: Le Scrum est une fenêtre (ou bien un mur)
   poly: BALE
   description: >
-    Après de longs mois d’application de “Scrum by the book” dans une feature team de 5 personnes, tout est très bien maîtrisé. Un peu trop ?
-    Le cadre du Scrum s’est dressé comme un mur devant nous.
-    Quelques semaines plus tard, nous avions assisté à une évolution des mentalités et des rituels.
-    Nous sommes devenus une équipe plus Agile qu’hier, et en constante évolution. Vous voulez aussi utiliser Scrum comme une fenêtre vers l’Agilité ?
+      Après de longs mois d’application de “Scrum by the book” dans une feature team de 5 personnes, tout est très bien maîtrisé. Un peu trop ?
+      Le cadre du Scrum s’est dressé comme un mur devant nous.
+      Quelques semaines plus tard, nous avions assisté à une évolution des mentalités et des rituels.
+      Nous sommes devenus une équipe plus Agile qu’hier, et en constante évolution. Vous voulez aussi utiliser Scrum comme une fenêtre vers l’Agilité ?
 
-- title: TDD
+- title: DDD Strategic pour la survie
   poly: JDU
   description: >
-    Comment va votre TDD ?
+      Vous avez une conception métier complexe?
+      Vous vous demandez comment vous allez faire pour faire communiquer 10 équipes sur la création de votre logiciel?
+      DDD Strategic est certainement une approche qui va vous intéresser!
+      A l'issue de cet atelier vous serez capable de mener une reflexion sur votre organisation pour démarrer le design de la solution la plus adaptée à votre métier.
 
 - title: SLOs
   poly: OLWU
   description: >
-    Venez tester vos SLOs !
+      Venez tester vos SLOs !

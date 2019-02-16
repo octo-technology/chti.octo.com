@@ -11,6 +11,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
+    <link href="{{ 'assets/images/favicon.ico' }}" rel="shortcut icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,700,900">
     <link rel="stylesheet" href="{{ 'assets/normalize.css' }}">
     <link rel="stylesheet" href="{{ 'assets/main.css' }}">
@@ -20,15 +21,27 @@
 <body>
 
 <main class="wrapper">
-    <a href="/"><img src="assets/images/logo.png" class="brand-image"></a>
-
+        <div class="col">
+            <a href="/"><img src="assets/images/logo_beffroi.png" class="brand-image"></a>
+        </div>
     {{ content }}
 </main>
 
 <footer>
     <div class="wrapper content">
-        <h2>OCTO Chti</h2>
-        <a href="">Contactez-nous</a>
+        <div class="row">
+            <div class="col">
+                <h2>{{site.title}}</h2>
+                <a href="mailto:{{site.email}}">Contactez-nous</a>
+            </div>
+            <div class="col">
+                © OCTO Technology 2019
+            </div>
+            <div class="col social">
+                <a href="{{ site.twitter }}"><img
+                    src="assets/images/social/twitter-34981b303de60144494351ef174977ed69429530c953466b019c23caf672dd24.svg"></a>
+            </div>
+        </div>
     </div>
 </footer>
 

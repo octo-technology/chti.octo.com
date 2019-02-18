@@ -7,36 +7,32 @@ title: OCTOChti
     <div class="col col--important">
         <div class="row row--vertical">
             <div class="col">
+                <div class="why">
+                    <div class="text-center">
+                        <h2><span class="quote">“</span>NOUS nous engageons à diffuser les <span
+                            class="emphase">valeurs</span> et <span
+                            class="emphase">savoir-faire</span> d'OCTO pour concrétiser la transformation numérique de
+                            la région Nord avec <span class="emphase">audace</span> et <span
+                                class="emphase">plaisir</span><span class="quote">”</span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
                 <div class="box box--lined">
                     <h3 class="title--boxed">A propos de OCTO CHTI</h3>
                     <div class="content">
-                        <img src="assets/images/camp.png" alt="camp">
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut
-                            labore et dolore magna aliqua.</p>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu
-                            fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim
-                            id est laborum.</p>
-                    </div>
-                    <div class="content">
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut
-                            labore et dolore magna aliqua.</p>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu
-                            fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim
-                            id est laborum.</p>
+                        <div class="camp-img text-center">
+                            <img src="assets/images/camp.png" alt="camp">
+                        </div>
+                        <p>OCTO Technology a décidé de poser ses valises dans la région lilloise, conscient du potentiel
+                            présent sur la région et fort des enseignements acquis lors des missions réalisées
+                            localement.</p>
+                        <p>OCTO Nord souhaite trouver un mode de fonctionnement à la OCTO tout en trouvant son style sur
+                            la région.</p>
+                        <p>Une histoire d’équipe, un projet collectif soutenu individuellement par les Octos avec
+                            l’objectif de s’inscrire dans le paysage régional, de trouver le style OCTO sur ce marché et
+                            de déclencher de l’impact chez nos partenaires.</p>
                     </div>
                 </div>
             </div>
@@ -77,6 +73,10 @@ title: OCTOChti
                     <h3 class="title--boxed">Nos évenements</h3>
 
                     <div class="content">
+                        {% unless site.data.events %}
+                        <small>Aucun évenement pour le moment.</small>
+                        {% endunless %}
+
                         {% for event in site.data.events %}
                         <div class="event">
                             <div class="event-title row">

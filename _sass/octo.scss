@@ -40,6 +40,11 @@ img {
     width: 100%;
 }
 
+.emphase {
+    color: $yellow-color;
+    font-style: italic;
+}
+
 .row {
     display: flex;
     flex-direction: row;

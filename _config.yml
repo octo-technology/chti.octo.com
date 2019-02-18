@@ -5,6 +5,7 @@ description: >
 baseurl: ''
 url: 'https://chti.octo.com'
 twitter: 'https://twitter.com/octochti'
+google_analytics: UA-134710918-1
 
 markdown: kramdown
 theme: minima

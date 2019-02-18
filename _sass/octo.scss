@@ -1,18 +1,53 @@
 @import "octo-vars";
 
+@font-face {
+    font-family: AvenirLTComBlack;
+    src: url(../assets/fonts/AvenirLTCom-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: AvenirLTComHeavy;
+    src: url(../assets/fonts/AvenirLTCom-Heavy.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: AvenirLTComLight;
+    src: url(../assets/fonts/AvenirLTCom-Light.ttf) format('truetype');
+}
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
 
 body {
     color: $text-color;
-    font-family: "Muli", Georgia, serif;
+    font-family: $font-text;
     background-color: $white-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
+    font-family: $font-title;
     color: $brand-color;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.12rem;
+}
+
+h5 {
+    font-size: 1rem;
 }
 
 a {
@@ -88,7 +123,8 @@ img {
     }
 }
 
-.title--boxed, .btn {
+.title--boxed {
+    font-family: $font-headline;
     color: $white-color;
     background-color: $brand-light-color;
     display: inline-block;
@@ -96,7 +132,6 @@ img {
     padding: 0.2rem $padding;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold;
 
     &:hover {
         color: $white-color;
@@ -104,8 +139,19 @@ img {
 }
 
 .btn {
+    font-family: $font-headline;
+    display: inline-block;
+    color: $brand-color;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0.7rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    border: 2px solid $brand-color;
+
     &:hover {
-        background-color: darken($brand-light-color, 10%);
+        background-color: $brand-color;
+        color: $white-color;
     }
 }
 
@@ -136,7 +182,7 @@ img {
         padding: $desktop-padding;
     }
 
-    .title--boxed, .btn {
+    .title--boxed {
         padding: 0.2rem $desktop-padding;
     }
 

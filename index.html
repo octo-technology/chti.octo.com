@@ -8,19 +8,17 @@ title: OCTOChti
         <div class="row row--vertical">
             <div class="col">
                 <div class="why">
-                    <div class="text-center">
-                        <h2><span class="quote">“</span>NOUS nous engageons à diffuser les <span
-                            class="emphase">valeurs</span> et <span
-                            class="emphase">savoir-faire</span> d'OCTO pour concrétiser la transformation numérique de
-                            la région Nord avec <span class="emphase">audace</span> et <span
-                                class="emphase">plaisir</span><span class="quote">”</span></h2>
-                    </div>
+                    <p class="text-center"><span class="quote">“</span>NOUS nous engageons à diffuser les <span
+                        class="emphase">valeurs</span> et <span
+                        class="emphase">savoir-faire</span> d'OCTO pour concrétiser la transformation numérique de
+                        la région Nord avec <span class="emphase">audace</span> et <span
+                            class="emphase">plaisir</span><span class="quote">”</span></p>
                 </div>
             </div>
 
             <div class="col">
                 <div class="box box--lined">
-                    <h3 class="title--boxed">A propos de OCTO CHTI</h3>
+                    <h4 class="title--boxed">A propos de OCTO CHTI</h4>
                     <div class="content">
                         <div class="camp-img text-center">
                             <img src="assets/images/camp.png" alt="camp">
@@ -39,7 +37,7 @@ title: OCTOChti
 
             <div class="col">
                 <div class="box content">
-                    <h3 class="title--boxed">Nos BBL</h3>
+                    <h4 class="title--boxed">Nos BBL</h4>
 
                     {% for bbl in site.data.bbl %}
                     {% assign author = site.data.people | where: "poly", bbl.poly | first %}
@@ -47,7 +45,8 @@ title: OCTOChti
                         <small>– {{author.name}} ({{author.poly}})</small>
                     </h3>
                     <p>{{bbl.description}}</p>
-                    <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}">Contactez {{author.poly}}</a>
+                    <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn">Contactez
+                        {{author.poly}}</a>
                     <hr>
                     {% endfor %}
                 </div>
@@ -59,7 +58,7 @@ title: OCTOChti
         <div class="row row--vertical">
             <div class="col">
                 <div class="box content">
-                    <h2>OCTO recrute à Lille</h2>
+                    <h2>OCTO recrute à Lille.</h2>
 
                     <p>Plus qu'une <b class="emphase">Great Place To Work</b>, OCTO se vit en interne comme une
                         véritable <b class="emphase">Best Place To Grow</b>.</p>
@@ -70,7 +69,7 @@ title: OCTOChti
 
             <div class="col">
                 <div class="box">
-                    <h3 class="title--boxed">Suivez-nous</h3>
+                    <h4 class="title--boxed">Suivez-nous</h4>
 
                     <div class="content">
                         <a class="twitter-timeline" data-height="600"
@@ -82,7 +81,7 @@ title: OCTOChti
 
             <div class="col">
                 <div class="box">
-                    <h3 class="title--boxed">Nos évenements</h3>
+                    <h4 class="title--boxed">Nos évenements</h4>
 
                     <div class="content">
                         {% unless site.data.events %}
@@ -117,7 +116,7 @@ title: OCTOChti
 <div class="row row--vertical">
     <div class="col">
         <div class="box content">
-            <h3>Le campement en photos</h3>
+            <h2>Le campement en photos.</h2>
 
             <div class="row padded">
                 <div class="col">

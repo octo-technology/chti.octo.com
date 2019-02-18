@@ -21,29 +21,30 @@
 <body>
 
 <main class="wrapper">
-        <div class="col">
-            <a href="/"><img src="assets/images/logo_beffroi.png" class="brand-image"></a>
-        </div>
+    <div class="col">
+        <a href="/"><img src="assets/images/logo_beffroi.png" class="brand-image"></a>
+    </div>
     {{ content }}
 </main>
 
 <footer>
     <div class="wrapper content">
-        <div class="row">
+        <div class="row row--alignCenter">
             <div class="col">
                 <h2>{{site.title}}</h2>
                 <a href="mailto:{{site.email}}">Contactez-nous</a>
             </div>
-            <div class="col">
-                © OCTO Technology 2019
-            </div>
-            <div class="col social">
+            <div class="col footer-social">
                 <a href="{{ site.twitter }}"><img
-                    src="assets/images/social/twitter-34981b303de60144494351ef174977ed69429530c953466b019c23caf672dd24.svg"></a>
+                    src="assets/images/social/twitter.svg"></a>
+            </div>
+        </div>
+        <div class="row row--alignCenter">
+            <div class="col text-center">
+                © OCTO Technology 2019
             </div>
         </div>
     </div>
 </footer>
-
 </body>
 </html>

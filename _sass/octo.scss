@@ -25,6 +25,7 @@ a {
 
 p {
     text-align: justify;
+    line-height: 1.5rem;
 }
 
 hr {
@@ -51,6 +52,10 @@ img {
 
     &--vertical > .col {
         margin-bottom: 2rem;
+    }
+
+    &--alignCenter {
+        align-items: center;
     }
 }
 
@@ -101,13 +106,6 @@ img {
 
 .content {
     padding: $padding;
-}
-
-.social {
-    img {
-        width: 3.125rem;
-        margin: 0.3125rem;
-    }
 }
 
 @media screen and (min-width: $desktop-size) {

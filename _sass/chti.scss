@@ -39,6 +39,7 @@
     }
 
     &--content {
+        flex-basis: auto;
         padding-left: 1rem;
 
         > * {
@@ -62,6 +63,7 @@
     background-color: #C0E5E4;
     text-decoration: none;
     color: $text-color;
+    margin-bottom: $desktop-padding;
 
     &:hover, &:hover h2 {
         color: $white-color !important;
@@ -77,7 +79,7 @@
     }
 
     &:nth-child(even) {
-        background-color: #8ACFCF;
+        background-color: $brand-light-blue;
     }
 
     &:nth-child(odd) .job-image {
@@ -86,10 +88,16 @@
 }
 
 footer {
-    background-color: $white-color;
+    .col {
+        margin-bottom: $padding;
+    }
+}
 
-    * {
-        color: $brand-color !important;
+.footer-social {
+    text-align: right;
+
+    img {
+        width: 15%;
     }
 }
 
@@ -100,5 +108,9 @@ footer {
 
     .brand-image {
         width: 350px;
+    }
+
+    .job {
+        margin-bottom: 0;
     }
 }

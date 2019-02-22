@@ -47,7 +47,7 @@ title: OCTOChti
                     <h3>{{bbl.title}}<br>
                         <small>– {{author.name}} ({{author.poly}})</small>
                     </h3>
-                    <p>{{bbl.description}}</p>
+                    <p>{{bbl.description | newline_to_br | markdownify}}</p>
                     <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn">Contactez
                         {{author.poly}}</a>
                     <hr>
@@ -104,7 +104,7 @@ title: OCTOChti
                                 </div>
                             </div>
                             <div class="event--content">
-                                <p>{{event.description}}</p>
+                                <p>{{event.description | newline_to_br | markdownify}}</p>
                                 <b>#{{event.tag}}</b>
                             </div>
                         </div>

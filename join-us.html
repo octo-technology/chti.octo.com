@@ -19,7 +19,7 @@ title: Rejoignez-nous
                             <div class="col col--important">
                                 <div class="content">
                                     <h2>{{job.title}}</h2>
-                                    <p>{{job.description}}</p>
+                                    <p>{{job.description | newline_to_br | markdownify}}</p>
                                 </div>
                             </div>
                         </a>

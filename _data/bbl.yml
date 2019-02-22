@@ -1,20 +1,28 @@
 - title: Le Scrum est une fenêtre (ou bien un mur)
   poly: BALE
-  description: >
-      Après de longs mois d’application de “Scrum by the book” dans une feature team de 5 personnes, tout est très bien maîtrisé. Un peu trop ?
-      Le cadre du Scrum s’est dressé comme un mur devant nous.
+  description: |
+      Après de longs mois d’application de “Scrum by the book” dans une feature team de 5 personnes, tout est très bien maîtrisé. Un peu trop ? Le cadre du Scrum s’est dressé comme un mur devant nous.
       Quelques semaines plus tard, nous avions assisté à une évolution des mentalités et des rituels.
       Nous sommes devenus une équipe plus Agile qu’hier, et en constante évolution. Vous voulez aussi utiliser Scrum comme une fenêtre vers l’Agilité ?
 
 - title: DDD Strategic pour la survie
   poly: JDU
-  description: >
+  description: |
       Vous avez une conception métier complexe?
       Vous vous demandez comment vous allez faire pour faire communiquer 10 équipes sur la création de votre logiciel?
       DDD Strategic est certainement une approche qui va vous intéresser!
       A l'issue de cet atelier vous serez capable de mener une reflexion sur votre organisation pour démarrer le design de la solution la plus adaptée à votre métier.
 
-- title: SLOs
+- title: "[REX] Le ML sans Tensorflow ni Python: Rex sur l'implémentation ONNX en Go"
   poly: OLWU
-  description: >
-      Venez tester vos SLOs !
+  description: |
+      Open Neural Network eXchange semble être la référence émergente du logiciel 2.0.
+      En tant que Gopher et contributeur de la bibliothèque Gorgonia, j'ai voulu rendre la technologie ONNX accessible à cet écosystème. Les cas d'usage sont multiples.
+      Par exemple: utiliser le binaire statique Go pour développer un *Neural Network Runtime Environment* facilement exploitable, ou encore utiliser les réseaux de neurones comme des capacités quelconque du langage Go, sans binding.
+
+- title: DTO, DAO, API, SLO and Go - Designing a REST API driven by the objectives
+  poly: OLWU
+  description: |
+      Les API sont devenues une obligation pour les sociétés qui souhaitent s'ouvrir à l'extérieur.
+      Ainsi, c'est pour beaucoup une porte d'entrée vers les plateformes de services. De plus, la donnée est au centre des stratégies. C'est donc naturellement que l'API s'est imposée comme un moyen de récupérer de la donnée dans le but d'y ajouter de la valeur.
+      La disponibilité de l'API est donc, plus que jamais, un concept qui revet une importance particulière si elle n'est pas prise au sérieux. Elle peut être la cause de perte de business importante.

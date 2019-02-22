@@ -1,5 +1,6 @@
-#- title: Matinale
-#  description: |
-#      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#  date: Mars 28
-#  tag: matinales
+- title: Qualité des développements avec Test Driven Development
+  description: |
+      Pratique de base des équipes Agiles, le développement dirigé par les tests (TDD : Test Driven Development) est une technique de programmation simple, élégante et efficace, qui repose sur un cycle de feedback court : écrire un test – le faire passer – refactorer le code.
+  date: Mai 14
+  url: https://www.octo.academy/fr/formation/203-qualite-des-developpements-avec-test-driven-development/s/2072/r/nouveau
+  tag: formations

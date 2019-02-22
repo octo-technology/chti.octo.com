@@ -1,0 +1,17 @@
+<div class="event">
+    <div class="event-title row">
+        <div class="event-title--date text-center">
+            {% assign date = event.date | split: " " %}
+            <span>{{date[0]}}</span>
+            <span>{{date[1]}}</span>
+        </div>
+        <div class="event-title--content col">
+            <a href="{{event.url}}" target="_blank">{{event.title}}</a>
+        </div>
+    </div>
+    <div class="event--content">
+        <p>{{event.description | newline_to_br | markdownify}}</p>
+        <b>#{{event.tag}}</b>
+        <a href="{{event.url}}" target="_blank">en voir plus</a>
+    </div>
+</div>

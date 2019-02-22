@@ -75,11 +75,12 @@ footer {
 
 .event-title {
     background-color: $brand-color;
-    color: white;
+    align-items: center;
+    color: $white-color;
 
     &--date {
         background-color: darken($gray-color, 10%);
-        width: 100px;
+        width: 25%;
 
         span:first-child {
             background-color: red;
@@ -95,11 +96,13 @@ footer {
     }
 
     &--content {
-        flex-basis: auto;
-        padding-left: 1rem;
+        font-family: $font-headline;
+        margin: 0.5rem;
+        flex: 1;
 
-        > * {
+        a {
             color: $white-color;
+            text-decoration: none;
         }
     }
 }
@@ -112,6 +115,10 @@ footer {
 
     &--content {
         padding: 2em;
+
+        a {
+            float: right;
+        }
     }
 }
 
@@ -119,10 +126,11 @@ footer {
 // Join us page
 
 .job {
-    background-color: #C0E5E4;
     text-decoration: none;
     color: $text-color;
     margin-bottom: $desktop-padding;
+    align-items: center;
+    background-color: $gray-color;
 
     &:hover, &:hover h2 {
         color: $white-color !important;
@@ -133,15 +141,15 @@ footer {
         padding: 2rem;
     }
 
-    &-image {
-        background-color: $gray-color;
+    &-content {
+        background-color: #C0E5E4;
     }
 
-    &:nth-child(even) {
+    &:nth-child(even) &-content {
         background-color: $brand-light-blue;
     }
 
-    &:nth-child(odd) .job-image {
+    &:nth-child(odd) {
         background-color: darken($gray-color, 3%);
     }
 }

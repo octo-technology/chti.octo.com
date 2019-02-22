@@ -42,16 +42,11 @@ title: OCTOChti
                 <div class="box content">
                     <h4 class="title--boxed">Nos BBL</h4>
 
-                    {% for bbl in site.data.bbl %}
-                    {% assign author = site.data.people | where: "poly", bbl.poly | first %}
-                    <h3>{{bbl.title}}<br>
-                        <small>– {{author.name}} ({{author.poly}})</small>
-                    </h3>
-                    <p>{{bbl.description | newline_to_br | markdownify}}</p>
-                    <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn">Contactez
-                        {{author.poly}}</a>
-                    <hr>
+                    {% for bbl in site.data.bbl limit: 3 %}
+                    {% include bbl.html bbl=bbl %}
                     {% endfor %}
+
+                    <p class="text-center"><a href="/bbl.html" class="btn">Voir tous nos BBL</a></p>
                 </div>
             </div>
         </div>
@@ -91,23 +86,8 @@ title: OCTOChti
                         <small>Aucun évenement pour le moment.</small>
                         {% endunless %}
 
-                        {% for event in site.data.events %}
-                        <div class="event">
-                            <div class="event-title row">
-                                <div class="event-title--date text-center">
-                                    {% assign date = event.date | split: " " %}
-                                    <span>{{date[0]}}</span>
-                                    <span>{{date[1]}}</span>
-                                </div>
-                                <div class="event-title--content col">
-                                    <h3>{{event.title}}</h3>
-                                </div>
-                            </div>
-                            <div class="event--content">
-                                <p>{{event.description | newline_to_br | markdownify}}</p>
-                                <b>#{{event.tag}}</b>
-                            </div>
-                        </div>
+                        {% for event in site.data.events limit: 3 %}
+                        {% include event.html event=event %}
                         {% endfor %}
                     </div>
                 </div>

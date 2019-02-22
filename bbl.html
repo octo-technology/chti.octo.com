@@ -1,16 +1,20 @@
 ---
 layout: default
-title: BBL - OCTOChti
+title: BBL - OCTO chti
 ---
 
 <div class="row padded">
-    <div class="col col--important">
-        <div class="box content">
-            <h4 class="title--boxed">Nos BBL</h4>
+    <div class="col">
+        <div class="row row--vertical">
+            <div class="col col--important">
+                <div class="box content">
+                    <h2 class="title--section">Nos BBL.</h2>
 
-            {% for bbl in site.data.bbl %}
-            {% include bbl.html bbl=bbl %}
-            {% endfor %}
+                    {% for bbl in site.data.bbl %}
+                    {% include bbl.html bbl=bbl %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </div>
 </div>

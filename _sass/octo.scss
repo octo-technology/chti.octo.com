@@ -15,6 +15,11 @@
     src: url(../assets/fonts/AvenirLTCom-Light.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: CutoffProBoldItalic;
+    src: url(../assets/fonts/CutoffPro-BoldItalic.otf) format('opentype');
+}
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -36,10 +41,20 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+
+    &.title--section {
+        font-size: 3.5rem;
+        margin-top: -2.9rem;
+    }
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.9rem;
+
+    &.title--section {
+        font-size: 2.5rem;
+        margin-top: -2.1rem;
+    }
 }
 
 h4 {
@@ -92,6 +107,7 @@ img {
 
     &--vertical > .col {
         margin-bottom: 2rem;
+        margin-top: $desktop-padding;
     }
 
     &--alignCenter {
@@ -108,14 +124,14 @@ img {
     background-color: $gray-color;
     position: relative;
 
-    > .title--boxed {
+    > .title--section {
         position: absolute;
         top: 0;
     }
 }
 
 .box--lined {
-    padding: $desktop-padding 0 $padding $padding;
+    padding: $padding;
     background: transparent url(../assets/images/pattern.svg) repeat;
 
     > div {
@@ -123,19 +139,12 @@ img {
     }
 }
 
-.title--boxed {
-    font-family: $font-headline;
-    color: $white-color;
-    background-color: $brand-light-color;
+.title--section {
+    font-family: $font-title;
+    color: $brand-color;
     display: inline-block;
     margin: 0;
-    padding: 0.2rem $padding;
-    text-transform: uppercase;
     text-decoration: none;
-
-    &:hover {
-        color: $white-color;
-    }
 }
 
 .btn {
@@ -160,6 +169,16 @@ img {
 }
 
 @media screen and (min-width: $desktop-size) {
+    h2.title--section {
+        font-size: 5rem;
+        margin-top: -4.1rem;
+    }
+
+    h3.title--section {
+        font-size: 4rem;
+        margin-top: -3.25rem;
+    }
+
     .col {
         flex: 1;
 
@@ -182,11 +201,7 @@ img {
         padding: $desktop-padding;
     }
 
-    .title--boxed {
-        padding: 0.2rem $desktop-padding;
-    }
-
     .box--lined {
-        padding: $desktop-padding 0 $desktop-padding $desktop-padding;
+        padding: $desktop-padding;
     }
 }

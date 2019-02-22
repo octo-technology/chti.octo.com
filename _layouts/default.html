@@ -23,10 +23,29 @@
 
 <body>
 
-<main class="wrapper">
-    <div class="col">
-        <a href="/"><img src="assets/images/logo_beffroi.png" class="brand-image"></a>
+<header>
+    <div class="wrapper col">
+        <a href="/"><img src="assets/images/brand.svg" class="brand-image"></a>
     </div>
+
+    {% if page.name == 'index.html' %}
+    <div class="text-center">
+        <img src="assets/images/header.svg" class="header-image">
+    </div>
+
+    <div class="why">
+        <div class="wrapper">
+            <p class="text-center">Nous nous engageons à diffuser les <span
+                class="emphase">valeurs</span><br>et <span
+                class="emphase">savoir-faire</span> d'OCTO pour concrétiser la transformation<br>numérique de
+                la région Nord avec <span class="emphase">audace</span> et <span
+                    class="emphase">plaisir.</span></p>
+        </div>
+    </div>
+    {% endif %}
+</header>
+
+<main class="wrapper">
     {{ content }}
 </main>
 
@@ -44,7 +63,7 @@
         </div>
         <div class="row row--alignCenter">
             <div class="col text-center">
-                © OCTO Technology 2019
+                © OCTO Technology 2019 - Part of Accenture Digital
             </div>
         </div>
     </div>

@@ -10,6 +10,10 @@
 }
 
 .brand-image {
+    margin: $padding;
+}
+
+.brand-image, .header-image {
     width: 100%;
 }
 
@@ -23,8 +27,14 @@ footer {
     text-align: right;
 
     img {
-        width: 15%;
+        width: 13%;
+        border-radius: 50%;
     }
+}
+
+header {
+    background-color: #E0E1E6;
+    margin-bottom: $desktop-padding;
 }
 
 
@@ -32,13 +42,12 @@ footer {
 
 .why {
     position: relative;
-    background-color: $brand-color;
+    background-color: $white-color;
     padding: $desktop-padding;
     font-family: $font-headline;
     letter-spacing: 0.05rem;
 
     p {
-        color: $white-color;
         font-weight: normal;
         font-size: 1.7rem;
         line-height: 2.5rem;
@@ -47,22 +56,7 @@ footer {
 
     .emphase {
         color: $brand-light-color;
-    }
-}
-
-.quote {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 7rem;
-    position: absolute;
-
-    &:first-child {
-        top: 2.5rem;
-        left: 1rem;
-    }
-
-    &:last-child {
-        bottom: -1rem;
-        right: 1rem;
+        font-family: $font-emphase;
     }
 }
 
@@ -83,7 +77,7 @@ footer {
         width: 25%;
 
         span:first-child {
-            background-color: red;
+            background-color: $brand-light-color;
             display: block;
             font-weight: bold;
             padding: 0.2em;
@@ -154,9 +148,21 @@ footer {
     }
 }
 
+.bbl h3 {
+    color: $brand-light-color;
+
+    & small {
+        color: $brand-color;
+    }
+}
+
 @media screen and (min-width: $desktop-size) {
     .wrapper {
         width: 80%;
+    }
+
+    .header-image {
+        width: 50%;
     }
 
     .brand-image {

@@ -1,8 +1,10 @@
-{% assign author = site.data.people | where: "poly", bbl.poly | first %}
-<h3 id="{{bbl.title | slugify}}">{{bbl.title}}<br>
-    <small>– {{author.name}} ({{author.poly}})</small>
-</h3>
-<p>{{bbl.description | newline_to_br | markdownify}}</p>
-<a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn">Contactez
-    {{author.poly}}</a>
-<hr>
+<div class="bbl">
+    {% assign author = site.data.people | where: "poly", bbl.poly | first %}
+    <h3 id="{{bbl.title | slugify}}">{{bbl.title}}<br>
+        <small>– {{author.name}} ({{author.poly}})</small>
+    </h3>
+    <p>{{bbl.description | newline_to_br | markdownify}}</p>
+    <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn">Contactez
+        {{author.poly}}</a>
+    <hr>
+</div>

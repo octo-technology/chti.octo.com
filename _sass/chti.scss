@@ -43,7 +43,8 @@ header {
 .why {
     position: relative;
     background-color: $white-color;
-    padding: $desktop-padding;
+    padding: $padding;
+    padding-top: $desktop-padding;
     font-family: $font-headline;
     letter-spacing: 0.05rem;
 
@@ -60,8 +61,14 @@ header {
     }
 }
 
-.camp-img img {
-    width: 70%;
+.camp-img {
+    float: left;
+    width: 50%;
+    margin-right: $padding;
+}
+
+#about-camp {
+    margin-top: $padding;
 }
 
 
@@ -148,11 +155,32 @@ header {
     }
 }
 
-.bbl h3 {
-    color: $brand-light-color;
+.bbl {
+    margin-bottom: $desktop-padding;
 
-    & small {
-        color: $brand-color;
+    .page-index & .bbl-description {
+        display: none;
+    }
+
+    &-title {
+        color: $brand-light-color;
+        width: 65%;
+        display: inline-block;
+        margin: 0;
+        font-family: $font-headline;
+
+        & span {
+            font-size: 1.3rem;
+            border-bottom: 1px dotted;
+        }
+
+        & small {
+            color: $brand-color;
+        }
+    }
+
+    &-cta {
+        float: right;
     }
 }
 
@@ -171,5 +199,13 @@ header {
 
     .job {
         margin-bottom: 0;
+    }
+
+    .camp-img {
+        width: 60%;
+    }
+
+    .bbl-title {
+        width: 75%;
     }
 }

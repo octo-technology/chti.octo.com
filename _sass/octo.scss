@@ -28,6 +28,7 @@ body {
     color: $text-color;
     font-family: $font-text;
     background-color: $white-color;
+    font-size: $font-text-size;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,7 +59,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.12rem;
+    font-size: 1.4rem;
 }
 
 h5 {

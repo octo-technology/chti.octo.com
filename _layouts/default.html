@@ -16,6 +16,28 @@
     <link rel="stylesheet" href="{{ 'assets/main.css' }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#e0e1e5",
+                        "text": "#0d2356"
+                    },
+                    "button": {
+                        "background": "transparent",
+                        "text": "#01afca",
+                        "border": "#01afca"
+                    }
+                },
+                "position": "bottom-right"
+            })
+        });
+    </script>
+
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
     {% endif %}

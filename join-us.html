@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rejoignez-nous - OCTO chti
+title: Rejoignez-nous
 ---
 
 <div class="row padded">
@@ -12,15 +12,31 @@ title: Rejoignez-nous - OCTO chti
 
                     <div class="content">
                         {% for job in site.data.jobs %}
-                        <a class="row job" href="{{job.url}}" target="_blank">
+                        <a class="row job" href="{{job.url}}" target="_blank" itemscope
+                           itemtype="http://schema.org/JobPosting">
                             <div class="col text-center job-image">
-                                <img src="assets/images/jobs/{{job.image}}.svg" alt="{{job.title}}">
+                                <img
+                                    src="{{ '/assets/images/jobs/' | append: job.image | append: '.svg' | absolute_url }}"
+                                    alt="{{job.title}}">
                             </div>
                             <div class="col col--important job-content">
                                 <div class="content">
-                                    <h2>{{job.title}}</h2>
-                                    <p>{{job.description | newline_to_br | markdownify}}</p>
+                                    <h2 itemprop="title">{{job.title}}</h2>
+                                    <div itemprop="description">{{job.description | newline_to_br | markdownify}}</div>
                                 </div>
+                            </div>
+
+                            <meta itemprop="datePosted" content="{{job.datePosted}}"/>
+                            <span class="hidden" itemscope itemprop="jobLocation" itemtype="http://schema.org/Place">
+                                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                    <meta itemprop="streetAddress" content="40 place du théâtre"/>
+                                    <meta itemprop="postalCode" content="59000"/>
+                                    <meta itemprop="addressLocality" content="Lille"/>
+                                </span>
+                            </span>
+                            <div class="hidden" itemscope itemprop="hiringOrganization"
+                                 itemtype="http://schema.org/Organization">
+                                <meta itemprop="name" content="OCTO chti"/>
                             </div>
                         </a>
                         {% endfor %}

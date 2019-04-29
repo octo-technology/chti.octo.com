@@ -1,10 +1,18 @@
 title: OCTO chti
+lang: fr
 email: chti@octo.com
-description: |
-    OCTO chti website
-baseurl: ''
 url: 'https://chti.octo.com'
-twitter: 'https://twitter.com/octochti'
+tel: +33 1 58 56 10 00
+twitter:
+    username: octochti
+    card: summary
+github_username: OCTOTechnology
+social:
+    name: OCTO chti
+    links:
+        - https://twitter.com/OCTOchti
+        - https://github.com/OCTOTechnology
+logo: /brand.png
 google_analytics: UA-134710918-1
 
 markdown: kramdown

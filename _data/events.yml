@@ -1,21 +1,20 @@
 - title: Qualité des développements avec Test Driven Development
   description: |
       Pratique de base des équipes Agiles, le développement dirigé par les tests (TDD : Test Driven Development) est une technique de programmation simple, élégante et efficace, qui repose sur un cycle de feedback court : écrire un test – le faire passer – refactorer le code.
-  date: Mai 14
+  date: 2019-05-14
   url: https://www.octo.academy/fr/formation/203-qualite-des-developpements-avec-test-driven-development/s/2072/r/nouveau
   tag: formations
 
 - title: Revue de code
   description: |
       Avec la technique des tests de développeurs, la revue de code est unanimement reconnue par l’industrie comme une des meilleures pratiques pour la qualité du développement. Ses bénéfices directs et indirects, qui en font une pratique clé de la qualité logicielle, sont nombreux : réduction du nombre de défauts dans le code, amélioration de sa qualité structurelle, amélioration de la communication, formation, contribution à une culture de la qualité.
-  date: Mai 21
+  date: 2019-05-21
   url: https://www.octo.academy/fr/formation/202-revue-de-code/s/2077/r/nouveau
   tag: formations
-
 
 - title: Découvrir les démarches agiles et la culture agile
   description: |
       Les méthodes agiles ont le vent en poupe. Chacun d’entre nous sait ce que c’est, et si ce n’est pas encore le cas pour vous, il y a pléthore d’ouvrages et de ressources en ligne permettant cela. Comprendre l’agilité c’est donc possible et facilement accessible. Entrevoir et comprendre comment, par les méthodes agiles, agir pour améliorer son contexte de travail, le travail en équipe et les modes de fonctionnement de son organisation est une affaire autrement plus compliquée et parfois bien plus périlleuse.
-  date: Mai 27
+  date: 2019-05-27
   url: https://www.octo.academy/fr/formation/201-decouvrir-les-demarches-agiles-et-la-culture-agile/s/2076/r/nouveau
   tag: formations

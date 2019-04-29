@@ -1,12 +1,17 @@
-<div class="bbl">
+<div class="bbl" itemscope itemtype="http://schema.org/Course">
     {% assign author = site.data.people | where: "poly", bbl.poly | first %}
     <a href="bbl.html#{{bbl.title | slugify}}">
         <h4 id="{{bbl.title | slugify}}" class="bbl-title">
-            <span>{{bbl.title}}</span>
+            <span itemprop="name">{{bbl.title}}</span>
             <br>
             <small>– {{author.name}} ({{author.poly}})</small>
         </h4>
     </a>
     <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn bbl-cta">Contacter</a>
-    <div class="bbl-description">{{bbl.description | newline_to_br | markdownify}}</div>
+    <div class="bbl-description" itemprop="description">{{bbl.description | newline_to_br | markdownify}}</div>
+
+    <span class="hidden" itemscope itemprop="provider" itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="{{author.name}}"/>
+        <meta itemprop="email" content="{{author.poly}}@octo.com"/>
+    </span>
 </div>

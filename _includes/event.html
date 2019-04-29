@@ -1,17 +1,25 @@
-<div class="event">
+<div class="event" itemscope itemtype="http://schema.org/Event">
     <div class="event-title row">
-        <div class="event-title--date text-center">
-            {% assign date = event.date | split: " " %}
+        <div class="event-title--date text-center" itemprop="startDate" content="{{event.date}}">
+            {% assign date = event.date | date: "%B %d" | split: " " %}
             <span>{{date[0]}}</span>
             <span>{{date[1]}}</span>
         </div>
         <div class="event-title--content col">
-            <a href="{{event.url}}" target="_blank">{{event.title}}</a>
+            <a href="{{event.url}}" target="_blank" itemprop="name">{{event.title}}</a>
         </div>
+
+        <span class="hidden" itemscope itemprop="location" itemtype="http://schema.org/Place">
+            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <meta itemprop="streetAddress" content="40 place du théâtre"/>
+                <meta itemprop="postalCode" content="59000"/>
+                <meta itemprop="addressLocality" content="Lille"/>
+            </span>
+        </span>
     </div>
     <div class="event--content">
-        <p>{{event.description | newline_to_br | markdownify}}</p>
+        <div itemprop="description">{{event.description | newline_to_br | markdownify}}</div>
         <b>#{{event.tag}}</b>
-        <a href="{{event.url}}" target="_blank">en voir plus</a>
+        <a href="{{event.url}}" target="_blank" itemprop="url">en voir plus</a>
     </div>
 </div>

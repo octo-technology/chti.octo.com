@@ -188,9 +188,20 @@ header {
     }
 }
 
+
+// Team page
+
+.people {
+    margin: 1rem 0;
+}
+
 @media screen and (min-width: $desktop-size) {
     .wrapper {
         width: 80%;
+
+        .page-equipe & {
+            width: 100%;
+        }
     }
 
     .header-image {
@@ -211,5 +222,14 @@ header {
 
     .bbl-title {
         width: 75%;
+    }
+
+    .people {
+        flex-basis: calc(100% / 3 - 2rem);
+        margin: 1rem;
+
+        &:last-child {
+            max-width: calc(100% / 3 - 2rem);
+        }
     }
 }

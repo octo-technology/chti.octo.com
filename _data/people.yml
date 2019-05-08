@@ -11,7 +11,10 @@
 
 - poly: OLWU
   name: Olivier Wulveryck
-  bio:
+  bio: |
+      De profile OpsDev, mon métier chez Octo est "consultant en culture DevOps et SRE". J'ai à coeur d'aider les gens à adapter leurs pratiques plutôt que d'adopter des outils pour assurer un hébergement et une exploitation de qualité (#ThereIsABetterWay).
+      D'autre part, je suis un développeur passionné de machine learning; ainsi, je suis contributeur OpenSource (principalement sur des projets en langage Go tels que Gorgoni ou onnx-go).
+
 
 - poly: JJA
   name: Julien Jakubowski

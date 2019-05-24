@@ -13,7 +13,7 @@
     padding: $padding;
 }
 
-.brand-image, .header-image {
+.brand-image, .banner img {
     width: 100%;
 }
 
@@ -33,7 +33,8 @@ footer {
 }
 
 header {
-    background-color: #E0E1E6;
+    //background-color: #E0E1E6;
+    background-color: $gray-color;
     margin-bottom: $desktop-padding;
 }
 
@@ -204,8 +205,8 @@ header {
         }
     }
 
-    .header-image {
-        width: 50%;
+    .banner img {
+        width: 30%;
     }
 
     .brand-image {

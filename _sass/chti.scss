@@ -227,6 +227,7 @@ header {
 
     .people {
         flex-basis: calc(100% / 3 - 2rem);
+        max-width: calc(100% / 3 - 2rem);
         margin: 1rem;
 
         &:last-child {

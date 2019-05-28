@@ -255,5 +255,9 @@ header {
     .people {
         flex-basis: calc(100% / 4 - 2rem);
         padding: 0 1rem !important;
+
+        &:last-child {
+            max-width: calc(100% / 4 - 2rem);
+        }
     }
 }

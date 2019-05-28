@@ -90,19 +90,14 @@ layout: default
         <div class="box content">
             <h3 class="title--section">L'équipe.</h3>
 
-            <div class="row padded">
+            <div class="row">
                 {% for people in site.data.people %}
-                <div class="col people">
-                    <div class="people-flip">
-                        <div class="people-front">
-                            <h4 class="text-center">{{people.name}}</h4>
-                            <img
-                                src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
-                                alt="{{people.name}}">
-                        </div>
-                        <div class="people-description">{{people.bio | newline_to_br | markdownify}}</div>
-                    </div>
-                </div>
+                <a class="col people-card" href="/equipe.html#{{people.poly}}">
+                    <h4 class="text-center">{{people.name}}</h4>
+                    <img
+                        src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
+                        alt="{{people.name}}">
+                </a>
                 {% endfor %}
             </div>
         </div>

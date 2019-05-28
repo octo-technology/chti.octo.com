@@ -1,0 +1,27 @@
+---
+layout: default
+title: L'équipe
+---
+
+<div class="row">
+    <div class="col">
+        <div class="box content">
+            <h3 class="title--section">L'équipe.</h3>
+
+            {% for people in site.data.people %}
+            <div class="people row" id="{{people.poly}}">
+                <div class="col">
+                    <img
+                        src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
+                        alt="{{people.name}}">
+                </div>
+
+                <div class="col col--important">
+                    <h4>{{people.name}}</h4>
+                    <div>{{people.bio | newline_to_br | markdownify}}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

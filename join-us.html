@@ -3,52 +3,47 @@ layout: default
 title: Rejoignez-nous
 ---
 
-<div class="row padded">
+<div class="row">
     <div class="col">
-        <div class="row row--vertical">
-            <div class="col">
-                <div class="box box--lined">
-                    <h3 class="title--section">Rejoignez-nous.</h3>
+        <div class="box box--lined">
+            <h3 class="title--section">Rejoignez-nous.</h3>
 
-                    <div class="content">
-                        {% for job in site.data.jobs %}
-                        <a class="row job" href="{{job.url}}" target="_blank" itemscope
-                           itemtype="http://schema.org/JobPosting">
-                            <div class="col text-center job-image">
-                                <img
-                                    src="{{ '/assets/images/jobs/' | append: job.image | append: '.svg' | absolute_url }}"
-                                    alt="{{job.title}}">
-                            </div>
-                            <div class="col col--important job-content">
-                                <div class="content">
-                                    <h2 itemprop="title">{{job.title}}</h2>
-                                    <div itemprop="description">{{job.description | newline_to_br | markdownify}}</div>
-                                </div>
-                            </div>
+            <div class="content">
+                {% for job in site.data.jobs %}
+                <a class="row job" href="{{job.url}}" target="_blank" itemscope
+                   itemtype="http://schema.org/JobPosting">
+                    <div class="col text-center job-image">
+                        <img
+                            src="{{ '/assets/images/jobs/' | append: job.image | append: '.svg' | absolute_url }}"
+                            alt="{{job.title}}">
+                    </div>
+                    <div class="col col--important job-content">
+                        <div class="content">
+                            <h2 itemprop="title">{{job.title}}</h2>
+                            <div itemprop="description">{{job.description | newline_to_br | markdownify}}</div>
+                        </div>
+                    </div>
 
-                            <meta itemprop="datePosted" content="{{job.datePosted}}"/>
-                            <span class="hidden" itemscope itemprop="jobLocation" itemtype="http://schema.org/Place">
+                    <meta itemprop="datePosted" content="{{job.datePosted}}"/>
+                    <span class="hidden" itemscope itemprop="jobLocation" itemtype="http://schema.org/Place">
                                 <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                     <meta itemprop="streetAddress" content="40 place du théâtre"/>
                                     <meta itemprop="postalCode" content="59000"/>
                                     <meta itemprop="addressLocality" content="Lille"/>
                                 </span>
                             </span>
-                            <div class="hidden" itemscope itemprop="hiringOrganization"
-                                 itemtype="http://schema.org/Organization">
-                                <meta itemprop="name" content="OCTO chti"/>
-                            </div>
-                        </a>
-                        {% endfor %}
+                    <div class="hidden" itemscope itemprop="hiringOrganization"
+                         itemtype="http://schema.org/Organization">
+                        <meta itemprop="name" content="OCTO chti"/>
                     </div>
+                </a>
+                {% endfor %}
+            </div>
 
-                    <div class="content">
-                        <a class="btn" href="mailto:chti@octo.com?subject=Je veux rejoindre OCTO Chti">Candidature
-                            spontanée</a>
-                    </div>
-                </div>
+            <div class="content">
+                <a class="btn" href="mailto:chti@octo.com?subject=Je veux rejoindre OCTO Chti">Candidature
+                    spontanée</a>
             </div>
         </div>
     </div>
-</div>
 </div>

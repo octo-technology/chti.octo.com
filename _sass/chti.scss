@@ -33,9 +33,8 @@ footer {
 }
 
 header {
-    //background-color: #E0E1E6;
     background-color: $gray-color;
-    margin-bottom: $desktop-padding;
+    margin-bottom: $desktop-padding * 3;
 }
 
 .hidden {
@@ -74,6 +73,16 @@ header {
 
 #about-camp {
     margin-top: $padding;
+}
+
+.people-card {
+    flex-basis: calc(100% / 2 - 2rem);
+    margin: 1rem;
+    text-decoration: none;
+
+    img {
+        width: 100%;
+    }
 }
 
 
@@ -193,43 +202,17 @@ header {
 // Team page
 
 .people {
-    flex-basis: calc(100% / 2 - 2rem);
-    margin: 1rem;
+    margin: $desktop-padding 0;
 
     img {
-        width: 100%;
-    }
-
-    &-flip {
-        position: relative;
-        transition: transform 0.4s;
-        transform-style: preserve-3d;
-    }
-
-    &:hover .people-flip {
-        transform: rotateY(180deg);
-    }
-
-    &-front, &-description {
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        background-color: $gray-color;
-    }
-
-    &-description {
-        transform: rotateY(180deg);
-        position: absolute;
-        top: 0;
+        max-width: 350px;
+        padding-right: $desktop-padding;
     }
 }
 
 @media screen and (min-width: $desktop-size) {
     .wrapper {
         width: 80%;
-
-        .page-equipe & {
-            width: 100%;
-        }
     }
 
     .banner img {
@@ -252,7 +235,7 @@ header {
         width: 75%;
     }
 
-    .people {
+    .people-card {
         flex-basis: calc(100% / 4 - 2rem);
         padding: 0 1rem !important;
 

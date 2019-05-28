@@ -207,12 +207,17 @@ header {
     img {
         max-width: 350px;
         padding-right: $desktop-padding;
+        padding-bottom: $desktop-padding;
     }
 
     &-bbl {
         border: 1px solid $brand-light-blue;
         padding: $padding;
         padding-top: 0;
+    }
+
+    &-name {
+        margin-top: 0;
     }
 }
 

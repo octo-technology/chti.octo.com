@@ -205,7 +205,6 @@ header {
     margin: $desktop-padding 0;
 
     img {
-        max-width: 350px;
         padding-right: $desktop-padding;
         padding-bottom: $desktop-padding;
     }
@@ -218,6 +217,10 @@ header {
 
     &-name {
         margin-top: 0;
+    }
+
+    .col--important {
+        flex: 3;
     }
 }
 

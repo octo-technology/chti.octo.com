@@ -19,6 +19,19 @@ title: L'équipe
                 <div class="col col--important">
                     <h4>{{people.name}}</h4>
                     <div>{{people.bio | newline_to_br | markdownify}}</div>
+
+                    {% assign bbls = site.data.bbl | where: "poly", people.poly %}
+                    {% if bbls.size > 0 %}
+                    <div class="people-bbl">
+                        <h5>BBL</h5>
+
+                        <ul>
+                            {% for bbl in bbls %}
+                            <li><a href="/bbl.html#{{bbl.title | slugify}}">{{bbl.title}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}

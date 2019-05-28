@@ -208,6 +208,12 @@ header {
         max-width: 350px;
         padding-right: $desktop-padding;
     }
+
+    &-bbl {
+        border: 1px solid $brand-light-blue;
+        padding: $padding;
+        padding-top: 0;
+    }
 }
 
 @media screen and (min-width: $desktop-size) {

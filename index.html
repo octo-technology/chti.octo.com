@@ -12,15 +12,17 @@ layout: default
                         <div class="camp-img">
                             <img src="{{ '/assets/images/camp.png' | absolute_url }}" alt="camp" usemap="#camp">
                             <map name="camp">
-                                <area shape="rect" coords="100,0,400,100" href="#about-camp" alt="Campement" />
+                                <area shape="rect" coords="100,0,400,100" href="#about-camp" alt="Campement"/>
                             </map>
                         </div>
-                        <p id="about-camp">OCTO Technology a décidé de poser ses valises dans la région lilloise, conscient du potentiel
+                        <p id="about-camp">OCTO Technology a décidé de poser ses valises dans la région lilloise,
+                            conscient du potentiel
                             présent sur la région et fort des enseignements acquis lors des missions réalisées
                             localement.</p>
                         <p>OCTO Nord souhaite trouver un mode de fonctionnement à la OCTO tout en trouvant son style sur
                             la région.</p>
-                        <p style="clear: left;">Une histoire d’équipe, un projet collectif soutenu individuellement par les Octos avec
+                        <p style="clear: left;">Une histoire d’équipe, un projet collectif soutenu individuellement par
+                            les Octos avec
                             l’objectif de s’inscrire dans le paysage régional, de trouver le style OCTO sur ce marché et
                             de déclencher de l’impact chez nos partenaires.</p>
                     </div>
@@ -78,6 +80,30 @@ layout: default
                         {% endfor %}
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row row--vertical">
+    <div class="col">
+        <div class="box content">
+            <h3 class="title--section">L'équipe.</h3>
+
+            <div class="row padded">
+                {% for people in site.data.people %}
+                <div class="col people">
+                    <div class="people-flip">
+                        <div class="people-front">
+                            <h4 class="text-center">{{people.name}}</h4>
+                            <img
+                                src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
+                                alt="{{people.name}}">
+                        </div>
+                        <div class="people-description">{{people.bio | newline_to_br | markdownify}}</div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>

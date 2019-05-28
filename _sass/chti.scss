@@ -193,7 +193,34 @@ header {
 // Team page
 
 .people {
-    margin: 1rem 0;
+    flex-basis: calc(100% / 2 - 2rem);
+    margin: 1rem;
+
+    img {
+        width: 100%;
+    }
+
+    &-flip {
+        position: relative;
+        transition: transform 0.4s;
+        transform-style: preserve-3d;
+    }
+
+    &:hover .people-flip {
+        transform: rotateY(180deg);
+    }
+
+    &-front, &-description {
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        background-color: $gray-color;
+    }
+
+    &-description {
+        transform: rotateY(180deg);
+        position: absolute;
+        top: 0;
+    }
 }
 
 @media screen and (min-width: $desktop-size) {
@@ -226,11 +253,7 @@ header {
     }
 
     .people {
-        flex-basis: calc(100% / 3 - 2rem);
-        margin: 1rem;
-
-        &:last-child {
-            max-width: calc(100% / 3 - 2rem);
-        }
+        flex-basis: calc(100% / 4 - 2rem);
+        padding: 0 1rem !important;
     }
 }

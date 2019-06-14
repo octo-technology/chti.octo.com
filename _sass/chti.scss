@@ -1,7 +1,7 @@
 @import "octo-vars";
 
 .wrapper {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -224,11 +224,7 @@ header {
     }
 }
 
-@media screen and (min-width: $desktop-size) {
-    .wrapper {
-        width: 80%;
-    }
-
+@media screen and (min-width: $tablet-size) {
     .banner img {
         width: 30%;
     }
@@ -254,5 +250,11 @@ header {
         padding: 0 1rem !important;
         flex-grow: 0;
         flex-shrink: 0;
+    }
+}
+
+@media screen and (min-width: $desktop-size) {
+    .wrapper {
+        width: 85%;
     }
 }

@@ -196,15 +196,10 @@ img {
     padding: $padding;
 }
 
-@media screen and (min-width: $desktop-size) {
-    h2.title--section {
-        font-size: 5rem;
-        margin-top: -4.1rem;
-    }
-
+@media screen and (min-width: $tablet-size) {
     h3.title--section {
-        font-size: 4rem;
-        margin-top: -3.25rem;
+        font-size: 3rem;
+        margin-top: -2.5rem;
     }
 
     .col {
@@ -231,5 +226,12 @@ img {
 
     .box--lined {
         padding: $desktop-padding;
+    }
+}
+
+@media screen and (min-width: $desktop-size) {
+    h3.title--section {
+        font-size: 3.5rem;
+        margin-top: -2.9rem;
     }
 }

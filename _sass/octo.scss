@@ -194,6 +194,10 @@ img {
 
 .content {
     padding: $padding;
+
+    > h2:first-child {
+        margin-top: 0;
+    }
 }
 
 @media screen and (min-width: $tablet-size) {

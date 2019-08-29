@@ -7,7 +7,7 @@ layout: default
         <div class="row row--vertical">
             <div class="col">
                 <div class="box box--lined">
-                    <h3 class="title--section">A propos.</h3>
+                    <h3 class="title--section">À propos.</h3>
                     <div class="content">
                         <div class="camp-img">
                             <img src="{{ '/assets/images/camp.png' | absolute_url }}" alt="camp" usemap="#camp">
@@ -68,7 +68,7 @@ layout: default
 
             <div class="col">
                 <div class="box">
-                    <h3 class="title--section">Évenements.</h3>
+                    <h3 class="title--section">Évènements.</h3>
 
                     <div class="content">
                         {% unless site.data.events %}
@@ -93,7 +93,11 @@ layout: default
             <div class="row">
                 {% for people in site.data.people %}
                 <a class="col people-card" href="/equipe.html#{{people.poly}}">
-                    <h4 class="text-center">{{people.name}}</h4>
+                    <h4 class="text-center">
+                        {{people.name}}
+                        <br>
+                        <small>{{people.job}}</small>
+                    </h4>
                     <img
                         src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
                         alt="{{people.name}}">

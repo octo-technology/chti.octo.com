@@ -1,23 +1,26 @@
 - poly: BALE
   name: Baptiste Lecocq
+  job: Software Craftman
   bio: |
       Je m’appelle Baptiste, je travaille actuellement chez OCTO Nord. Je maîtrise principalement les langages et frameworks du monde Javascript.
       Je suis également impliqué dans un certain nombre de méthodes liées à l’agilité et au software craftmanship pour faire grandir les équipes que j’accompagne.
 
 - poly: JDU
   name: Jonathan Duberville
+  job: Software Craftman
   bio: |
       Je suis animé par la joie de construire des logiciels de qualité (un logiciel opérationnel plus qu'une documentation exhaustive) et j'ai pour vocation de vivre pleinement l’agilité et le développement logiciel en suivant la philosophie Software Craftsmanship.
 
 - poly: OLWU
   name: Olivier Wulveryck
+  job: Service Reliability Engineer / OPS
   bio: |
       De profile OpsDev, mon métier chez Octo est "consultant en culture DevOps et SRE". J'ai à coeur d'aider les gens à adapter leurs pratiques plutôt que d'adopter des outils pour assurer un hébergement et une exploitation de qualité (#ThereIsABetterWay).
       D'autre part, je suis un développeur passionné de machine learning; ainsi, je suis contributeur OpenSource (principalement sur des projets en langage Go tels que Gorgoni ou onnx-go).
 
-
 - poly: JJA
   name: Julien Jakubowski
+  job: Software Craftman / CTO campement
   bio: |
       Consultant-codeur, développeur de développeurs, CTO OCTO Nord.
       Mon kiff : aider des équipes à réaliser des logiciels dont elles sont fières.
@@ -26,6 +29,7 @@
 
 - poly: MAVE
   name: Marine Verwaerde
+  job: Software Craftwoman
   bio: |
       Consultante, crafteuse et coach de tech lead
       Férue de clean code, j'aime aider les équipes à grandir sur les pratiques de dev de qualité.
@@ -33,6 +37,7 @@
 
 - poly: CAT
   name: Thomas Carayol
+  job: Data Scientist / Engineer
   bio: |
       Consultant et Data lover
       Passionné de Data au sens large (de l'IA aux grosses architectures de données) je suis aussi sensible à l'agilité et à la culture craftmanship.
@@ -40,12 +45,14 @@
 
 - poly: MOI
   name: Mathieu Moisant
+  job: Business Manager / Leader campement
   bio: |
       Quand on m’a proposé de monter un campement (c’est une agence :p ) pour OCTO dans le Nord, j’ai dit go!
       Depuis on a construit collectivement une super équipe qui a de l’impact sur nos missions avec un vraie conscience de notre responsabilité en tant que conseillers tech et méthodo. Je suis leader de ce campement mais consultant avant tout sur des sujets de coaching d’équipe et de formation méthodo, de transformation des organisations, de cadrage de produit logiciel, et de leur réalisation pilotée par la valeur (mais c’est quoi pour vous la valeur? on en parle?).
 
 - poly: GUF
   name: Guillaume Fabrizi
+  job: Software Craftman
   bio: |
       Guillaume est un développeur qui saque ed' din chez OCTO Technology.
       Diffuseur de pratiques de développement telles que TDD.

@@ -17,7 +17,11 @@ title: L'équipe
                 </div>
 
                 <div class="col col--important">
-                    <h4 class="people-name">{{people.name}}</h4>
+                    <h4 class="people-name">
+                        {{people.name}}
+                        <br>
+                        <small>{{people.job}}</small>
+                    </h4>
                     <div>{{people.bio | newline_to_br | markdownify}}</div>
 
                     {% assign bbls = site.data.bbl | where: "poly", people.poly %}

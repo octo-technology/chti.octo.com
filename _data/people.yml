@@ -5,44 +5,6 @@
       Je m’appelle Baptiste, je travaille actuellement chez OCTO Nord. Je maîtrise principalement les langages et frameworks du monde Javascript.
       Je suis également impliqué dans un certain nombre de méthodes liées à l’agilité et au software craftsmanship pour faire grandir les équipes que j’accompagne.
 
-- poly: JDU
-  name: Jonathan Duberville
-  job: Software Craftsman
-  bio: |
-      Je suis animé par la joie de construire des logiciels de qualité (un logiciel opérationnel plus qu'une documentation exhaustive) et j'ai pour vocation de vivre pleinement l’agilité et le développement logiciel en suivant la philosophie Software Craftsmanship.
-
-- poly: OLWU
-  name: Olivier Wulveryck
-  job: Fiabiliste / ML Geek / Gopher
-  bio: |
-      J'ai à coeur d'aider les gens à adapter leurs pratiques plutôt que d'adopter des outils. De la conception à la mise en oeuvre, mes leitmotivs sont le partage et la co-construction.
-      D'autre part, je suis un développeur passionné de machine learning; ainsi, je suis contributeur OpenSource (principalement sur des projets en langage Go tels que <a href="https://gorgonia.org">Gorgonia</a> ou <a href="https://github.com/owulveryck/onnx-go">onnx-go</a>).
-
-- poly: JUNE
-  name: Justine Daise
-  job: Ambassadrice RH et communication
-  bio: |
-      Passionnée par les RH et la communication, je ne sais pas mentir, inventer, broder, romancer, arranger, exagérer, amplifier, gonfler embellir, enjoliver… et je ne veux pas apprendre à le faire ! Ce que j’aime, c’est l’idée de participer à la fois au lancement de nouvelles aventures enrichissantes pour des personnes (et pas des talents!), mais aussi au développement d’une équipe ou la transparence règne et en qui j’ai confiance.
-      Dans RH, je préfère le H ; je suis convaincue qu’il est possible d’allier la dimension business au moins à part égale avec d’autres aspects human-centric !
-      <a href="https://www.linkedin.com/in/justine-daise-%F0%9F%A5%82-octo-technology-098a3911a/">On en parle ?</a>
-
-- poly: JJA
-  name: Julien Jakubowski
-  job: Développeur de développeurs / CTO campement
-  bio: |
-      Consultant-codeur, développeur de développeurs, CTO OCTO Nord.
-      Mon kiff : aider des équipes à réaliser des logiciels dont elles sont fières.
-      Co-auteur de <a href="https://www.octo.com/publications/culture-code/">Culture Code</a>.
-      On me croise souvent au <a href="https://chtijug.org">Ch'ti JUG</a>, aux meetups <a href="https://www.meetup.com/fr-FR/Nord-agile/">Nord Agile</a>, <a href="https://www.meetup.com/fr-FR/Software-Craftsmanship-Lille/">Software Craft Lille</a>, et <a href="https://www.meetup.com/fr-FR/Engineering-Management-Lille/">Engineering management Lille</a>.
-
-- poly: MAVE
-  name: Marine Verwaerde
-  job: Software Craftswoman
-  bio: |
-      Consultante, crafteuse et coach de tech lead
-      Férue de clean code, j'aime aider les équipes à grandir sur les pratiques de dev de qualité.
-      Vous pouvez me croiser au meetup Software Craft Lille !
-
 - poly: CAT
   name: Thomas Carayol
   job: Data Scientist / Engineer
@@ -50,13 +12,6 @@
       Consultant et Data lover
       Passionné de Data au sens large (de l'IA aux grosses architectures de données) je suis aussi sensible à l'agilité et à la culture craftsmanship.
       Vous pouvez me croiser dans le cloud où je met en production les projets sur lesquels j'accompagne mes clients.
-
-- poly: MOI
-  name: Mathieu Moisant
-  job: Business Manager / Leader campement
-  bio: |
-      Quand on m’a proposé de monter un campement (c’est une agence :p ) pour OCTO dans le Nord, j’ai dit go!
-      Depuis on a construit collectivement une super équipe qui a de l’impact sur nos missions avec un vraie conscience de notre responsabilité en tant que conseillers tech et méthodo. Je suis leader de ce campement mais consultant avant tout sur des sujets de coaching d’équipe et de formation méthodo, de transformation des organisations, de cadrage de produit logiciel, et de leur réalisation pilotée par la valeur (mais c’est quoi pour vous la valeur? on en parle?).
 
 - poly: GUF
   name: Guillaume Fabrizi
@@ -73,3 +28,57 @@
       Crafteuse dans l'âme, j'aime accompagner les équipes à s'approprier leurs logiciels et à en être fières.
       Je suis également évangéliste des pratiques de développement tels que TDD, BDD et tout ce qui finit par DD ;)
       Vous pouvez me croiser au meetup Software Craft Lille et au Microsoft User Group Lille !
+
+- poly: JDU
+  name: Jonathan Duberville
+  job: Software Craftsman
+  bio: |
+      Je suis animé par la joie de construire des logiciels de qualité (un logiciel opérationnel plus qu'une documentation exhaustive) et j'ai pour vocation de vivre pleinement l’agilité et le développement logiciel en suivant la philosophie Software Craftsmanship.
+
+- poly: JJA
+  name: Julien Jakubowski
+  job: Développeur de développeurs / CTO campement
+  bio: |
+      Consultant-codeur, développeur de développeurs, CTO OCTO Nord.
+      Mon kiff : aider des équipes à réaliser des logiciels dont elles sont fières.
+      Co-auteur de <a href="https://www.octo.com/publications/culture-code/">Culture Code</a>.
+      On me croise souvent au <a href="https://chtijug.org">Ch'ti JUG</a>, aux meetups <a href="https://www.meetup.com/fr-FR/Nord-agile/">Nord Agile</a>, <a href="https://www.meetup.com/fr-FR/Software-Craftsmanship-Lille/">Software Craft Lille</a>, et <a href="https://www.meetup.com/fr-FR/Engineering-Management-Lille/">Engineering management Lille</a>.
+
+- poly: JUNE
+  name: Justine Daise
+  job: Ambassadrice RH et communication
+  bio: |
+      Passionnée par les RH et la communication, je ne sais pas mentir, inventer, broder, romancer, arranger, exagérer, amplifier, gonfler embellir, enjoliver… et je ne veux pas apprendre à le faire ! Ce que j’aime, c’est l’idée de participer à la fois au lancement de nouvelles aventures enrichissantes pour des personnes (et pas des talents!), mais aussi au développement d’une équipe ou la transparence règne et en qui j’ai confiance.
+      Dans RH, je préfère le H ; je suis convaincue qu’il est possible d’allier la dimension business au moins à part égale avec d’autres aspects human-centric !
+      <a href="https://www.linkedin.com/in/justine-daise-%F0%9F%A5%82-octo-technology-098a3911a/">On en parle ?</a>
+
+- poly: LIBE
+  name: Yannick Libert
+  job: Data nerd
+  bio: |
+      Ancien astronome repenti, je m’intéresse à la donnée sous toutes ses formes.
+      Qu'elle vienne des étoiles ou d'un serveur de prod, je la recueille, la nourris, l'analyse et lui offre un petit nid douillet dans lequel
+      elle peut réaliser pleinement son potentiel. Vous pouvez me croiser un peu partout dans Lille où j'adore flâner durant mon temps libre.
+
+- poly: MAVE
+  name: Marine Verwaerde
+  job: Software Craftswoman
+  bio: |
+      Consultante, crafteuse et coach de tech lead
+      Férue de clean code, j'aime aider les équipes à grandir sur les pratiques de dev de qualité.
+      Vous pouvez me croiser au meetup Software Craft Lille !
+
+- poly: MOI
+  name: Mathieu Moisant
+  job: Business Manager / Leader campement
+  bio: |
+      Quand on m’a proposé de monter un campement (c’est une agence :p ) pour OCTO dans le Nord, j’ai dit go!
+      Depuis on a construit collectivement une super équipe qui a de l’impact sur nos missions avec un vraie conscience de notre responsabilité en tant que conseillers tech et méthodo. Je suis leader de ce campement mais consultant avant tout sur des sujets de coaching d’équipe et de formation méthodo, de transformation des organisations, de cadrage de produit logiciel, et de leur réalisation pilotée par la valeur (mais c’est quoi pour vous la valeur? on en parle?).
+
+- poly: OLWU
+  name: Olivier Wulveryck
+  job: Fiabiliste / ML Geek / Gopher
+  bio: |
+      J'ai à coeur d'aider les gens à adapter leurs pratiques plutôt que d'adopter des outils. De la conception à la mise en oeuvre, mes leitmotivs sont le partage et la co-construction.
+      D'autre part, je suis un développeur passionné de machine learning; ainsi, je suis contributeur OpenSource (principalement sur des projets en langage Go tels que <a href="https://gorgonia.org">Gorgonia</a> ou <a href="https://github.com/owulveryck/onnx-go">onnx-go</a>).
+

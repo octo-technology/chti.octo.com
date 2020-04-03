@@ -1,18 +1,3 @@
-- poly: BALE
-  name: Baptiste Lecocq
-  job: Software Craftsman
-  bio: |
-      Je m’appelle Baptiste, je travaille actuellement chez OCTO Nord. Je maîtrise principalement les langages et frameworks du monde Javascript.
-      Je suis également impliqué dans un certain nombre de méthodes liées à l’agilité et au software craftsmanship pour faire grandir les équipes que j’accompagne.
-
-- poly: CAT
-  name: Thomas Carayol
-  job: Data Scientist / Engineer
-  bio: |
-      Consultant et Data lover
-      Passionné de Data au sens large (de l'IA aux grosses architectures de données) je suis aussi sensible à l'agilité et à la culture craftsmanship.
-      Vous pouvez me croiser dans le cloud où je met en production les projets sur lesquels j'accompagne mes clients.
-
 - poly: GUF
   name: Guillaume Fabrizi
   job: Software Craftsman
@@ -28,12 +13,6 @@
       Crafteuse dans l'âme, j'aime accompagner les équipes à s'approprier leurs logiciels et à en être fières.
       Je suis également évangéliste des pratiques de développement tels que TDD, BDD et tout ce qui finit par DD ;)
       Vous pouvez me croiser au meetup Software Craft Lille et au Microsoft User Group Lille !
-
-- poly: JDU
-  name: Jonathan Duberville
-  job: Software Craftsman
-  bio: |
-      Je suis animé par la joie de construire des logiciels de qualité (un logiciel opérationnel plus qu'une documentation exhaustive) et j'ai pour vocation de vivre pleinement l’agilité et le développement logiciel en suivant la philosophie Software Craftsmanship.
 
 - poly: JJA
   name: Julien Jakubowski

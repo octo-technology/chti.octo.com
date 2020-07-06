@@ -81,7 +81,7 @@ layout: default
                                     <img src="{{ '/assets/images/expertises/Illustration_Realisation_projet.png' | absolute_url }}"
                                         alt="Illustration_Realisation_projet">
                                 </div>
-                                <div class="col">
+                                <div class="col Aligner-item--top col-text">
                                     <strong>Méthodo & change</strong>
                                     <ul>
                                         <li>Agile, Lean</li>
@@ -94,7 +94,7 @@ layout: default
                                     <img src="{{ '/assets/images/expertises/Illustration_Etude_tech.png' | absolute_url }}"
                                         alt="Illustration_Etude_tech">
                                 </div>
-                                <div class="col">
+                                <div class="col Aligner-item--top col-text">
                                     <strong>Data & Cognitive Automation</strong>
                                     <ul>
                                         <li>Data engineering</li>
@@ -105,12 +105,12 @@ layout: default
                                 </div>
                             </div>
 
-                            <div class="row">
+                            <div class="row row-margintop">
                                 <div class="col half">
                                     <img src="{{ '/assets/images/expertises/Illustration_tresor.png' | absolute_url }}"
                                         alt="Illustration_tresor.">
                                 </div>
-                                <div class="col">
+                                <div class="col Aligner-item--top col-text">
                                     <strong>Software engineering</strong>
                                     <ul>
                                         <li>Réalisation et co-réalisation de logiciels</li>
@@ -124,7 +124,7 @@ layout: default
                                     <img src="{{ '/assets/images/expertises/Illustration_Tipi.png' | absolute_url }}"
                                         alt="Illustration_Tipi">
                                 </div>
-                                <div class="col">
+                                <div class="col Aligner-item--top col-text">
                                     <strong>Architecture</strong>
                                     <ul>
                                         <li>Assessment de SI et d'organisations</li>
@@ -175,6 +175,7 @@ layout: default
                 </div>
             </div>
 
+            <!--
             <div class="col">
                 <div class="box">
                     <h3 class="title--section">Évènements.</h3>
@@ -190,6 +191,7 @@ layout: default
                     </div>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </div>
@@ -202,14 +204,14 @@ layout: default
             <div class="row" id="toShuffle">
                 {% assign peoples = site.data.people %}
                 {% for people in peoples %}
-                <a class="col people-card shuffleMe" href="/equipe.html#{{people.poly}}">
+                <a class="col people-card shuffleMe" href=" {{ '/equipe.html#' | append: people.poly | absolute_url }}">
                     <h4 class="text-center">
                         {{people.name}}
                         <br>
                         <small>{{people.job}}</small>
                     </h4>
                     <img src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
-                        alt="{{people.name}}">
+                        alt="{{people.name}}" class="img-people">
                 </a>
                 {% endfor %}
             </div>
@@ -217,6 +219,7 @@ layout: default
     </div>
 </div>
 
+<!--
 <div class="row row--vertical">
     <div class="col">
         <div class="box content">
@@ -242,3 +245,4 @@ layout: default
         </div>
     </div>
 </div>
+-->

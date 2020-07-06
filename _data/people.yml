@@ -6,102 +6,168 @@
     libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
     nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
-      Guillaume est un développeur qui saque ed' din chez OCTO Technology.
-      Diffuseur de pratiques de développement telles que TDD.
-      C'est quelqu'un qui parle couramment le CHTI et intervient en tant que Tech Lead chez ses clients.
+    Guillaume est un développeur qui saque ed' din chez OCTO Technology.
+    Diffuseur de pratiques de développement telles que TDD.
+    C'est quelqu'un qui parle couramment le CHTI et intervient en tant que Tech Lead chez ses clients.
 
 - poly: IMRA
   name: Imen RASSAA
   job: Software Craftswoman
   accroche: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
-    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
-    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
+    Tech lead seniore et coach tech lead; le produit c'est l'équipe, avec Imen ca sera une équipe qui a 
+    toujours le sourire et pour laquelle la qualité logicielle n'a plus de faille.
   bio: |
-      Crafteuse dans l'âme, j'aime accompagner les équipes à s'approprier leurs logiciels et à en être fières.
-      Je suis également évangéliste des pratiques de développement tels que TDD, BDD et tout ce qui finit par DD ;)
-      Vous pouvez me croiser au meetup Software Craft Lille et au Microsoft User Group Lille !
-
+    Crafteuse dans l’âme, j’aime accompagner les équipes à s’approprier leurs logiciels et à en être fières.
+    Je suis également évangéliste des pratiques de développement tels que TDD, BDD et tout ce qui finit par DD ;)
+    Vous pouvez me croiser au meetup Software Craft Lille et au Microsoft User Group Lille !
+  
 - poly: JJA
   name: Julien Jakubowski
   job: Développeur de développeurs / CTO campement
   accroche: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
-    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
-    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
+    Master crafteux, tech lead / engineering manager, archi logiciel, coach d'équipe, il sait tout faire ce garçon! Et le tout, en Ch'ti.
   bio: |
-      Consultant-codeur, développeur de développeurs, CTO OCTO Nord.
-      Mon kiff : aider des équipes à réaliser des logiciels dont elles sont fières.
-      Co-auteur de <a href="https://www.octo.com/publications/culture-code/">Culture Code</a>.
-      On me croise souvent au <a href="https://chtijug.org">Ch'ti JUG</a>, aux meetups <a href="https://www.meetup.com/fr-FR/Nord-agile/">Nord Agile</a>, <a href="https://www.meetup.com/fr-FR/Software-Craftsmanship-Lille/">Software Craft Lille</a>, et <a href="https://www.meetup.com/fr-FR/Engineering-Management-Lille/">Engineering management Lille</a>.
+    Consultant-codeur, développeur de développeurs, Engineering Manager @ OCTO Nord.
+    Co-fondateur et co-leader du campement.
+    Mon kiff : aider des équipes à réaliser des logiciels dont elles sont fières.
+    Contributeur à <a href="https://www.octo.com/publications/culture-code/">Culture Code</a>, et conférencier sur l'agile, la qualité logicielle, la dynamique d'équipe de devs... 
+    J'anime des meetups à Lille où me croise donc souvent : le <a href="https://chtijug.org">Ch’ti JUG</a>, <a href="https://www.meetup.com/fr-FR/Nord-agile/">Nord Agile</a>, <a href="https://www.meetup.com/fr-FR/Software-Craftsmanship-Lille/">Software Craft Lille<a>, et <a href="https://www.meetup.com/fr-FR/Engineering-Management-Lille/">Engineering management Lille</a>.
 
 - poly: JUNE
   name: Justine Daise
   job: Ambassadrice RH et communication
   accroche: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
-    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
-    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
+    L’âme du campement CHTI, celle qui nous permet de nous concentrer sur notre mission
+    de consultant en pilotant la vie d’un campement (RH, Comm, Office Management) avec sagesse et folie.
   bio: |
-      Passionnée par les RH et la communication, je ne sais pas mentir, inventer, broder, romancer, arranger, exagérer, amplifier, gonfler embellir, enjoliver… et je ne veux pas apprendre à le faire ! Ce que j’aime, c’est l’idée de participer à la fois au lancement de nouvelles aventures enrichissantes pour des personnes (et pas des talents!), mais aussi au développement d’une équipe ou la transparence règne et en qui j’ai confiance.
-      Dans RH, je préfère le H ; je suis convaincue qu’il est possible d’allier la dimension business au moins à part égale avec d’autres aspects human-centric !
-      <a href="https://www.linkedin.com/in/justine-daise-%F0%9F%A5%82-octo-technology-098a3911a/">On en parle ?</a>
+    Passionnée par les RH et la communication, je ne sais pas mentir, inventer, broder, romancer, arranger, exagérer, amplifier, gonfler embellir, enjoliver… et je ne veux pas apprendre à le faire ! Ce que j’aime, c’est l’idée de participer à la fois au lancement de nouvelles aventures enrichissantes pour des personnes (et pas des talents!), mais aussi au développement d’une équipe ou la transparence règne et en qui j’ai confiance.
+    Dans RH, je préfère le H ; je suis convaincue qu’il est possible d’allier la dimension business au moins à part égale avec d’autres aspects human-centric !
+    <a href="https://www.linkedin.com/in/justine-daise-%F0%9F%A5%82-octo-technology-098a3911a/">On en parle ?</a>
 
 - poly: KALO
   name: Loïc Kaczmarek
   job: Software Craftsman
   accroche: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
-    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
-    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
+    Artisan, c’est le métier qu’il rêvait de faire étant petit. Loïc c’est notre maker,
+    notre ingénieur, quand il n’est pas en revue de code avec son équipe pour s’assurer que TDD est bien appliqué,
+    il est cheveux au vent sur sa moto ou en train d’imprimer 3D une licorne. 
   bio: |
-      Développer c'est bien. Développer avec craft/TDD/clean code c'est mieux !
-      C'est mon quotidien, je le fait, je le vis et, surtout, je le partage.
-      Alors commençons par poser un test, et voyons si il nous amène jusqu'à la prod.
-
+    Développer c’est bien. Développer avec craft/TDD/clean code c’est mieux !
+    C’est mon quotidien, je le fait, je le vis et, surtout, je le partage.
+    Alors commençons par poser un test, et voyons si il nous amène jusqu’à la prod.
+  
 - poly: LIBE
   name: Yannick Libert
   job: Data nerd
   accroche: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
-    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
-    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
+    Data architecte et data geek, l'espace (et le temps) n'ont pas de secret pour lui !
   bio: |
-      Ancien astronome repenti, je m’intéresse à la donnée sous toutes ses formes.
-      Qu'elle vienne des étoiles ou d'un serveur de prod, je la recueille, la nourris, l'analyse et lui offre un petit nid douillet dans lequel elle peut réaliser pleinement son potentiel.
-      Vous pouvez me croiser un peu partout dans Lille où j'adore flâner durant mon temps libre.
-
+    Ancien astronome repenti, je m’intéresse à la donnée sous toutes ses formes.
+    Qu’elle vienne des étoiles ou d’un serveur de prod, je la recueille, la nourris, l’analyse et lui offre un petit nid douillet dans lequel elle peut réaliser pleinement son potentiel.
+    Vous pouvez me croiser un peu partout dans Lille où j’adore flâner durant mon temps libre.
+  
 - poly: MAVE
   name: Marine Verwaerde
   job: Software Craftswoman
   accroche: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
-    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
-    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
+    Tech Lead OCTO et coach Tech - Aucun contexte fonctionnel ne lui résiste,
+    profondément engagée et en quête de sens dans ses accompagnements, c’est résolument
+    l’humain et les interactions entre les personnes qui lui permettent d’exceller. 
   bio: |
-      Consultante, crafteuse et coach de tech lead
-      Férue de clean code, j'aime aider les équipes à grandir sur les pratiques de dev de qualité.
-      Vous pouvez me croiser au meetup Software Craft Lille !
+    Consultante, crafteuse et coach de tech lead.
+    Férue de clean code, j'aime aider les équipes à grandir sur les pratiques de dev de qualité.
+    Vous pouvez me croiser au meetup Software Craft Lille !
 
 - poly: MOI
   name: Mathieu Moisant
   job: Business Manager / Leader campement
   accroche: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
-    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
-    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
+    Coach en organisation, Delivery Manager, Dirty consultant : “You can’t be what you can’t see!
   bio: |
-      Quand on m’a proposé de monter un campement (c’est une agence :p ) pour OCTO dans le Nord, j’ai dit go!
-      Depuis on a construit collectivement une super équipe qui a de l’impact sur nos missions avec un vraie conscience de notre responsabilité en tant que conseillers tech et méthodo. Je suis leader de ce campement mais consultant avant tout sur des sujets de coaching d’équipe et de formation méthodo, de transformation des organisations, de cadrage de produit logiciel, et de leur réalisation pilotée par la valeur (mais c’est quoi pour vous la valeur? on en parle?).
-
+    Quand on m’a proposé de monter un campement (c’est une agence :p ) pour OCTO dans le Nord, j’ai dit go!
+    Depuis on a construit collectivement une super équipe qui a de l’impact sur nos missions avec un vraie conscience de notre responsabilité en tant que conseillers tech et méthodo. Je suis leader de ce campement mais consultant avant tout sur des sujets de coaching d’équipe et de formation méthodo, de transformation des organisations, de cadrage de produit logiciel, et de leur réalisation pilotée par la valeur (mais c’est quoi pour vous la valeur? on en parle?).
+  
 - poly: OLWU
   name: Olivier Wulveryck
   job: Fiabiliste / ML Geek / Gopher
   accroche: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
-    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
-    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
+    Le patron du DataOps en local, qui parle avec des PO Google à Seattle et recode tensorflow sur son temps libre. 
   bio: |
-      J'ai à coeur d'aider les gens à adapter leurs pratiques plutôt que d'adopter des outils. De la conception à la mise en oeuvre, mes leitmotivs sont le partage et la co-construction.
-      D'autre part, je suis un développeur passionné de machine learning; ainsi, je suis contributeur OpenSource (principalement sur des projets en langage Go tels que <a href="https://gorgonia.org">Gorgonia</a> ou <a href="https://github.com/owulveryck/onnx-go">onnx-go</a>).
+    J’ai à coeur d’aider les gens à adapter leurs pratiques plutôt que d’adopter des outils. De la conception à la mise en oeuvre, mes leitmotivs sont le partage et la co-construction.
+    D’autre part, je suis un développeur passionné de machine learning; ainsi, je suis contributeur OpenSource (principalement sur des projets en langage Go tels que <a href="https://gorgonia.org">Gorgonia</a> ou <a href="https://github.com/owulveryck/onnx-go">onnx-go</a>).
 
+- poly: REVA
+  name: Rémi Vandenbroucke
+  job: Coach agile et coach orga
+  accroche: |
+    Coach agile et coach orga, le refus de la facilité en toute circonstance et solution focus.
+  bio: |
+    Fan de son livre blanc Culture Code et de son "Better places with better code", j'ai rejoint OCTO Technology pour sa culture de l'agilité et de la qualité.
+    Coach agile et formateur dans le campement Nord, j'aide les équipes et organisations à développer plus efficacement des produits remarquables.  
+    Vous pouvez me croiser au meetup de Nord agile et au Scrumbeer Lille.
+  
+- poly: DEIN
+  name: Quentin De Smedt
+  job: Data geek / Scientist
+  accroche: |
+    Quentin c'est comme Kafka, plus y'a de données plus il excelle et il tient la charge.
+  bio: |
+    Soon in town
+
+- poly: GIMA
+  name: Gilles Masy
+  job: Coach agile
+  accroche: |
+    On reconnaît un expert non pas au nombre de questions auxquelles il
+    répond mais au nombre de questions qu’il (se) pose; en cela Gilles est un maître de l’agile,
+    de l’animation de discussions et d’interactions avec une approche solution focus.
+  bio: |
+    Agiliste, belge, taoïste.
+    C'est par amour de l'humain, de l'importance du sens, et de la passion des systèmes fluides et simples, que je m'épanouis en qualité de coach agile.
+    Je pense que l'absurde est révélateur. Ceci n'est pas une description. 
+    Vous pouvez me croiser sur les MeetUps Lillois de <a href="https://www.meetup.com/fr-FR/Nord-agile/">Nord-Agile</a>, <a href="https://www.meetup.com/fr-FR/Scrumbeer-Lille/">ScrumBeer</a>, <a href="https://www.meetup.com/fr-FR/LPCx-Lille-La-Product-Conf/">La Product Conf x Lille</a>.
+
+- poly: MALO
+  name: Marine Loriot
+  job: Dev OCTO
+  accroche: |
+    Marine et les pratiques d’équipe liées à la qualité logicielle c’est un duo gagnant!
+    Petit ou grand écosystème, Marine a un impact positif sur l’énergie des équipes qu’elle accompagne.
+  bio: |
+    Soon in town
+
+- poly: VIDI
+  name: Victor Dizengremel 
+  job: Dev & Tech Lead OCTO
+  accroche: |
+    Peu importe ton niveau en karaté il y a toujours meilleur que toi.
+    C’est sur cette base que Victor anime les équipes tech en endossant son rôle de Tech Lead et de coach de Tech Lead.
+  bio: |
+    Soon in town
+
+
+- poly: VAAL
+  name: Valentin Alvès 
+  job: Dev OCTO
+  accroche: |
+    Force tranquille, couteau suisse, Valentin est guidé par l’action et le challenge dans ses accompagnements de dév OCTO. Faut que ça bouge! 
+  bio: |
+    Soon in town
+
+- poly: TOP
+  name: Pierre Top
+  job: Dev OCTO
+  accroche: |
+    La bibliothèque d’OCTO Nord. Si vous cherchez des informations sur un sujet tech,
+    méthodo ou philosophique, Pierre a surement déjà réfléchi et s’est documenté sur le sujet.
+  bio: |
+    Soon in town
+
+- poly: DEME
+  name: Maxime Delattre 
+  job: Dev OCTO
+  accroche: |
+    La clean archi ça le connaît, Maxime met tout en oeuvre pour élever
+    le niveau technique des produits qu’il contribue à construire et les pratiques des équipes qu’il accompagne.
+  bio: |
+    Soon in town

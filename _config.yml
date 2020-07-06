@@ -1,8 +1,8 @@
 title: OCTO chti
 lang: fr
 email: chti@octo.com
-url: 'https://qdesmedt.github.io/'
-baseurl: 'chti.octo.com/'
+url: 'https://qdesmedt.github.io'
+baseurl: '/chti.octo.com'
 tel: +33 6 83 27 24 73
 twitter:
     username: octochti

@@ -34,7 +34,7 @@ footer {
 
 header {
     background-color: #E0E1E6;
-    margin-bottom: $desktop-padding * 3;
+    //margin-bottom: $desktop-padding * 3;
 }
 
 .hidden {
@@ -264,4 +264,8 @@ header {
     .wrapper {
         width: 85%;
     }
+}
+
+.why {
+    margin-bottom: 6rem;
 }

@@ -9,12 +9,14 @@ layout: default
                 <div class="box box--lined">
                     <h3 class="title--section">À propos.</h3>
                     <div class="content">
+                        <!--
                         <div class="camp-img">
                             <img src="{{ '/assets/images/camp.png' | absolute_url }}" alt="camp" usemap="#camp">
                             <map name="camp">
-                                <area shape="rect" coords="100,0,400,100" href="#about-camp" alt="Campement"/>
+                                <area shape="rect" coords="100,0,400,100" href="#about-camp" alt="Campement" />
                             </map>
                         </div>
+                    
                         <p id="about-camp">OCTO Technology a décidé de poser ses valises dans la région lilloise,
                             conscient du potentiel
                             présent sur la région et fort des enseignements acquis lors des missions réalisées
@@ -25,6 +27,113 @@ layout: default
                             les Octos avec
                             l’objectif de s’inscrire dans le paysage régional, de trouver le style OCTO sur ce marché et
                             de déclencher de l’impact chez nos partenaires.</p>
+                        -->
+
+                        <p class="about-camp">Chez OCTO Nord nous mettons tout en oeuvre pour vous accompagner au sein
+                            de
+                            vos transformations et de vos réalisations logicielles.
+                        </p>
+                        <p>Notre objectif ? Répondre à vos enjeux dont celui de devenir des tech companies utilisant le
+                            numérique comme un levier important d’apport de valeur pour tous vos clients finaux et
+                            utilisateurs.
+                        </p>
+                        <p>Nous avons à coeur de co-construire des solutions qui déchirent grâce à notre expérience de
+                            la Tech, des façons de faire et des organisations.
+                        </p>
+
+                        <div class="solutions">
+
+                            <div class="row">
+                                <div class="col Aligner-item--bottom">
+                                    <img src="{{ '/assets/images/about/conseil_sur_mesure.png' | absolute_url }}"
+                                        alt="conseil_sur_mesure">
+                                </div>
+                                <div class="col Aligner-item--bottom">
+                                    <img src="{{ '/assets/images/about/delivery.png' | absolute_url }}" alt="delivery">
+                                </div>
+                                <div class="col Aligner-item--bottom">
+                                    <img src="{{ '/assets/images/about/formations.png' | absolute_url }}"
+                                        alt="formations">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-center title-about">
+                                    <strong>Conseil sur mesure</strong>
+                                </div>
+                                <div class="col text-center title-about">
+                                    <strong>Delivery</strong>
+                                </div>
+                                <div class="col text-center title-about">
+                                    <strong>Formations</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            Nos manières de faire reposent sur des pratiques et des rituels agiles qui favorisent la
+                            confrontation d’idées et le regard critique. C’est parce que nous sommes des faiseurs que
+                            nous sommes des auditeurs et des conseilleurs appréciés. Ce sont toutes ces expertises qui
+                            nous rendent fiers de relever les challenges que doivent affronter nos clients.
+                        </p>
+
+                        <div class="expertises">
+                            <div class="row">
+                                <div class="col half">
+                                    <img src="{{ '/assets/images/expertises/Illustration_Realisation_projet.png' | absolute_url }}"
+                                        alt="Illustration_Realisation_projet">
+                                </div>
+                                <div class="col">
+                                    <strong>Méthodo & change</strong>
+                                    <ul>
+                                        <li>Agile, Lean</li>
+                                        <li>Facilitation</li>
+                                        <li>Coaching d’organisation et coaching d’équipes</li>
+                                        <li>Cadrage 360°</li>
+                                    </ul>
+                                </div>
+                                <div class="col half">
+                                    <img src="{{ '/assets/images/expertises/Illustration_Etude_tech.png' | absolute_url }}"
+                                        alt="Illustration_Etude_tech">
+                                </div>
+                                <div class="col">
+                                    <strong>Data & Cognitive Automation</strong>
+                                    <ul>
+                                        <li>Data engineering</li>
+                                        <li>Data science</li>
+                                        <li>ML Ops</li>
+                                        <li>Data ops</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col half">
+                                    <img src="{{ '/assets/images/expertises/Illustration_tresor.png' | absolute_url }}"
+                                        alt="Illustration_tresor.">
+                                </div>
+                                <div class="col">
+                                    <strong>Software engineering</strong>
+                                    <ul>
+                                        <li>Réalisation et co-réalisation de logiciels</li>
+                                        <li>Culture DevOps</li>
+                                        <li>Culture Craftsmanship</li>
+                                        <li>Construction d’équipes de développeurs : team is the product</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col half">
+                                    <img src="{{ '/assets/images/expertises/Illustration_Tipi.png' | absolute_url }}"
+                                        alt="Illustration_Tipi">
+                                </div>
+                                <div class="col">
+                                    <strong>Architecture</strong>
+                                    <ul>
+                                        <li>Assessment de SI et d'organisations</li>
+                                        <li>Architectures de SI</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -60,7 +169,7 @@ layout: default
 
                     <div class="content">
                         <a class="twitter-timeline" data-height="600"
-                           href="https://twitter.com/octochti?ref_src=twsrc%5Etfw">Tweets by octochti</a>
+                            href="https://twitter.com/octochti?ref_src=twsrc%5Etfw">Tweets by octochti</a>
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
@@ -90,16 +199,16 @@ layout: default
         <div class="box content">
             <h3 class="title--section">L'équipe.</h3>
 
-            <div class="row">
-                {% for people in site.data.people %}
-                <a class="col people-card" href="/equipe.html#{{people.poly}}">
+            <div class="row" id="toShuffle">
+                {% assign peoples = site.data.people %}
+                {% for people in peoples %}
+                <a class="col people-card shuffleMe" href="/equipe.html#{{people.poly}}">
                     <h4 class="text-center">
                         {{people.name}}
                         <br>
                         <small>{{people.job}}</small>
                     </h4>
-                    <img
-                        src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
+                    <img src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
                         alt="{{people.name}}">
                 </a>
                 {% endfor %}

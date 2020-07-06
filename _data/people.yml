@@ -1,6 +1,10 @@
 - poly: GUF
   name: Guillaume Fabrizi
   job: Software Craftsman
+  accroche: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
+    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
+    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
       Guillaume est un développeur qui saque ed' din chez OCTO Technology.
       Diffuseur de pratiques de développement telles que TDD.
@@ -9,6 +13,10 @@
 - poly: IMRA
   name: Imen RASSAA
   job: Software Craftswoman
+  accroche: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
+    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
+    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
       Crafteuse dans l'âme, j'aime accompagner les équipes à s'approprier leurs logiciels et à en être fières.
       Je suis également évangéliste des pratiques de développement tels que TDD, BDD et tout ce qui finit par DD ;)
@@ -17,6 +25,10 @@
 - poly: JJA
   name: Julien Jakubowski
   job: Développeur de développeurs / CTO campement
+  accroche: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
+    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
+    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
       Consultant-codeur, développeur de développeurs, CTO OCTO Nord.
       Mon kiff : aider des équipes à réaliser des logiciels dont elles sont fières.
@@ -26,6 +38,10 @@
 - poly: JUNE
   name: Justine Daise
   job: Ambassadrice RH et communication
+  accroche: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
+    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
+    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
       Passionnée par les RH et la communication, je ne sais pas mentir, inventer, broder, romancer, arranger, exagérer, amplifier, gonfler embellir, enjoliver… et je ne veux pas apprendre à le faire ! Ce que j’aime, c’est l’idée de participer à la fois au lancement de nouvelles aventures enrichissantes pour des personnes (et pas des talents!), mais aussi au développement d’une équipe ou la transparence règne et en qui j’ai confiance.
       Dans RH, je préfère le H ; je suis convaincue qu’il est possible d’allier la dimension business au moins à part égale avec d’autres aspects human-centric !
@@ -34,6 +50,10 @@
 - poly: KALO
   name: Loïc Kaczmarek
   job: Software Craftsman
+  accroche: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
+    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
+    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
       Développer c'est bien. Développer avec craft/TDD/clean code c'est mieux !
       C'est mon quotidien, je le fait, je le vis et, surtout, je le partage.
@@ -42,6 +62,10 @@
 - poly: LIBE
   name: Yannick Libert
   job: Data nerd
+  accroche: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
+    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
+    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
       Ancien astronome repenti, je m’intéresse à la donnée sous toutes ses formes.
       Qu'elle vienne des étoiles ou d'un serveur de prod, je la recueille, la nourris, l'analyse et lui offre un petit nid douillet dans lequel elle peut réaliser pleinement son potentiel.
@@ -50,6 +74,10 @@
 - poly: MAVE
   name: Marine Verwaerde
   job: Software Craftswoman
+  accroche: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
+    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
+    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
       Consultante, crafteuse et coach de tech lead
       Férue de clean code, j'aime aider les équipes à grandir sur les pratiques de dev de qualité.
@@ -58,6 +86,10 @@
 - poly: MOI
   name: Mathieu Moisant
   job: Business Manager / Leader campement
+  accroche: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
+    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
+    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
       Quand on m’a proposé de monter un campement (c’est une agence :p ) pour OCTO dans le Nord, j’ai dit go!
       Depuis on a construit collectivement une super équipe qui a de l’impact sur nos missions avec un vraie conscience de notre responsabilité en tant que conseillers tech et méthodo. Je suis leader de ce campement mais consultant avant tout sur des sujets de coaching d’équipe et de formation méthodo, de transformation des organisations, de cadrage de produit logiciel, et de leur réalisation pilotée par la valeur (mais c’est quoi pour vous la valeur? on en parle?).
@@ -65,6 +97,10 @@
 - poly: OLWU
   name: Olivier Wulveryck
   job: Fiabiliste / ML Geek / Gopher
+  accroche: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla, velit at fermentum mollis,
+    libero arcu pharetra dui, ultrices tincidunt metus ligula id eros. Etiam vestibulum, velit eget ultricies mattis,
+    nibh risus viverra lacus, et commodo tellus mi et nulla. Ut sit amet molestie neque, sed condimentum elit. Curabitur non.
   bio: |
       J'ai à coeur d'aider les gens à adapter leurs pratiques plutôt que d'adopter des outils. De la conception à la mise en oeuvre, mes leitmotivs sont le partage et la co-construction.
       D'autre part, je suis un développeur passionné de machine learning; ainsi, je suis contributeur OpenSource (principalement sur des projets en langage Go tels que <a href="https://gorgonia.org">Gorgonia</a> ou <a href="https://github.com/owulveryck/onnx-go">onnx-go</a>).

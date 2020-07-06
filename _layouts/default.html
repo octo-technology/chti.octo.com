@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,7 @@
     <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{%
         endif %}</title>
     <meta name="description"
-          content="{{ page.excerpt | default: content | default: site.description | strip_html | normalize_whitespace | truncate: 240 | escape }}">
+        content="{{ page.excerpt | default: content | default: site.description | strip_html | normalize_whitespace | truncate: 240 | escape }}">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -17,7 +18,7 @@
     <link rel="stylesheet" href="{{ '/assets/main.css' | absolute_url }}">
 
     <link rel="stylesheet" type="text/css"
-          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
     <script>
         window.addEventListener("load", function () {
@@ -46,50 +47,53 @@
 </head>
 
 <body class="page-{{page.name | split: '.' | first}}">
-<header>
+    <header>
 
-    <div class="wrapper col">
-        <a href="/"><img src="{{ '/assets/images/brand.svg' | absolute_url }}" class="brand-image"></a>
-    </div>
+        <div class="wrapper col">
+            <a href="/"><img src="{{ '/assets/images/brand.svg' | absolute_url }}" class="brand-image"></a>
+        </div>
 
-    {% if page.name == 'index.html' %}
-    <div class="text-center banner">
-        <img src="{{ '/assets/images/header.svg' | absolute_url }}">
-    </div>
-    {% endif %}
-</header>
+        {% if page.name == 'index.html' %}
+        <div class="text-center banner">
+            <img src="{{ '/assets/images/header.svg' | absolute_url }}">
+        </div>
+        {% endif %}
+    </header>
 
-<main class="wrapper">
-    {{ content }}
-</main>
+    <main class="wrapper">
+        {{ content }}
+    </main>
 
-<footer>
-    <div class="wrapper content">
-        <div class="row row--alignCenter">
-            <div class="col" itemscope itemtype="http://schema.org/LocalBusiness">
-                <h2 itemprop="name">{{site.title}}</h2>
-                <meta itemprop="image" content="{{ '/brand.png' | absolute_url }}"/>
+    <footer>
+        <div class="wrapper content">
+            <div class="row row--alignCenter">
+                <div class="col" itemscope itemtype="http://schema.org/LocalBusiness">
+                    <h2 itemprop="name">{{site.title}}</h2>
+                    <meta itemprop="image" content="{{ '/brand.png' | absolute_url }}" />
 
-                <p itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">1 place de la Gare</span><br>
-                    <span itemprop="postalCode">59000</span> <span itemprop="addressLocality">Lille</span>
-                </p>
+                    <p itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">1 place de la Gare</span><br>
+                        <span itemprop="postalCode">59000</span> <span itemprop="addressLocality">Lille</span>
+                    </p>
 
-                <a href="mailto:{{site.email}}" class="btn" itemprop="email" content="{{site.email}}">Contactez-nous</a>
+                    <a href="mailto:{{site.email}}" class="btn" itemprop="email"
+                        content="{{site.email}}">Contactez-nous</a>
 
-                <a href="tel:{{site.tel}}" class="btn" itemprop="telephone" content="{{site.tel}}">{{site.tel}}</a>
+                    <a href="tel:{{site.tel}}" class="btn" itemprop="telephone" content="{{site.tel}}">{{site.tel}}</a>
+                </div>
+                <div class="col footer-social">
+                    <a href="https://twitter.com/{{ site.twitter.username }}"><img
+                            src="{{ '/assets/images/social/twitter.svg' | absolute_url }}"></a>
+                </div>
             </div>
-            <div class="col footer-social">
-                <a href="https://twitter.com/{{ site.twitter.username }}"><img
-                    src="{{ '/assets/images/social/twitter.svg' | absolute_url }}"></a>
+            <div class="row row--alignCenter">
+                <div class="col text-center">
+                    © OCTO Technology 2019 - Part of Accenture Digital
+                </div>
             </div>
         </div>
-        <div class="row row--alignCenter">
-            <div class="col text-center">
-                © OCTO Technology 2019 - Part of Accenture Digital
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
+    <script src="{{ '/assets/main.js' | absolute_url }}"></script>
 </body>
+
 </html>

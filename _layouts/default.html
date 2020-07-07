@@ -49,6 +49,7 @@
 <body class="page-{{page.name | split: '.' | first}}">
     <header>
 
+        <!--
         <div class="wrapper col">
             <a href="/"><img src="{{ '/assets/images/brand.svg' | absolute_url }}" class="brand-image"></a>
         </div>
@@ -58,6 +59,13 @@
             <img src="{{ '/assets/images/header.svg' | absolute_url }}">
         </div>
         {% endif %}
+        -->
+
+        <div class="text-center banner">
+            <a href="/"><img src="{{ '/assets/images/brand.svg' | absolute_url }}" class="brand-image"></a>
+            <h3>DIGITAL THINKERS & DOERS</h3>
+            <h4>Conseil et réalisation IT dans les Hauts-de-France</h4>
+        </div>
     </header>
 
     <main class="wrapper">
@@ -82,7 +90,9 @@
                     <a href="tel:{{site.tel}}" class="btn" itemprop="telephone" content="{{site.tel}}">{{site.tel}}</a>
                 </div>
                 <div class="col footer-social">
-                    <a href="https://twitter.com/{{ site.twitter.username }}"><img
+                    <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank"><img
+                            src="{{ '/assets/images/social/linkedin.png' | absolute_url }}"></a>
+                    <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><img
                             src="{{ '/assets/images/social/twitter.svg' | absolute_url }}"></a>
                 </div>
             </div>

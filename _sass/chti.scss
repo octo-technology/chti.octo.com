@@ -51,6 +51,7 @@ header {
     padding-top: $desktop-padding;
     font-family: $font-headline;
     letter-spacing: 0.05rem;
+    margin-bottom: 6rem;
 
     p {
         font-weight: normal;
@@ -233,7 +234,9 @@ header {
 
 @media screen and (min-width: $tablet-size) {
     .banner img {
-        width: 30%;
+        width: 40%;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .brand-image {
@@ -266,6 +269,140 @@ header {
     }
 }
 
-.why {
-    margin-bottom: 6rem;
+.row {
+    display: flex;
+    justify-content: center;
+  }
+
+.align-item--bottom {
+    align-self: flex-end;
+    padding-top:20px;
+}
+
+.pad-col--right {
+    padding-left:20px;
+}
+
+.pad-col--left {
+    padding-right:20px;
+}
+
+.pad-col--center {
+    padding-right:20px;
+    padding-left:20px;
+}
+
+.Aligner-item--top {
+    align-self: flex-start;
+}
+
+.expertises .col-text {
+    padding-left:20px;
+}
+
+.row-margintop{
+    margin-top:20px;
+}
+
+.title-about{
+    margin-top: 15px;
+}
+
+.solutions {
+    margin-top:40px;
+    margin-bottom: 50px;
+}
+
+.expertises {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.half {
+flex: 0.5;
+}
+
+.expertises ul {
+    font-size: 0.9rem;
+    margin-left: -25px;
+}
+
+.people-card {
+    align-self: flex-end;
+}
+
+.people-name{
+    margin-bottom: 0px;
+}
+
+.img-people {
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+}
+
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    background: url("../assets/images/opacity-lille.png");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (min-width: $desktop-size) {
+    .banner {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}
+
+.banner h3{
+    font-family: "Avenir LT Com 35", Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.banner h4{
+    font-family: "Avenir LT Com 35", Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+strong.title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.expertises li {
+    padding-bottom: 5px;
+}
+
+.octo-camp p {
+    justify-content: center;
+}
+
+.italic {
+    font-style: italic;
+}
+.no-margin-bottom {
+    margin-bottom: 0rem;
+}
+
+.wbo {
+    font-style: normal;
+    margin-top:0px;
+    font-size: 1.4rem;
+}
+
+.img-wbo {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.footer-social img{
+    margin-left: 15px;
 }

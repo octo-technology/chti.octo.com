@@ -1,17 +1,20 @@
 <div class="bbl" itemscope itemtype="http://schema.org/Course">
     {% assign author = site.data.people | where: "poly", bbl.poly | first %}
     <a href="bbl.html#{{bbl.title | slugify}}">
-        <h4 id="{{bbl.title | slugify}}" class="bbl-title">
-            <span itemprop="name">{{bbl.title}}</span>
+        <p id="{{bbl.title | slugify}}" class="bbl-title" {% if display_contact %}{%else%} style="width: 100%;"
+            {% endif %}>
+            <span class="bbl-name" itemprop="name">{{bbl.title}}</span>
             <br>
-            <small>– {{author.name}} ({{author.poly}})</small>
-        </h4>
+            <span class="bbl-author">– {{author.name}}</span>
+        </p>
     </a>
+    {% if display_contact %}
     <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn bbl-cta">Contacter</a>
-    <div class="bbl-description" itemprop="description">{{bbl.description | newline_to_br | markdownify}}</div>
+    {% endif %}
 
+    <div class="bbl-description" itemprop="description">{{bbl.description | newline_to_br | markdownify}}</div>
     <span class="hidden" itemscope itemprop="provider" itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="{{author.name}}"/>
-        <meta itemprop="email" content="{{author.poly}}@octo.com"/>
+        <meta itemprop="name" content="{{author.name}}" />
+        <meta itemprop="email" content="{{author.poly}}@octo.com" />
     </span>
 </div>

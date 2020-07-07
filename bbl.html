@@ -8,8 +8,9 @@ title: BBL
         <div class="box content">
             <h3 class="title--section">Nos BBL.</h3>
 
+            {% assign display_contact = true%}
             {% for bbl in site.data.bbl %}
-            {% include bbl.html bbl=bbl %}
+            {% include bbl.html bbl=bbl display_contact=display_contact %}
             {% endfor %}
         </div>
     </div>

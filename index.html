@@ -148,7 +148,6 @@ layout: default
             <div class="col">
                 <div class="box content">
                     <h3 class="title--section">Nos BBL.</h3>
-
                     {% for bbl in site.data.bbl %}
                     {% include bbl.html bbl=bbl %}
                     {% endfor %}
@@ -171,27 +170,36 @@ layout: default
             </div>
 
             <div class="col octo-camp">
-                <div class="box content">
-                    <h2>Notre OCTO campement.</h2>
+                <div class="box">
+                    <h3 class="title--section">Campement.</h3>
+                    <div class="content">
+                        <!-- <p class="wbo"><strong>William Bosque</strong>
+                            - Partner</p> -->
 
+                        <h4 class="text-center">
+                            William Bosque
+                            <br>
+                            <small>Partner</small>
+                        </h4>
 
-                    <p class="wbo"><strong>William Bosque</strong>
-                        - Partner</p>
+                        <img src="{{ '/assets/images/people/' | append: 'WBO.jpg' | absolute_url }}"
+                            alt="William Bosque" class="img-wbo">
+                        <br>
+                        <p class="italic">“OCTO CHTI est une extension naturelle d’OCTO dont les membres sont porteurs
+                            et
+                            garants des
+                            convictions OCTO sur la région Nord tout en permettant à nos clients de grandir sur ces
+                            bases.”</p>
 
-                    <img src="{{ '/assets/images/people/' | append: 'WBO.jpg' | absolute_url }}" alt="William Bosque"
-                        class="img-wbo">
-                    <br>
-                    <p class="italic">“OCTO CHTI est une extension naturelle d’OCTO dont les membres sont porteurs et
-                        garants des
-                        convictions OCTO sur la région Nord tout en permettant à nos clients de grandir sur ces
-                        bases.”</p>
-
-                    <p class="no-margin-bottom italic">“Un campement, c’est avant tout une équipe d’Octos qui portent
-                        les
-                        valeurs d’OCTO au sein d’une
-                        région. Ces équipes sont entièrement représentatives de ce qu’est le cabinet OCTO dans toutes
-                        ses particularités.“
-                    </p>
+                        <p class="no-margin-bottom italic">“Un campement, c’est avant tout une équipe d’Octos qui
+                            portent
+                            les
+                            valeurs d’OCTO au sein d’une
+                            région. Ces équipes sont entièrement représentatives de ce qu’est le cabinet OCTO dans
+                            toutes
+                            ses particularités.“
+                        </p>
+                    </div>
                 </div>
             </div>
 

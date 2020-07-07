@@ -189,11 +189,6 @@ header {
         margin: 0;
         font-family: $font-headline;
 
-        & span {
-            font-size: 1.3rem;
-            border-bottom: 1px dotted;
-        }
-
         & small {
             color: $brand-color;
         }
@@ -202,6 +197,15 @@ header {
     &-cta {
         float: right;
     }
+}
+
+.bbl-title .bbl-name{
+    font-size: 1.3rem;
+    border-bottom: 1px dotted;
+}
+
+.bbl-title .bbl-author{
+    color: #0E2356;
 }
 
 
@@ -374,7 +378,9 @@ filter: grayscale(100%);
 
 strong.title {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;
+    color: #0E2356;
 }
 
 .expertises li {

@@ -364,16 +364,16 @@ filter: grayscale(100%);
 }
 
 .banner h3{
-    font-family: "Avenir LT Com 35", Arial, Helvetica, sans-serif;
+    // font-family: "Avenir LT Com 35", Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-weight: bolder;
+    // font-weight: bolder;
 }
 
 .banner h4{
-    font-family: "Avenir LT Com 35", Arial, Helvetica, sans-serif;
+    font-family: "Avenir LT Com 55 Roman", "Arial Black", Gadget, sans-serif;
     margin-top: 0px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 strong.title {
@@ -405,10 +405,18 @@ strong.title {
 }
 
 .img-wbo {
-    width: 100%;
+    width: 70%;
     border-radius: 50%;
 }
 
 .footer-social img{
     margin-left: 15px;
+}
+
+.expertises strong {
+    font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;   
+}
+
+.equipe h4 {
+    margin-bottom: 10px;
 }

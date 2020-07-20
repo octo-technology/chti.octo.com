@@ -15,7 +15,7 @@ layout: default
         <div class="row row--vertical">
             <div class="col">
                 <div class="box box--lined">
-                    <h3 class="title--section">À propos.</h3>
+                    <h3 class="title--section">Nos expertises.</h3>
                     <div class="content">
                         <!--
                         <div class="camp-img">
@@ -37,7 +37,7 @@ layout: default
                             de déclencher de l’impact chez nos partenaires.</p>
                         -->
 
-                        <p class="about-camp">Chez OCTO Nord nous mettons tout en oeuvre pour vous accompagner au sein
+                        <p class="about-camp">Chez OCTO Chti nous mettons tout en oeuvre pour vous accompagner au sein
                             de
                             vos transformations et de vos réalisations logicielles.
                         </p>
@@ -91,7 +91,7 @@ layout: default
                                         alt="Illustration_Realisation_projet">
                                 </div>
                                 <div class="col Aligner-item--top col-text">
-                                    <strong>Méthodo & change</strong>
+                                    <strong>Méthodo & Change</strong>
                                     <ul>
                                         <li>Agile, Lean</li>
                                         <li>Facilitation</li>
@@ -147,9 +147,29 @@ layout: default
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col col-bbl">
                 <div class="box content">
                     <h3 class="title--section">Nos BBL.</h3>
+
+                    <p>Un Brown Bag Lunch (BBL) est un moment d’environ 1h30 sur l'heure du déjeuner, pendant lequel un
+                        Octo vient partager ses connaissances chez vous, sur un sujet lié à ses expertises.
+                    </p>
+                    <strong>Comment ça marche si l'un des sujets vous intéresse ?</strong>
+                    <ul>
+                        <li>Envoyez-nous un mail à chti@octo.com en nous indiquant le sujet qui vous intéresse pour
+                            votre
+                            entreprise ou votre équipe.</li>
+                        <li>Notre expert.e concerné.e par le sujet vous recontactera pour fixer une date.
+                        </li>
+                        <li>Le jour J, échange de bons procédés ! L’expert.e apporte ses connaissances, vous le déjeuner
+                            :)
+                        </li>
+                        <li>Il ne restera qu'à profiter de la présence de l'expert.e pour approfondir le sujet et le
+                            rendre plus
+                            concret dans le cadre de</li>
+                    </ul>
+
+
                     {% for bbl in site.data.bbl %}
                     {% include bbl.html bbl=bbl %}
                     {% endfor %}
@@ -173,7 +193,7 @@ layout: default
 
             <div class="col octo-camp">
                 <div class="box">
-                    <h3 class="title--section">Campement.</h3>
+                    <h3 class="title--section fondateurs">Les mots des fondateurs.</h3>
                     <div class="content">
                         <!-- <p class="wbo"><strong>William Bosque</strong>
                             - Partner</p> -->
@@ -241,22 +261,25 @@ layout: default
 <div class="row row--vertical equipe">
     <div class="col">
         <div class="box content">
-            <h3 class="title--section">L'équipe.</h3>
+            <h3 class="title--section">Notre collectif.</h3>
 
             <div class="row" id="toShuffle">
                 {% assign peoples = site.data.people %}
                 {% for people in peoples %}
                 <a class="col people-card shuffleMe" href=" {{ '/equipe.html#' | append: people.poly | absolute_url }}">
-                    <h4 class="text-center">
-                        {{people.name}}
+                    <h4 class="text-center people-info">
+                        {% assign name = people.name | replace: " ", "&#8239;&#8239;" %}
+                        <span class="people-name">{{name}}</span>
                         <br>
-                        <small>{{people.job}}</small>
+                        <small><i>{{people.job}}</i></small>
                     </h4>
                     <img src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
                         alt="{{people.name}}" class="img-people">
                 </a>
                 {% endfor %}
             </div>
+
+            <a href="{{ '/join-us.html' | absolute_url }}" class="btn">Rejoignez-nous !</a>
         </div>
     </div>
 </div>

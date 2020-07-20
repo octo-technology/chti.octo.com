@@ -127,7 +127,7 @@
 
 - poly: MALO
   name: Marine Loriot
-  job: Dev OCTO
+  job: Software Craftswoman 
   accroche: |
     Marine et les pratiques d’équipe liées à la qualité logicielle c’est un duo gagnant!
     Petit ou grand écosystème, Marine a un impact positif sur l’énergie des équipes qu’elle accompagne.
@@ -136,7 +136,7 @@
 
 - poly: VIDI
   name: Victor Dizengremel 
-  job: Dev & Tech Lead OCTO
+  job:  Software Craftsman & Tech Lead 
   accroche: |
     Peu importe ton niveau en karaté il y a toujours meilleur que toi.
     C’est sur cette base que Victor anime les équipes tech en endossant son rôle de Tech Lead et de coach de Tech Lead.
@@ -146,7 +146,7 @@
 
 - poly: VAAL
   name: Valentin Alvès 
-  job: Dev OCTO
+  job: Software Craftsman 
   accroche: |
     Force tranquille, couteau suisse, Valentin est guidé par l’action et le challenge dans ses accompagnements de dév OCTO. Faut que ça bouge! 
   bio: |
@@ -154,7 +154,7 @@
 
 - poly: TOP
   name: Pierre Top
-  job: Dev OCTO
+  job: Développeur 
   accroche: |
     La bibliothèque d’OCTO Nord. Si vous cherchez des informations sur un sujet tech,
     méthodo ou philosophique, Pierre a surement déjà réfléchi et s’est documenté sur le sujet.
@@ -163,7 +163,7 @@
 
 - poly: DEME
   name: Maxime Delattre 
-  job: Dev OCTO
+  job: Dev 
   accroche: |
     La clean archi ça le connaît, Maxime met tout en oeuvre pour élever
     le niveau technique des produits qu’il contribue à construire et les pratiques des équipes qu’il accompagne.

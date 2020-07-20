@@ -24,11 +24,10 @@ footer {
 }
 
 .footer-social {
-    text-align: right;
+    text-align: left;
 
     img {
-        width: 13%;
-        border-radius: 50%;
+        width: 7%;
     }
 }
 
@@ -77,8 +76,8 @@ header {
 }
 
 .people-card {
-    flex-basis: calc(100% / 2 - 2rem);
-    margin: 1rem;
+    flex-basis: calc(100% / 6 - 2rem);
+    margin: 0rem;
     text-decoration: none;
 
     h4 {
@@ -260,7 +259,7 @@ header {
     }
 
     .people-card {
-        flex-basis: calc(100% / 4 - 2rem);
+        flex-basis: calc(100% / 6 - 2rem);
         padding: 0 1rem !important;
         flex-grow: 0;
         flex-shrink: 0;
@@ -387,6 +386,9 @@ strong.title {
     padding-bottom: 5px;
 }
 
+.row--vertical > .octo-camp {
+    margin-top: 6rem;
+}
 .octo-camp p {
     justify-content: center;
 }
@@ -410,7 +412,7 @@ strong.title {
 }
 
 .footer-social img{
-    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .expertises strong {
@@ -419,4 +421,102 @@ strong.title {
 
 .equipe h4 {
     margin-bottom: 10px;
+}
+
+
+
+#navbar {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+
+/* Navbar links */
+#navbar a {
+    // float: left;
+    // display: block;
+    background: none;
+    // color: #f2f2f2;
+    // text-align: center;
+    // padding: 14px;
+    // text-decoration: none;
+    }
+
+#navbar img {
+    width: 80px;
+    padding: 10px;
+    z-index: 0;
+}
+
+.page-index .bbl{
+    margin-bottom: 0.5rem;
+}
+
+.page-index .bbl-name {
+    font-size: 1rem;
+}
+
+.col-bbl .content {
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 800px){
+    h3.fondateurs {
+        margin-top: -6.2rem; 
+    }
+}
+
+.people-card h4 {
+    min-height: 1rem;
+    font-size: 1.2rem;
+}
+
+.contact-link {
+    position: fixed;
+    z-index: 9200;
+    top: 50vh;
+    font-size: 22px;
+    color: #0e2356;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    right: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg) translate(0,100%);
+    transform: rotate(-90deg) translate(0,100%);
+}
+
+.people-info{
+    width:180px;
+}
+
+.thereisabetterway{
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: 200px;
+}
+
+.signature {
+    width:100%;
+}
+
+.align-text--right{
+    text-align: right;
+}
+
+.wazemmes{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+
+#contactez span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
 }

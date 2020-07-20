@@ -61,23 +61,45 @@
         {% endif %}
         -->
 
+        <div id="navbar">
+
+            <a href="{{ '/' | absolute_url }}">
+                <img src="{{ '/assets/images/logo-mini-color.svg' | absolute_url }}" class="brand-image">
+            </a>
+            <!--
+            <ul>
+                <li><a>Nos expertises</a></li>
+                <li><a>Notre collectif</a></li>
+                <li><a>Rejoindre l’équipe</a></li>
+                <li><a>Nos BBL</a></li>
+                <li><a>Suivez-nous</a></li>
+                <li><a>Les mots des fondateurs</a></li>
+                <li><a>Nous contacter</a></li>
+            </ul>
+            -->
+        </div>
+
         <div class="text-center banner">
             <a href="https://www.octo.com/" target="_blank"><img src="{{ '/assets/images/brand.svg' | absolute_url }}"
                     class="brand-image"></a>
             <br>
-            <h3 class="title--section">Digital thinkers & doers</h3>
+            <h3 class="title--section">Digital Thinkers & Doers</h3>
             <h4>Conseil et réalisation IT dans les Hauts-de-France</h4>
         </div>
     </header>
+
+    <a href="#contactez" class="contact-link">Contact</a>
 
     <main class="wrapper">
         {{ content }}
     </main>
 
     <footer>
+
+        <!--
         <div class="wrapper content">
             <div class="row row--alignCenter">
-                <div class="col" itemscope itemtype="http://schema.org/LocalBusiness">
+                <div class="col" id="contactez" itemscope itemtype="http://schema.org/LocalBusiness">
                     <h2 itemprop="name">{{site.title}}</h2>
                     <meta itemprop="image" content="{{ '/brand.png' | absolute_url }}" />
 
@@ -91,6 +113,39 @@
 
                     <a href="tel:{{site.tel}}" class="btn" itemprop="telephone" content="{{site.tel}}">{{site.tel}}</a>
                 </div>
+                
+            </div>
+            <div class="row row--alignCenter">
+                <div class="col text-center">
+                    © OCTO Technology 2020 - Part of Accenture Digital
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="wrapper content" id="contactez">
+            <h3 class="title--section">Contactez-nous.</h3>
+            <p class="wazemmes">Promis on ne revendra pas vos données sur le marché de Wazemmes !</p>
+
+            <div class="row">
+
+                <div class="col align-text--right" itemscope itemtype="http://schema.org/LocalBusiness">
+
+                    <span itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">1 place de la Gare</span>
+                        <span itemprop="location">Regus, à l’intérieur du hall de la gare
+                        </span>
+                        <span itemprop="postalCode">59000 Lille</span>
+                    </span><br>
+
+                    <span itemprop="email" content="{{site.email}}">{{site.email}}</span>
+                    <span itemprop="telephone" content="{{site.tel}}">{{site.tel}}</span>
+
+                </div>
+
+                <div class="col thereisabetterway">
+                    <img src="{{ '/assets/images/thereisabetterway.png' | absolute_url }}">
+                </div>
+
                 <div class="col footer-social">
                     <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank"><img
                             src="{{ '/assets/images/social/linkedin.png' | absolute_url }}"></a>
@@ -98,11 +153,14 @@
                             src="{{ '/assets/images/social/twitter.svg' | absolute_url }}"></a>
                 </div>
             </div>
-            <div class="row row--alignCenter">
-                <div class="col text-center">
-                    © OCTO Technology 2020 - Part of Accenture Digital
-                </div>
+        </div>
+
+        <div class="row row--alignCenter">
+
+            <div class="col text-center signature">
+                © OCTO Technology 2020 - Part of Accenture Digital
             </div>
+
         </div>
     </footer>
     <script src="{{ '/assets/main.js' | absolute_url }}"></script>

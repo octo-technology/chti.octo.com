@@ -2,20 +2,22 @@
 <html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, user-scalable=no, minimal-ui" />
 
-    <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{%
-        endif %}</title>
+    <title>
+        {% if page.title %}{{ page.title | escape }} | {{ site.title |
+            escape }}{% else %}{{ site.title | escape }}{% endif %}
+    </title>
     <meta name="description"
-        content="{{ page.excerpt | default: content | default: site.description | strip_html | normalize_whitespace | truncate: 240 | escape }}">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+        content="{{ page.excerpt | default: content | default: site.description | strip_html | normalize_whitespace | truncate: 240 | escape }}" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
-    <link href="{{ '/assets/images/favicon.ico' | absolute_url }}" rel="shortcut icon">
-    <link rel="stylesheet" href="{{ '/assets/normalize.css' | absolute_url }}">
-    <link rel="stylesheet" href="{{ '/assets/main.css' | absolute_url }}">
+    <link href="{{ '/assets/images/favicon.ico' | absolute_url }}" rel="shortcut icon" />
+    <link rel="stylesheet" href="{{ '/assets/normalize.css' | absolute_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | absolute_url }}" />
 
     <link rel="stylesheet" type="text/css"
         href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
@@ -23,32 +25,28 @@
     <script>
         window.addEventListener("load", function () {
             window.cookieconsent.initialise({
-                "palette": {
-                    "popup": {
-                        "background": "#e0e1e5",
-                        "text": "#0d2356"
+                palette: {
+                    popup: {
+                        background: "#e0e1e5",
+                        text: "#0d2356",
                     },
-                    "button": {
-                        "background": "transparent",
-                        "text": "#01afca",
-                        "border": "#01afca"
-                    }
+                    button: {
+                        background: "transparent",
+                        text: "#01afca",
+                        border: "#01afca",
+                    },
                 },
-                "position": "bottom-right"
-            })
+                position: "bottom-right",
+            });
         });
     </script>
 
-    {% if jekyll.environment == 'production' and site.google_analytics %}
-    {% include google-analytics.html %}
-    {% endif %}
-
-    {% seo title=false %}
+    {% if jekyll.environment == 'production' and site.google_analytics %} {%
+        include google-analytics.html %} {% endif %} {% seo title=false %}
 </head>
 
 <body class="page-{{page.name | split: '.' | first}}">
     <header>
-
         <!--
         <div class="wrapper col">
             <a href="/"><img src="{{ '/assets/images/brand.svg' | absolute_url }}" class="brand-image"></a>
@@ -62,9 +60,8 @@
         -->
 
         <div id="navbar">
-
             <a href="{{ '/' | absolute_url }}">
-                <img src="{{ '/assets/images/logo-mini-color.svg' | absolute_url }}" class="brand-image">
+                <img src="{{ '/assets/images/logo-mini-color.svg' | absolute_url }}" class="brand-image" />
             </a>
             <!--
             <ul>
@@ -81,8 +78,9 @@
 
         <div class="text-center banner">
             <a href="https://www.octo.com/" target="_blank"><img src="{{ '/assets/images/brand.svg' | absolute_url }}"
-                    class="brand-image"></a>
-            <br>
+                    class="brand-image" /></a>
+
+            <br />
             <h3 class="title--section">Digital Thinkers & Doers</h3>
             <h4>Conseil et réalisation IT dans les Hauts-de-France</h4>
         </div>
@@ -95,73 +93,53 @@
     </main>
 
     <footer>
-
-        <!--
-        <div class="wrapper content">
-            <div class="row row--alignCenter">
-                <div class="col" id="contactez" itemscope itemtype="http://schema.org/LocalBusiness">
-                    <h2 itemprop="name">{{site.title}}</h2>
-                    <meta itemprop="image" content="{{ '/brand.png' | absolute_url }}" />
-
-                    <p itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
-                        <span itemprop="streetAddress">1 place de la Gare</span><br>
-                        <span itemprop="postalCode">59000</span> <span itemprop="addressLocality">Lille</span>
-                    </p>
-
-                    <a href="mailto:{{site.email}}" class="btn" itemprop="email"
-                        content="{{site.email}}">Contactez-nous</a>
-
-                    <a href="tel:{{site.tel}}" class="btn" itemprop="telephone" content="{{site.tel}}">{{site.tel}}</a>
-                </div>
-                
-            </div>
-            <div class="row row--alignCenter">
-                <div class="col text-center">
-                    © OCTO Technology 2020 - Part of Accenture Digital
-                </div>
-            </div>
-        </div>
-        -->
         <div class="wrapper content" id="contactez">
             <h3 class="title--section">Contactez-nous.</h3>
-            <p class="wazemmes">Promis on ne revendra pas vos données sur le marché de Wazemmes !</p>
+            <p class="wazemmes">
+                Promis on ne revendra pas vos données sur le marché de
+                Wazemmes !
+            </p>
 
             <div class="row">
-
-                <div class="col align-text--right" itemscope itemtype="http://schema.org/LocalBusiness">
-
-                    <span itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
-                        <span itemprop="streetAddress">1 place de la Gare</span>
-                        <span itemprop="location">Regus, à l’intérieur du hall de la gare
-                        </span>
-                        <span itemprop="postalCode">59000 Lille</span>
-                    </span><br>
-
-                    <span itemprop="email" content="{{site.email}}">{{site.email}}</span>
-                    <span itemprop="telephone" content="{{site.tel}}">{{site.tel}}</span>
-
+                <div class="col align-text--right flex-center" itemscope itemtype="http://schema.org/LocalBusiness">
+                    <div class="email">
+                        <a href="mailto:{{site.email}}" itemprop="email" content="{{site.email}}"
+                            target="_blank">{{site.email}}</a> -
+                        <span itemprop="telephone" content="{{site.tel}}">{{site.tel}}</span>
+                    </div>
                 </div>
 
                 <div class="col thereisabetterway">
-                    <img src="{{ '/assets/images/thereisabetterway.png' | absolute_url }}">
+                    <img src="{{ '/assets/images/thereisabetterway.png' | absolute_url }}" />
                 </div>
 
-                <div class="col footer-social">
-                    <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank"><img
-                            src="{{ '/assets/images/social/linkedin.png' | absolute_url }}"></a>
-                    <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><img
-                            src="{{ '/assets/images/social/twitter.svg' | absolute_url }}"></a>
+                <div class="col footer-social flex-center">
+
+                    <div style="display: block;">
+                        <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank"><img
+                                src="{{ '/assets/images/social/linkedin.png' | absolute_url }}" /></a>
+
+
+                        <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><img
+                                src="{{ '/assets/images/social/twitter.svg' | absolute_url }}" /></a>
+                    </div>
+
                 </div>
             </div>
-        </div>
 
-        <div class="row row--alignCenter">
-
-            <div class="col text-center signature">
-                © OCTO Technology 2020 - Part of Accenture Digital
+            <div class="row">
+                <p itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">1 place de la Gare</span>,
+                    <span itemprop="location">Regus, àl’intérieur du hall de la gare</span>,
+                    <span itemprop="postalCode">59000 Lille</span>
+                </p>
             </div>
 
-        </div>
+            <div class="row row--alignCenter">
+                <div class="col text-center signature">
+                    © OCTO Technology 2020 - Part of Accenture Digital
+                </div>
+            </div>
     </footer>
     <script src="{{ '/assets/main.js' | absolute_url }}"></script>
 </body>

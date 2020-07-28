@@ -1,5 +1,7 @@
 @import "octo-vars";
 
+// All
+
 .wrapper {
     width: 95%;
     margin: 0 auto;
@@ -9,13 +11,37 @@
     text-align: center;
 }
 
+.hidden {
+    display: none;
+}
+
+@media screen and (min-width: $desktop-size) {
+    .wrapper {
+        width: 85%;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+// Header
+
 .brand-image {
     padding: $padding;
 }
 
-.brand-image, .banner img {
+.brand-image,
+.banner img {
     width: 100%;
 }
+
+header {
+    background-color: #e0e1e6;
+}
+
+// Footer
 
 footer {
     .col {
@@ -27,19 +53,40 @@ footer {
     text-align: left;
 
     img {
-        width: 7%;
+        width: 35px;
     }
 }
 
-header {
-    background-color: #E0E1E6;
-    //margin-bottom: $desktop-padding * 3;
+.wazemmes {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
 }
 
-.hidden {
-    display: none;
+
+
+.footer-social img {
+    margin-right: 15px;
 }
 
+.flex-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex:1;
+} 
+
+.email {
+    a, span {
+    display: inline !important;
+    }
+}
+
+.adress p{
+    margin:0;
+    text-align: center;
+}
 
 // Homepage
 
@@ -63,6 +110,10 @@ header {
         color: $brand-light-color;
         font-family: $font-emphase;
     }
+
+    @media screen and (max-width: $tablet-size) {
+        margin-bottom: 1.5rem;
+    }
 }
 
 .camp-img {
@@ -75,10 +126,17 @@ header {
     margin-top: $padding;
 }
 
+// Equipe
+
+.equipe-rejoignez{
+    text-align: center;
+}
+
 .people-card {
     flex-basis: calc(100% / 6 - 2rem);
     margin: 0rem;
     text-decoration: none;
+    padding: 0 1rem !important;
 
     h4 {
         min-height: 4.5rem;
@@ -89,7 +147,6 @@ header {
         border-radius: 50%;
     }
 }
-
 
 // Event
 
@@ -142,7 +199,6 @@ header {
     }
 }
 
-
 // Join us page
 
 .job {
@@ -152,7 +208,8 @@ header {
     align-items: center;
     background-color: $gray-color;
 
-    &:hover, &:hover h2 {
+    &:hover,
+    &:hover h2 {
         color: $white-color !important;
     }
 
@@ -162,7 +219,7 @@ header {
     }
 
     &-content {
-        background-color: #C0E5E4;
+        background-color: #c0e5e4;
     }
 
     &:nth-child(even) &-content {
@@ -174,11 +231,18 @@ header {
     }
 }
 
+// BBL
+
 .bbl {
+    
     margin-bottom: $desktop-padding;
 
     .page-index & .bbl-description {
         display: none;
+    }
+
+    .bbl-description {
+        padding-right:101px;
     }
 
     &-title {
@@ -196,17 +260,50 @@ header {
     &-cta {
         float: right;
     }
+
+    
 }
 
-.bbl-title .bbl-name{
+.bbl-name {
     font-size: 1.3rem;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.page-index .bbl-name {
+    font-size: 1rem;
+    display: inline;
+    padding-bottom: 0px;
     border-bottom: 1px dotted;
 }
 
-.bbl-title .bbl-author{
-    color: #0E2356;
+.bbl-title .bbl-author {
+    color: #0e2356;
 }
 
+.page-index .bbl {
+    margin-bottom: 0.5rem;
+}
+
+
+
+.col-bbl {
+    .content {
+        padding-top: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    li {
+        text-align: justify;
+        padding-bottom: 6px;
+    }
+    
+    strong {
+        font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+}
 
 // Team page
 
@@ -220,10 +317,11 @@ header {
     }
 
     &-bbl {
-        border: 1px solid $brand-light-blue;
-        padding: $padding;
-        padding-top: 0;
-        border-radius: 1rem;
+        
+        h5 {
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
     }
 
     &-name {
@@ -260,87 +358,106 @@ header {
 
     .people-card {
         flex-basis: calc(100% / 6 - 2rem);
-        padding: 0 1rem !important;
         flex-grow: 0;
         flex-shrink: 0;
     }
 }
 
-@media screen and (min-width: $desktop-size) {
-    .wrapper {
-        width: 85%;
+// Contact Link
+
+.contact-link {
+    position: fixed;
+    z-index: 9200;
+    top: 50vh;
+    font-size: 22px;
+    color: #0e2356;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    right: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg) translate(0, 100%);
+    transform: rotate(-90deg) translate(0, 100%);
+
+    @media screen and (max-width: $desktop-size) {
+        right: 0rem;
     }
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-  }
+// Expertises
 
-.align-item--bottom {
-    align-self: flex-end;
-    padding-top:20px;
+.solutions {
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+    a {
+        text-decoration: none;
+    }
 }
 
-.pad-col--right {
-    padding-left:20px;
-}
-
-.pad-col--left {
-    padding-right:20px;
-}
-
-.pad-col--center {
-    padding-right:20px;
-    padding-left:20px;
-}
-
-.Aligner-item--top {
-    align-self: flex-start;
-}
-
-.expertises .col-text {
-    padding-left:20px;
-}
-
-.row-margintop{
-    margin-top:20px;
-}
-
-.title-about{
+.title-about {
     margin-top: 15px;
 }
 
-.solutions {
-    margin-top:40px;
-    margin-bottom: 50px;
+.align-item--bottom {
+    align-self: flex-end;
+    padding-top: 20px;
 }
 
-.expertises {
+.pad-col--right {
+    padding-left: 20px;
+}
+
+.pad-col--left {
+    padding-right: 20px;
+}
+
+.pad-col--center {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.aligner-item--top {
+    align-self: flex-start;
+}
+
+.poles .col-text {
+    padding-left: 20px;
+}
+
+.row-margintop {
+    margin-top: 20px;
+}
+
+
+
+
+.poles {
     margin-top: 50px;
     margin-bottom: 0px;
 }
 
 .half {
-flex: 0.5;
+    flex: 0.5;
 }
 
-.expertises ul {
+.poles ul {
     font-size: 0.9rem;
     margin-left: -25px;
 }
 
 .people-card {
-    align-self: flex-end;
+    align-self: flex-start;
 }
 
-.people-name{
+.people-name {
     margin-bottom: 0px;
 }
 
 .img-people {
--webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .banner {
@@ -362,14 +479,14 @@ filter: grayscale(100%);
     }
 }
 
-.banner h3{
+.banner h3 {
     // font-family: "Avenir LT Com 35", Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
     // font-weight: bolder;
 }
 
-.banner h4{
+.banner h4 {
     font-family: "Avenir LT Com 55 Roman", "Arial Black", Gadget, sans-serif;
     margin-top: 0px;
     font-weight: bold;
@@ -379,10 +496,10 @@ strong.title {
     font-weight: bold;
     font-size: 1.5rem;
     font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;
-    color: #0E2356;
+    color: #0e2356;
 }
 
-.expertises li {
+.poles li {
     padding-bottom: 5px;
 }
 
@@ -402,7 +519,7 @@ strong.title {
 
 .wbo {
     font-style: normal;
-    margin-top:0px;
+    margin-top: 0px;
     font-size: 1.4rem;
 }
 
@@ -411,19 +528,14 @@ strong.title {
     border-radius: 50%;
 }
 
-.footer-social img{
-    margin-right: 15px;
-}
 
-.expertises strong {
-    font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;   
+.poles strong {
+    font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;
 }
 
 .equipe h4 {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
-
-
 
 #navbar {
     position: fixed;
@@ -432,39 +544,21 @@ strong.title {
     width: 100%;
 }
 
-/* Navbar links */
-#navbar a {
-    // float: left;
-    // display: block;
-    background: none;
-    // color: #f2f2f2;
-    // text-align: center;
-    // padding: 14px;
-    // text-decoration: none;
-    }
+// Navbar links
 
-#navbar img {
-    width: 80px;
-    padding: 10px;
+#navbar a {
+    background: none;
+}
+
+#navbar .brand-image {
+    width: 100px;
+    padding: 30px;
     z-index: 0;
 }
 
-.page-index .bbl{
-    margin-bottom: 0.5rem;
-}
-
-.page-index .bbl-name {
-    font-size: 1rem;
-}
-
-.col-bbl .content {
-    padding-top: 1.3rem;
-    padding-bottom: 1rem;
-}
-
-@media screen and (min-width: 800px){
+@media screen and (min-width: 800px) {
     h3.fondateurs {
-        margin-top: -6.2rem; 
+        margin-top: -6.2rem;
     }
 }
 
@@ -473,50 +567,25 @@ strong.title {
     font-size: 1.2rem;
 }
 
-.contact-link {
-    position: fixed;
-    z-index: 9200;
-    top: 50vh;
-    font-size: 22px;
-    color: #0e2356;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+.people-info {
+    width: 180px;
 
-    right: 1rem;
-    font-weight: 700;
-    text-decoration: none;
-    -webkit-transform: rotate(-90deg) translate(0,100%);
-    transform: rotate(-90deg) translate(0,100%);
+    small {
+        font-family: "Avenir LT Com 35", Arial, Helvetica, sans-serif;;
+    }
 }
 
-.people-info{
-    width:180px;
-}
-
-.thereisabetterway{
+.thereisabetterway {
     padding-right: 30px;
     padding-left: 30px;
-    max-width: 200px;
+    max-width: 175px;
 }
 
 .signature {
-    width:100%;
+    width: 100%;
+    font-size: 13px
 }
 
-.align-text--right{
+.align-text--right {
     text-align: right;
-}
-
-.wazemmes{
-    margin-top: 0px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-}
-
-
-#contactez span {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 1rem;
 }

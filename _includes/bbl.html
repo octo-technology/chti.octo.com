@@ -1,13 +1,20 @@
 <div class="bbl" itemscope itemtype="http://schema.org/Course">
     {% assign author = site.data.people | where: "poly", bbl.poly | first %}
+
+    {% if display_contact %}
+    {% else %}
     <a href="bbl.html#{{bbl.title | slugify}}">
+        {% endif %}
         <p id="{{bbl.title | slugify}}" class="bbl-title" {% if display_contact %}{%else%} style="width: 100%;"
             {% endif %}>
             <span class="bbl-name" itemprop="name">{{bbl.title}}</span>
-            <br>
             <span class="bbl-author">– {{author.name}}</span>
         </p>
+        {% if display_contact %}
+        {% else %}
     </a>
+    {% endif %}
+
     {% if display_contact %}
     <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn bbl-cta">Contacter</a>
     {% endif %}

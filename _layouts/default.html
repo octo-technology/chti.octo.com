@@ -95,18 +95,32 @@
     <footer>
         <div class="wrapper content" id="contactez">
             <h3 class="title--section">Contactez-nous.</h3>
+
             <p class="wazemmes">
                 Promis on ne revendra pas vos données sur le marché de
                 Wazemmes !
             </p>
 
+            <div class="adress" itemscope itemtype="http://schema.org/LocalBusiness">
+                <p itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">1 place de la Gare, Regus</span>,<br>
+                    <span itemprop="location">A l’intérieur du hall de la gare</span>,<br>
+                    <span itemprop="postalCode">59000 Lille</span><br>
+                    <span itemprop="telephone" content="{{site.tel}}">{{site.tel}}</span><br>
+                    <a href="mailto:{{site.email}}" itemprop="email" content="{{site.email}}"
+                        target="_blank">{{site.email}}</a>
+                </p>
+            </div>
+
             <div class="row">
-                <div class="col align-text--right flex-center" itemscope itemtype="http://schema.org/LocalBusiness">
-                    <div class="email">
-                        <a href="mailto:{{site.email}}" itemprop="email" content="{{site.email}}"
-                            target="_blank">{{site.email}}</a> -
-                        <span itemprop="telephone" content="{{site.tel}}">{{site.tel}}</span>
+
+                <div class="col footer-social flex-center align-text--right">
+
+                    <div style="display: block;">
+                        <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank"><img
+                                src="{{ '/assets/images/social/linkedin.png' | absolute_url }}" /></a>
                     </div>
+
                 </div>
 
                 <div class="col thereisabetterway">
@@ -114,12 +128,7 @@
                 </div>
 
                 <div class="col footer-social flex-center">
-
                     <div style="display: block;">
-                        <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank"><img
-                                src="{{ '/assets/images/social/linkedin.png' | absolute_url }}" /></a>
-
-
                         <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><img
                                 src="{{ '/assets/images/social/twitter.svg' | absolute_url }}" /></a>
                     </div>
@@ -127,13 +136,7 @@
                 </div>
             </div>
 
-            <div class="row">
-                <p itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">1 place de la Gare</span>,
-                    <span itemprop="location">Regus, à l’intérieur du hall de la gare</span>,
-                    <span itemprop="postalCode">59000 Lille</span>
-                </p>
-            </div>
+
 
             <div class="row row--alignCenter">
                 <div class="col text-center signature">

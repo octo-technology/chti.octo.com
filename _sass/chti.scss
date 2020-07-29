@@ -41,17 +41,28 @@ header {
     background-color: #e0e1e6;
 }
 
+.row {
+
+    &--vertical > .col {
+        margin-top: 6rem;
+    }
+
+}
 // Footer
 
 footer {
     .col {
-        margin-bottom: $padding;
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
+}
+
+#contactez {
+    margin-top: 1.5rem;
 }
 
 .footer-social {
     text-align: left;
-
     img {
         width: 35px;
     }
@@ -61,13 +72,11 @@ footer {
     margin-top: 0px;
     font-weight: bold;
     font-size: 1.2rem;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
-
-
-.footer-social img {
-    margin-right: 15px;
+.adress {
+    font-size: 1.2rem;
 }
 
 .flex-center{
@@ -76,17 +85,6 @@ footer {
     flex-direction: column;
     flex:1;
 } 
-
-.email {
-    a, span {
-    display: inline !important;
-    }
-}
-
-.adress p{
-    margin:0;
-    text-align: center;
-}
 
 // Homepage
 
@@ -97,7 +95,7 @@ footer {
     padding-top: $desktop-padding;
     font-family: $font-headline;
     letter-spacing: 0.05rem;
-    margin-bottom: 6rem;
+    margin-bottom: 0rem;
 
     p {
         font-weight: normal;
@@ -241,10 +239,6 @@ footer {
         display: none;
     }
 
-    .bbl-description {
-        padding-right:101px;
-    }
-
     &-title {
         color: $brand-light-color;
         width: 65%;
@@ -256,11 +250,6 @@ footer {
             color: $brand-color;
         }
     }
-
-    &-cta {
-        float: right;
-    }
-
     
 }
 
@@ -304,6 +293,12 @@ footer {
         font-size: 1rem;
     }
 }
+
+.content-bbl {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
 
 // Team page
 
@@ -363,6 +358,10 @@ footer {
     }
 }
 
+.row-page {
+    margin-top: 6rem;
+}
+
 // Contact Link
 
 .contact-link {
@@ -390,14 +389,18 @@ footer {
 .solutions {
     margin-top: 40px;
     margin-bottom: 50px;
-
-    a {
-        text-decoration: none;
-    }
 }
 
 .title-about {
+    margin: auto;
     margin-top: 15px;
+    width:213px;
+
+    a {
+        font-size: small;
+        position:relative;
+        top:-5px;
+    }
 }
 
 .align-item--bottom {
@@ -503,9 +506,6 @@ strong.title {
     padding-bottom: 5px;
 }
 
-.row--vertical > .octo-camp {
-    margin-top: 6rem;
-}
 .octo-camp p {
     justify-content: center;
 }
@@ -524,7 +524,7 @@ strong.title {
 }
 
 .img-wbo {
-    width: 70%;
+    width: 55%;
     border-radius: 50%;
 }
 
@@ -558,7 +558,7 @@ strong.title {
 
 @media screen and (min-width: 800px) {
     h3.fondateurs {
-        margin-top: -6.2rem;
+        margin-top: -6.9rem;
     }
 }
 

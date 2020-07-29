@@ -15,13 +15,15 @@
     </a>
     {% endif %}
 
-    {% if display_contact %}
-    <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn bbl-cta">Contacter</a>
-    {% endif %}
+
 
     <div class="bbl-description" itemprop="description">{{bbl.description | newline_to_br | markdownify}}</div>
     <span class="hidden" itemscope itemprop="provider" itemtype="http://schema.org/Person">
         <meta itemprop="name" content="{{author.name}}" />
         <meta itemprop="email" content="{{author.poly}}@octo.com" />
     </span>
+
+    {% if display_contact %}
+    <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn">Contacter</a>
+    {% endif %}
 </div>

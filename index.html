@@ -180,6 +180,41 @@ layout: default
                     %} {% endfor %}
                 </div>
             </div>
+
+
+
+
+            <div class="col equipe">
+                <div class="box content">
+                    <h3 class="title--section">Notre collectif.</h3>
+
+                    <div class="row" id="toShuffle">
+                        {% assign peoples = site.data.people %} {% for people in peoples
+                            %}
+                        <a class="col people-card shuffleMe"
+                            href=" {{ '/equipe.html#' | append: people.poly | absolute_url }}">
+
+                            <img src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
+                                alt="{{people.name}}" class="img-people" />
+
+                            <h4 class="text-center people-info">
+                                {% assign name = people.name | replace: " ",
+                                        "&#8239;&#8239;" %}
+                                <span class="people-name">{{name}}</span>
+                                <br />
+                                <small>{{people.job}}</small>
+                            </h4>
+                        </a>
+                        {% endfor %}
+                    </div>
+                    <div class="equipe-rejoignez">
+                        <a href="{{ '/join-us.html' | absolute_url }}" class="btn">Rejoignez-nous !</a>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </div>
 
@@ -242,9 +277,6 @@ layout: default
                             particularités.“
                         </p>
                     </div>
-
-
-
 
                 </div>
             </div>

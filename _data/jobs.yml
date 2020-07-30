@@ -1,29 +1,35 @@
-- title: Coach Agile (H/F)
-  description: |
-      Venez rendre le Nord plus agile avec OCTO !
-  url: https://rejoins.octo.com/job-offers/455
-  image: agile
-  datePosted: 2019-01-01
-
-- title: OPS (H/F)
+- title: Consultant DevOps / Lille (F/H)
   description: |
       Deviens acteur de cette aventure technologique et humaine pour propulser les entreprises dans le “there is a better way” !
   url: https://rejoins.octo.com/job-offers/37
   image: ops
   datePosted: 2019-01-01
 
-- title: Tech Lead (H/F)
-  description: |
-      Vous faites partie de ceux qui veulent diffuser leurs valeurs et savoir-faire pour concrétiser la transformation numérique de la région Nord, et ce, avec audace et plaisir ?
-      Apprendre, se faire challenger et prendre des G ne vous font pas peur ? OCTO poursuit son implantation chez les Ch'tis !
-  url: https://rejoins.octo.com/job-offers/109
-  image: craft
-  datePosted: 2019-01-01
-
-- title: Consultant·e Craft
+- title: Consultant Craft - Tech Lead / Lille (F/H)
   description: |
       Vous faites partie de ceux qui veulent diffuser leurs valeurs et savoir-faire pour concrétiser la transformation numérique de la région Nord, et ce, avec audace et plaisir ?
       Apprendre, se faire challenger et prendre des G ne vous font pas peur ? OCTO poursuit son implantation chez les Ch'tis !
   url: https://rejoins.octo.com/job-offers/110
   image: craft
   datePosted: 2019-01-01
+
+- title: Consultant Senior - Business Developer / Lille (F/H)
+  description: |
+      Vous faites partie de ceux qui pensent que même avec plusieurs années d'expérience, on peut toujours apprendre et être challengé ? Alors lisez attentivement ce qui suit !
+  url: https://rejoins.octo.com/job-offers/249
+  image: craft
+  datePosted: 2020-07-30
+
+- title: Architecte tout terrain / Lille (F/H)
+  description: |
+      Passionné par l'architecture, vous avez toujours aimé construire du sur-mesure plutôt que du pré-fabriqué ! Vous avez la volonté de vous inscrire dans une aventure entrepreneuriale et de bâtir un collectif OCTO incontournable pour offrir un maximum de valeur sur le marché ! Rencontrons-nous !
+  url: https://rejoins.octo.com/job-offers/209
+  image: ops
+  datePosted: 2020-07-30
+  
+  - title: Consultant en devenir / Lille (F/H)
+  description: |
+      Vous disposez d'une première expérience (stage de fin d'études, CDI) dans le développement (environnement front, back ou data) et avez envie d'accélérer votre carrière ? Vous êtes au bon endroit !
+  url: https://rejoins.octo.com/job-offers/295
+  image: craft
+  datePosted: 2020-07-30

@@ -44,7 +44,7 @@ header {
 .row {
 
     &--vertical > .col {
-        margin-top: 6rem;
+        margin-top: 4rem;
     }
 
 }
@@ -274,8 +274,6 @@ footer {
     margin-bottom: 0.5rem;
 }
 
-
-
 .col-bbl {
     .content {
         padding-top: 1.3rem;
@@ -299,6 +297,10 @@ footer {
     padding-right: 4rem;
 }
 
+.content-equipe {
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
 
 // Team page
 
@@ -389,6 +391,10 @@ footer {
 .solutions {
     margin-top: 40px;
     margin-bottom: 50px;
+
+    .col {
+        max-width: 360px;
+    }
 }
 
 .title-about {
@@ -506,7 +512,15 @@ strong.title {
     padding-bottom: 5px;
 }
 
-.octo-camp p {
+.col-founders .first-title {
+    margin-top:0px;
+}
+
+.col-founders {
+    margin-top: 6rem !important;
+}
+
+.col-founders p {
     justify-content: center;
 }
 
@@ -579,6 +593,7 @@ strong.title {
     padding-right: 30px;
     padding-left: 30px;
     max-width: 175px;
+    padding-top: 30px;
 }
 
 .signature {

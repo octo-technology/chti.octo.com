@@ -1,13 +1,3 @@
-- poly: GUF
-  name: Guillaume Fabrizi
-  job: Software Craftsman
-  accroche: |
-    Soon in town
-  bio: |
-    Guillaume est un développeur qui saque ed' din chez OCTO Technology.
-    Diffuseur de pratiques de développement telles que TDD.
-    C'est quelqu'un qui parle couramment le CHTI et intervient en tant que Tech Lead chez ses clients.
-
 - poly: IMRA
   name: Imen RASSAA
   job: Software Craftswoman
@@ -100,7 +90,7 @@
   accroche: |
     Coach agile et coach orga, le refus de la facilité en toute circonstance et solution focus.
   bio: |
-    Fan de son livre blanc Culture Code et de son "Better places with better code", j'ai rejoint OCTO Technology pour sa culture de l'agilité et de la qualité.
+    Fan de son livre blanc <a href="https://www.octo.com/publications/culture-code/">Culture Code</a> et de son "Better places with better code", j'ai rejoint OCTO Technology pour sa culture de l'agilité et de la qualité.
     Coach agile et formateur dans le campement Nord, j'aide les équipes et organisations à développer plus efficacement des produits remarquables.  
     Vous pouvez me croiser au meetup de Nord agile et au Scrumbeer Lille.
   
@@ -108,9 +98,18 @@
   name: Quentin De Smedt
   job: Data geek / Scientist
   accroche: |
-    Quentin c'est comme Kafka, plus y'a de données plus il excelle et il tient la charge.
+    Data Craftsman Scientist dont le focus est de créer et mettre en prod des produits logiciels de qualité boosté par l’IA et la Data.
   bio: |
-    Soon in town
+    J’ai découvert:
+
+    Ma passion pour l’informatique adolescent,
+    L’art du code en école d’ingénieur,
+    L’univers du machine learning dans une Thèse,
+    Le mouvement du Software Craftsmanship chez Octo ; mouvement qui a mis des mots sur mes convictions profondes.
+    
+    Un long chemin qui m’amène à me définir aujourd’hui comme un Data Craftsman Scientist. Je m'attelle aujourd’hui à appliquer, à maîtriser et à partager ces éléments dans chacune de mes missions.
+    Mes réflexions du moment ? Les enjeux de la mise en production des algorithmes de machine learning et adapter les outils et les méthodes Craft à la data science.
+    
 
 - poly: GIMA
   name: Gilles Masy
@@ -141,8 +140,13 @@
     Peu importe ton niveau en karaté il y a toujours meilleur que toi.
     C’est sur cette base que Victor anime les équipes tech en endossant son rôle de Tech Lead et de coach de Tech Lead.
   bio: |
-    Soon in town
-
+    Après avoir lu <a href="https://www.octo.com/publications/culture-code/">Culture Code</a>, j'ai eu envie de rejoindre OCTO pour sa culture et je n'ai pas été déçu ! 
+    Ce que j'adore ? Être sur un produit qui apporte de la valeur dans une équipe psychologically safe. Le tout avec une propriété collective du code et en TDD bien sur ! 
+    J'aime aussi beaucoup animer des dojos pour faire grandir les personnes sur différentes pratiques (notamment TDD, Design, refactoring).
+    
+    “Il existe deux façons de concevoir un logiciel : une façon est de le rendre si simple qu'il n'a visiblement aucun défaut, et une autre est de le rendre si complexe qu'il n'y a pas de défaut visible. La première façon est de loin la plus difficile.” - Hoare
+    
+    Pour ma part je préfère la première façon, et vous ?
 
 - poly: VAAL
   name: Valentin Alvès 
@@ -156,10 +160,14 @@
   name: Pierre Top
   job: Développeur 
   accroche: |
-    La bibliothèque d’OCTO Nord. Si vous cherchez des informations sur un sujet tech,
-    méthodo ou philosophique, Pierre a surement déjà réfléchi et s’est documenté sur le sujet.
+    La bibliothèque d’OCTO Nord. Si vous cherchez des informations sur un sujet tech, méthodo ou philosophique, Pierre a surement déjà réfléchi et s’est documenté sur le sujet.
   bio: |
-    Soon in town
+    2007: début de ma carrière.
+    J’observe partout le même problème: comment intervenir sur des applications en production depuis plusieurs années ?
+    2007: OCTO apporte une réponse en introduisant XP en France.
+    Mais cela, je ne le découvre qu’en...
+    2019: et je rejoins aussitôt OCTO Nord pour partager XP avec les développeurs lillois !
+    A bientôt sur votre codebase, les MeetUps Software Craftsmanship, GDG ou à SoCraTesFr.
 
 - poly: DEME
   name: Maxime Delattre 

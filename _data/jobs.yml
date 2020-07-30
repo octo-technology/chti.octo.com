@@ -27,3 +27,10 @@
   url: https://rejoins.octo.com/job-offers/110
   image: craft
   datePosted: 2019-01-01
+ 
+- title: Help me
+  description: |
+      Une nouvelle description
+  url: https://www.linguee.fr/anglais-francais/traduction/help+me.html
+  image: ops
+  datePosted: 2020-02-01

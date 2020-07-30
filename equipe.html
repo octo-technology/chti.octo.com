@@ -3,17 +3,16 @@ layout: default
 title: L'équipe
 ---
 
-<div class="row">
+<div class="row row-page">
     <div class="col">
-        <div class="box content">
-            <h3 class="title--section">L'équipe.</h3>
+        <div class="box content content-equipe">
+            <h3 class="title--section">Notre collectif.</h3>
 
             {% for people in site.data.people %}
             <div class="people row" id="{{people.poly}}">
                 <div class="col">
-                    <img
-                        src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
-                        alt="{{people.name}}">
+                    <img src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
+                        alt="{{people.name}}" class="img-people">
                 </div>
 
                 <div class="col col--important">
@@ -22,12 +21,13 @@ title: L'équipe
                         <br>
                         <small>{{people.job}}</small>
                     </h4>
-                    <div>{{people.bio | newline_to_br | markdownify}}</div>
+                    <i>{{people.accroche}}</i>
+                    <div>{{people.bio | rstrip | prepend: '"' | append: '"'  | newline_to_br | markdownify}}</div>
 
                     {% assign bbls = site.data.bbl | where: "poly", people.poly %}
                     {% if bbls.size > 0 %}
                     <div class="people-bbl">
-                        <h5>BBL</h5>
+                        <h5>Mes BBL:</h5>
 
                         <ul>
                             {% for bbl in bbls %}

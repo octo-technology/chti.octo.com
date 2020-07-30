@@ -1,5 +1,7 @@
 @import "octo-vars";
 
+// All
+
 .wrapper {
     width: 95%;
     margin: 0 auto;
@@ -9,38 +11,80 @@
     text-align: center;
 }
 
-.brand-image {
-    padding: $padding;
-}
-
-.brand-image, .banner img {
-    width: 100%;
-}
-
-footer {
-    .col {
-        margin-bottom: $padding;
-    }
-}
-
-.footer-social {
-    text-align: right;
-
-    img {
-        width: 13%;
-        border-radius: 50%;
-    }
-}
-
-header {
-    background-color: #E0E1E6;
-    margin-bottom: $desktop-padding * 3;
-}
-
 .hidden {
     display: none;
 }
 
+@media screen and (min-width: $desktop-size) {
+    .wrapper {
+        width: 85%;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+// Header
+
+.brand-image {
+    padding: $padding;
+}
+
+.brand-image,
+.banner img {
+    width: 100%;
+}
+
+header {
+    background-color: #e0e1e6;
+}
+
+.row {
+
+    &--vertical > .col {
+        margin-top: 4rem;
+    }
+
+}
+// Footer
+
+footer {
+    .col {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
+
+#contactez {
+    margin-top: 1.5rem;
+}
+
+.footer-social {
+    text-align: left;
+    img {
+        width: 35px;
+    }
+}
+
+.wazemmes {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.adress {
+    font-size: 1.2rem;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex:1;
+} 
 
 // Homepage
 
@@ -51,6 +95,7 @@ header {
     padding-top: $desktop-padding;
     font-family: $font-headline;
     letter-spacing: 0.05rem;
+    margin-bottom: 0rem;
 
     p {
         font-weight: normal;
@@ -62,6 +107,10 @@ header {
     .emphase {
         color: $brand-light-color;
         font-family: $font-emphase;
+    }
+
+    @media screen and (max-width: $tablet-size) {
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -75,10 +124,17 @@ header {
     margin-top: $padding;
 }
 
+// Equipe
+
+.equipe-rejoignez{
+    text-align: center;
+}
+
 .people-card {
-    flex-basis: calc(100% / 2 - 2rem);
-    margin: 1rem;
+    flex-basis: calc(100% / 6 - 2rem);
+    margin: 0rem;
     text-decoration: none;
+    padding: 0 1rem !important;
 
     h4 {
         min-height: 4.5rem;
@@ -89,7 +145,6 @@ header {
         border-radius: 50%;
     }
 }
-
 
 // Event
 
@@ -142,7 +197,6 @@ header {
     }
 }
 
-
 // Join us page
 
 .job {
@@ -152,7 +206,8 @@ header {
     align-items: center;
     background-color: $gray-color;
 
-    &:hover, &:hover h2 {
+    &:hover,
+    &:hover h2 {
         color: $white-color !important;
     }
 
@@ -162,7 +217,7 @@ header {
     }
 
     &-content {
-        background-color: #C0E5E4;
+        background-color: #c0e5e4;
     }
 
     &:nth-child(even) &-content {
@@ -174,7 +229,10 @@ header {
     }
 }
 
+// BBL
+
 .bbl {
+    
     margin-bottom: $desktop-padding;
 
     .page-index & .bbl-description {
@@ -188,21 +246,61 @@ header {
         margin: 0;
         font-family: $font-headline;
 
-        & span {
-            font-size: 1.3rem;
-            border-bottom: 1px dotted;
-        }
-
         & small {
             color: $brand-color;
         }
     }
+    
+}
 
-    &-cta {
-        float: right;
+.bbl-name {
+    font-size: 1.3rem;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.page-index .bbl-name {
+    font-size: 1rem;
+    display: inline;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted;
+}
+
+.bbl-title .bbl-author {
+    color: #0e2356;
+}
+
+.page-index .bbl {
+    margin-bottom: 0.5rem;
+}
+
+.col-bbl {
+    .content {
+        padding-top: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    li {
+        text-align: justify;
+        padding-bottom: 6px;
+    }
+    
+    strong {
+        font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
     }
 }
 
+.content-bbl {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.content-equipe {
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
 
 // Team page
 
@@ -216,10 +314,11 @@ header {
     }
 
     &-bbl {
-        border: 1px solid $brand-light-blue;
-        padding: $padding;
-        padding-top: 0;
-        border-radius: 1rem;
+        
+        h5 {
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
     }
 
     &-name {
@@ -233,7 +332,9 @@ header {
 
 @media screen and (min-width: $tablet-size) {
     .banner img {
-        width: 30%;
+        width: 40%;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .brand-image {
@@ -253,15 +354,253 @@ header {
     }
 
     .people-card {
-        flex-basis: calc(100% / 4 - 2rem);
-        padding: 0 1rem !important;
+        flex-basis: calc(100% / 6 - 2rem);
         flex-grow: 0;
         flex-shrink: 0;
     }
 }
 
-@media screen and (min-width: $desktop-size) {
-    .wrapper {
-        width: 85%;
+.row-page {
+    margin-top: 6rem;
+}
+
+// Contact Link
+
+.contact-link {
+    position: fixed;
+    z-index: 9200;
+    top: 50vh;
+    font-size: 22px;
+    color: #0e2356;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    right: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg) translate(0, 100%);
+    transform: rotate(-90deg) translate(0, 100%);
+
+    @media screen and (max-width: $desktop-size) {
+        right: 0rem;
     }
+}
+
+// Expertises
+
+.solutions {
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+    .col {
+        max-width: 360px;
+    }
+}
+
+.title-about {
+    margin: auto;
+    margin-top: 15px;
+    width:213px;
+
+    a {
+        font-size: small;
+        position:relative;
+        top:-5px;
+    }
+}
+
+.align-item--bottom {
+    align-self: flex-end;
+    padding-top: 20px;
+}
+
+.pad-col--right {
+    padding-left: 20px;
+}
+
+.pad-col--left {
+    padding-right: 20px;
+}
+
+.pad-col--center {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.aligner-item--top {
+    align-self: flex-start;
+}
+
+.poles .col-text {
+    padding-left: 20px;
+}
+
+.row-margintop {
+    margin-top: 20px;
+}
+
+
+
+
+.poles {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.half {
+    flex: 0.5;
+}
+
+.poles ul {
+    font-size: 0.9rem;
+    margin-left: -25px;
+}
+
+.people-card {
+    align-self: flex-start;
+}
+
+.people-name {
+    margin-bottom: 0px;
+}
+
+.img-people {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    background: url("../assets/images/opacity-lille.png");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (min-width: $desktop-size) {
+    .banner {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}
+
+.banner h3 {
+    // font-family: "Avenir LT Com 35", Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    // font-weight: bolder;
+}
+
+.banner h4 {
+    font-family: "Avenir LT Com 55 Roman", "Arial Black", Gadget, sans-serif;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+strong.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;
+    color: #0e2356;
+}
+
+.poles li {
+    padding-bottom: 5px;
+}
+
+.col-founders .first-title {
+    margin-top:0px;
+}
+
+.col-founders {
+    margin-top: 6rem !important;
+}
+
+.col-founders p {
+    justify-content: center;
+}
+
+.italic {
+    font-style: italic;
+}
+.no-margin-bottom {
+    margin-bottom: 0rem;
+}
+
+.wbo {
+    font-style: normal;
+    margin-top: 0px;
+    font-size: 1.4rem;
+}
+
+.img-wbo {
+    width: 55%;
+    border-radius: 50%;
+}
+
+
+.poles strong {
+    font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;
+}
+
+.equipe h4 {
+    margin-top: 10px;
+}
+
+#navbar {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+
+// Navbar links
+
+#navbar a {
+    background: none;
+}
+
+#navbar .brand-image {
+    width: 100px;
+    padding: 30px;
+    z-index: 0;
+}
+
+@media screen and (min-width: 800px) {
+    h3.fondateurs {
+        margin-top: -6.9rem;
+    }
+}
+
+.people-card h4 {
+    min-height: 1rem;
+    font-size: 1rem;
+}
+
+.people-info {
+    width: 145px;
+
+    small {
+        font-family: "Avenir LT Com 35", Arial, Helvetica, sans-serif;;
+    }
+}
+
+.thereisabetterway {
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: 175px;
+    padding-top: 30px;
+}
+
+.signature {
+    width: 100%;
+    font-size: 13px
+}
+
+.align-text--right {
+    text-align: right;
 }

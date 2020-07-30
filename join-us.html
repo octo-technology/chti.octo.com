@@ -3,18 +3,16 @@ layout: default
 title: Rejoignez-nous
 ---
 
-<div class="row">
+<div class="row row-page">
     <div class="col">
         <div class="box box--lined">
             <h3 class="title--section">Rejoignez-nous.</h3>
 
             <div class="content">
                 {% for job in site.data.jobs %}
-                <a class="row job" href="{{job.url}}" target="_blank" itemscope
-                   itemtype="http://schema.org/JobPosting">
+                <a class="row job" href="{{job.url}}" target="_blank" itemscope itemtype="http://schema.org/JobPosting">
                     <div class="col text-center job-image">
-                        <img
-                            src="{{ '/assets/images/jobs/' | append: job.image | append: '.svg' | absolute_url }}"
+                        <img src="{{ '/assets/images/jobs/' | append: job.image | append: '.svg' | absolute_url }}"
                             alt="{{job.title}}">
                     </div>
                     <div class="col col--important job-content">
@@ -24,17 +22,17 @@ title: Rejoignez-nous
                         </div>
                     </div>
 
-                    <meta itemprop="datePosted" content="{{job.datePosted}}"/>
+                    <meta itemprop="datePosted" content="{{job.datePosted}}" />
                     <span class="hidden" itemscope itemprop="jobLocation" itemtype="http://schema.org/Place">
-                                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                                    <meta itemprop="streetAddress" content="1 place de la Gare"/>
-                                    <meta itemprop="postalCode" content="59000"/>
-                                    <meta itemprop="addressLocality" content="Lille"/>
-                                </span>
-                            </span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                            <meta itemprop="streetAddress" content="1 place de la Gare" />
+                            <meta itemprop="postalCode" content="59000" />
+                            <meta itemprop="addressLocality" content="Lille" />
+                        </span>
+                    </span>
                     <div class="hidden" itemscope itemprop="hiringOrganization"
-                         itemtype="http://schema.org/Organization">
-                        <meta itemprop="name" content="OCTO chti"/>
+                        itemtype="http://schema.org/Organization">
+                        <meta itemprop="name" content="OCTO chti" />
                     </div>
                 </a>
                 {% endfor %}

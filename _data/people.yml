@@ -171,9 +171,19 @@
 
 - poly: DEME
   name: Maxime Delattre 
-  job: Dev 
+  job: Software Engineer / Craftsman 
   accroche: |
     La clean archi ça le connaît, Maxime met tout en oeuvre pour élever
     le niveau technique des produits qu’il contribue à construire et les pratiques des équipes qu’il accompagne.
   bio: |
-    Soon in town
+    Quand j'étais petit c'était les legos, puis le scoutisme et maintenant c'est le logiciel ! Ce que j'aime avant tout c'est travailler sur des projets qui ont du sens et construire de la qualité.
+    Mes compétences s'articulent autour des pratiques de développement dites de "craft", et notamment le "clean code" et le design applicatif.
+    Je pense qu'un projet gagnant est un mélange d'envie, de communication et de technique, par là je tenterai de vous conseiller et vous faire prendre goût à un développement logiciel de qualité.
+
+- poly: LAJA
+  name: Djamel Labani
+  job: Coach Agile 
+  accroche: |
+     Soon in town
+  bio: |
+    Agilitateur passionné avec le smile. J'ai commencé Ops et eu la chance de faire un nouveau pas vers l'agilité à chacune de mes missions. De mes premières expériences en TPE jusqu'aux multinationales, je reste convaincu que nous pouvons toujours nous améliorer et que le mot "erreur" n'est que le synonyme du mot "expérimentation".

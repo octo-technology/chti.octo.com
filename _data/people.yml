@@ -32,16 +32,6 @@
     C’est mon quotidien, je le fait, je le vis et, surtout, je le partage.
     Alors commençons par poser un test, et voyons si il nous amène jusqu’à la prod.
   
-- poly: LIBE
-  name: Yannick Libert
-  job: Data nerd
-  accroche: |
-    Data architecte et data geek, l'espace (et le temps) n'ont pas de secret pour lui !
-  bio: |
-    Ancien astronome repenti, je m’intéresse à la donnée sous toutes ses formes.
-    Qu’elle vienne des étoiles ou d’un serveur de prod, je la recueille, la nourris, l’analyse et lui offre un petit nid douillet dans lequel elle peut réaliser pleinement son potentiel.
-    Vous pouvez me croiser un peu partout dans Lille où j’adore flâner durant mon temps libre.
-  
 - poly: MAVE
   name: Marine Verwaerde
   job: Software Craftswoman
@@ -89,7 +79,6 @@
     Data Craftsman Scientist dont le focus est de créer et mettre en prod des produits logiciels de qualité boosté par l’IA et la Data.
   bio: |
     J’ai découvert:
-
     Ma passion pour l’informatique adolescent,
     L’art du code en école d’ingénieur,
     L’univers du machine learning dans une Thèse,
@@ -177,7 +166,7 @@
   name: Djamel Labani
   job: Coach Agile 
   accroche: |
-     Soon in town
+     L'accroche de Djam arrive :)
   bio: |
     Agilitateur passionné avec le smile. 
     J'ai commencé Ops et eu la chance de faire un nouveau pas vers l'agilité à chacune de mes missions. De mes premières expériences en TPE jusqu'aux multinationales, je reste convaincu que nous pouvons toujours nous améliorer et que le mot "erreur" n'est que le synonyme du mot "expérimentation".
@@ -186,7 +175,7 @@
   name: Rémi Hamy
   job: Architecte tout terrain
   accroche: |
-    Soon in town
+    L'accroche de Rémi arrive :)
   bio: |
     Parfois architecte, parfois maçon, je travaille avec les équipes de delivery pour construire ensemble la juste architecture.
     Quand on me demande ce que je fais dans la vie et que je réponds "Architecte, mais en informatique" on me demande très souvent d'expliquer :
@@ -198,8 +187,40 @@
   name: Julien Lazewski
   job: Crafter
   accroche: |
-     Soon in town
+     L'accroche de Julien arrive :)
   bio: |
     J'ai rejoint OCTO afin de pouvoir combiner 2 de mes principales sources de motivation professionnelles : la discipline du software craftsmanship et le fait de transmettre mes connaissances.
     Aider les personnes que j'accompagne à mieux développer, c'est les rendre fières de ce qu'elles produisent et leur permettre d'aimer davantage leur travail.
     C'est exactement ce qui m'anime aujourd'hui !
+
+- poly: STED
+  name: Steeve Descarpentries
+  job: Crafter
+  accroche: |
+     L'accroche de Steeve arrive :)
+  bio: |
+    La bio de Steeve arrive :)
+    
+      - poly: PETA
+  name: Paul-Elian Tabarant
+  job: Consultant Crafter
+  accroche: |
+     L'accroche de PE arrive :)
+  bio: |
+    La bio de PE arrive :)
+    
+    - poly: WAHA
+  name: Harold Wartelle
+  job: Consultant Crafter
+  accroche: |
+     L'accroche d'Harold arrive :)
+  bio: |
+    La bio d'Harold arrive :)
+    
+      - poly: NIGU
+  name: Nicolas Gutierez
+  job: Data crafter
+  accroche: |
+     L'accroche de Nico arrive :)
+  bio: |
+    La bio de Nico arrive :)

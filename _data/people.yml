@@ -32,16 +32,6 @@
     C’est mon quotidien, je le fait, je le vis et, surtout, je le partage.
     Alors commençons par poser un test, et voyons si il nous amène jusqu’à la prod.
   
-- poly: LIBE
-  name: Yannick Libert
-  job: Data nerd
-  accroche: |
-    Data architecte et data geek, l'espace (et le temps) n'ont pas de secret pour lui !
-  bio: |
-    Ancien astronome repenti, je m’intéresse à la donnée sous toutes ses formes.
-    Qu’elle vienne des étoiles ou d’un serveur de prod, je la recueille, la nourris, l’analyse et lui offre un petit nid douillet dans lequel elle peut réaliser pleinement son potentiel.
-    Vous pouvez me croiser un peu partout dans Lille où j’adore flâner durant mon temps libre.
-  
 - poly: MAVE
   name: Marine Verwaerde
   job: Software Craftswoman
@@ -53,7 +43,7 @@
     Consultante, crafteuse et coach de tech lead.
     Férue de clean code, j'aime aider les équipes à grandir sur les pratiques de dev de qualité.
     Vous pouvez me croiser au meetup Software Craft Lille !
-
+  
 - poly: MOI
   name: Mathieu Moisant
   job: Business Manager / Leader campement
@@ -177,7 +167,7 @@
   name: Djamel Labani
   job: Coach Agile 
   accroche: |
-     Soon in town
+     Coach agile @ scale et d’organisation - Il ne faut pas se fier à son timbre de voix ni à la taille de ses paluches, Djamel mène tous ses accompagnements avec la plus grande finesse et une infinie sagesse. Il sait comment tirer partie concrètement de l’agilité à l’échelle et de ses composantes, il sait animer tous les rituels de l’univers, il sait pourquoi l’eau peut brûler et pourquoi le feu ne mouille pas. Maintenant tu sais qu’il sait, et de toute façon, à la fin c’est lui qui a raison, t’as vu la taille de ses paluches?
   bio: |
     Agilitateur passionné avec le smile. 
     J'ai commencé Ops et eu la chance de faire un nouveau pas vers l'agilité à chacune de mes missions. De mes premières expériences en TPE jusqu'aux multinationales, je reste convaincu que nous pouvons toujours nous améliorer et que le mot "erreur" n'est que le synonyme du mot "expérimentation".
@@ -186,7 +176,7 @@
   name: Rémi Hamy
   job: Architecte tout terrain
   accroche: |
-    Soon in town
+    Architecte tout terrain - L’architecture orientée service, ça se passe dans le mosh pit. Pas d’architecture remarquable ni de culture devops sans connaître sa partition sur le bout des doigts. Rémi, il va sur le terrain (c’est pour ça qu’on dit archi tout terrain): il compose avec vous, il répète avec vous en prenant son instrument favori, il enregistre le tube de l’été avec vous, il est sur scène pour jouer votre partition, bref il est là à toute les étapes qui font que des produits logiciels bien architecturés ça dépasse toutes les espérances.
   bio: |
     Parfois architecte, parfois maçon, je travaille avec les équipes de delivery pour construire ensemble la juste architecture.
     Quand on me demande ce que je fais dans la vie et que je réponds "Architecte, mais en informatique" on me demande très souvent d'expliquer :
@@ -203,3 +193,17 @@
     J'ai rejoint OCTO afin de pouvoir combiner 2 de mes principales sources de motivation professionnelles : la discipline du software craftsmanship et le fait de transmettre mes connaissances.
     Aider les personnes que j'accompagne à mieux développer, c'est les rendre fières de ce qu'elles produisent et leur permettre d'aimer davantage leur travail.
     C'est exactement ce qui m'anime aujourd'hui !
+    
+- poly: PETA
+  name: Paul-Elian Tabarant
+  job: Software craftsman
+  accroche: |
+     Soon in town
+  bio: |
+    Dev, marcheur, et blogueur à mes heures perdues.
+    
+    Faire des algos hyper sophistiqués c’est sympa, mais qu’ils soient compris par les collègues c’est mieux ! Et quand ils ont les mêmes standards de qualité que toi, c’est encore mieux. C’est l’un des constats qui m’a fait basculer d’une équipe R&D à OCTO Chti.
+    
+    Tout ce qui implique un code propre, par des patterns connus ou du bon sens, me parle. Indépendamment du framework et du langage, c’est la boîte à outil du crafteux qui m’intéresse.
+    
+    Démystifier, comprendre les règles métier qui régissent une application, isoler les responsabilités, s’abstraire de l’infrastructure sous-jacente : si tu entends ces paroles chez CHTI, je suis sûrement dans le coin...

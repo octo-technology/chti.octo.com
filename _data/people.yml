@@ -179,6 +179,7 @@
 - poly: PETA
   name: Paul-Elian Tabarant
   job: Software craftsman
+  accroche: |
   bio: |
     Dev, marcheur, et blogueur à mes heures perdues.
     
@@ -191,6 +192,7 @@
 - poly: NIGU
   name: Nicolas Gutierrez
   job: Le chtigiaire Padawan de la data
+  accroche: |
   bio: |
     Actuellement en fin d’études, j’ai rejoint Octo pour sa communauté.
     De nature très curieuse,  j’adore réaliser des projets différents les uns des autres, en gardant en tête l’objectif “Always a better way”.
@@ -199,16 +201,19 @@
  - poly: NOVA
   name: Alice Novazzi
   job: Coaching Agile et Porduit
+  accroche: |
   bio: |
 
 - poly: STED
   name: Steeve Descarpentries
   job: Consultant développeur
+  accroche: |
   bio: |
 
 - poly: WAHA
   name: Harold Wartelle
   job: Software Craftsman
+  accroche: |
   bio: |
     Passionné par le développement depuis très jeune, ma curiosité m’a poussé à voir et toucher à tous les langages qui pouvaient se présenter à moi. En découvrant le mouvement du Software Craftmanship, j’ai pris conscience de l’importance et de la satisfaction de produire un code de qualité, ce qui m’a poussé à rejoindre OCTO. Aujourd’hui, je souhaite mettre à disposition et continuer à partager mes compétences pour peut-être en passionner d’autres à mon tour.
 
@@ -216,5 +221,4 @@
   name: Léa D Avola
   job: La chtigiaire
   accroche: |
-     Soon in town
   bio: |

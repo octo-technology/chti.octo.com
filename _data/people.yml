@@ -71,23 +71,6 @@
     Fan de son livre blanc <a href="https://www.octo.com/publications/culture-code/">Culture Code</a> et de son "Better places with better code", j'ai rejoint OCTO Technology pour sa culture de l'agilité et de la qualité.
     Coach agile et formateur dans le campement Nord, j'aide les équipes et organisations à développer plus efficacement des produits remarquables.  
     Vous pouvez me croiser au meetup de Nord agile et au Scrumbeer Lille.
-  
-- poly: DEIN
-  name: Quentin De Smedt
-  job: Data geek / Scientist
-  accroche: |
-    Data Craftsman Scientist dont le focus est de créer et mettre en prod des produits logiciels de qualité boosté par l’IA et la Data.
-  bio: |
-    J’ai découvert:
-
-    Ma passion pour l’informatique adolescent,
-    L’art du code en école d’ingénieur,
-    L’univers du machine learning dans une Thèse,
-    Le mouvement du Software Craftsmanship chez Octo ; mouvement qui a mis des mots sur mes convictions profondes.
-    
-    Un long chemin qui m’amène à me définir aujourd’hui comme un Data Craftsman Scientist. Je m'attelle aujourd’hui à appliquer, à maîtriser et à partager ces éléments dans chacune de mes missions.
-    Mes réflexions du moment ? Les enjeux de la mise en production des algorithmes de machine learning et adapter les outils et les méthodes Craft à la data science.
-    
 
 - poly: GIMA
   name: Gilles Masy
@@ -111,7 +94,6 @@
   bio: |
     Après avoir parcouru un bout de chemin dans l'univers de la R&D en développant quelques prototypes plus ou moins maintenables, je me suis rendue compte que développer toute seule et sans test, c'est pas très drôle. Aujourd’hui, produire en équipe du code maintenable qui apporte le plus de valeur ajoutée possible n'a presque plus de secret pour moi !
     Les pâtisseries sont aussi ma passion, vous pourrez sûrement me croiser devant une boulangerie Lilloise.
-
 
 - poly: VIDI
   name: Victor Dizengremel 
@@ -154,20 +136,20 @@
 
 - poly: DEME
   name: Maxime Delattre 
-  job: Software Engineer / Craftsman 
+  job: Ingénieur du logiciel - Software Craftsman
   accroche: |
     La clean archi ça le connaît, Maxime met tout en oeuvre pour élever
     le niveau technique des produits qu’il contribue à construire et les pratiques des équipes qu’il accompagne.
   bio: |
-    Quand j'étais petit c'était les legos, puis le scoutisme et maintenant c'est le logiciel ! Ce que j'aime avant tout c'est travailler sur des projets qui ont du sens et construire de la qualité.
-    Mes compétences s'articulent autour des pratiques de développement dites de "craft", et notamment le "clean code" et le design applicatif.
-    Je pense qu'un projet gagnant est un mélange d'envie, de communication et de technique, par là je tenterai de vous conseiller et vous faire prendre goût à un développement logiciel de qualité.
+    Je m’applique à élever le niveau technique des équipes de développeurs en co-construisant des applications de qualité, opérationnelles et maintenables. Mon domaine de compétence est celui des bonnes pratiques de développement : TDD, stratégies de tests, architectures du code, DDD, BDD, DevOps, code reviews, pair et mob programming…
+    J’aime aussi aller plus loin en m'intéressant aux problématiques d’organisation et de communication dans l’équipe, avec le métier, les autres équipes et le management.
+    J’exerce ainsi en tant que développeur expert, formateur, coach et facilitateur.
 
 - poly: LAJA
   name: Djamel Labani
   job: Coach Agile 
   accroche: |
-     Coach agile @ scale et d’organisation - Il ne faut pas se fier à son timbre de voix ni à la taille de ses paluches, Djamel mène tous ses accompagnements avec la plus grande finesse et une infinie sagesse. Il sait comment tirer partie concrètement de l’agilité à l’échelle et de ses composantes, il sait animer tous les rituels de l’univers, il sait pourquoi l’eau peut brûler et pourquoi le feu ne mouille pas. Maintenant tu sais qu’il sait, et de toute façon, à la fin c’est lui qui a raison, t’as vu la taille de ses paluches?
+    Coach agile @ scale et d’organisation - Il ne faut pas se fier à son timbre de voix ni à la taille de ses paluches, Djamel mène tous ses accompagnements avec la plus grande finesse et une infinie sagesse. Il sait comment tirer partie concrètement de l’agilité à l’échelle et de ses composantes, il sait animer tous les rituels de l’univers, il sait pourquoi l’eau peut brûler et pourquoi le feu ne mouille pas. Maintenant tu sais qu’il sait, et de toute façon, à la fin c’est lui qui a raison, t’as vu la taille de ses paluches?
   bio: |
     Agilitateur passionné avec le smile. 
     J'ai commencé Ops et eu la chance de faire un nouveau pas vers l'agilité à chacune de mes missions. De mes premières expériences en TPE jusqu'aux multinationales, je reste convaincu que nous pouvons toujours nous améliorer et que le mot "erreur" n'est que le synonyme du mot "expérimentation".
@@ -188,7 +170,7 @@
   name: Julien Lazewski
   job: Crafter
   accroche: |
-     Soon in town
+    Il y a deux catégories d’équipes de dév, celles qui craftent et celles qui creusent. Julien, lui, il craft et il aide toutes les équipes avec lesquelles il collabore à déterminer leurs meilleurs axes d’amélioration tech et méthode. Un conseiller qui va vous propulser dans le turfu… et encore tu l’as pas vu sur une piste de danse!
   bio: |
     J'ai rejoint OCTO afin de pouvoir combiner 2 de mes principales sources de motivation professionnelles : la discipline du software craftsmanship et le fait de transmettre mes connaissances.
     Aider les personnes que j'accompagne à mieux développer, c'est les rendre fières de ce qu'elles produisent et leur permettre d'aimer davantage leur travail.
@@ -197,8 +179,6 @@
 - poly: PETA
   name: Paul-Elian Tabarant
   job: Software craftsman
-  accroche: |
-     Soon in town
   bio: |
     Dev, marcheur, et blogueur à mes heures perdues.
     
@@ -211,9 +191,30 @@
 - poly: NIGU
   name: Nicolas Gutierrez
   job: Le chtigiaire Padawan de la data
-  accroche: |
-     Soon in town
   bio: |
     Actuellement en fin d’études, j’ai rejoint Octo pour sa communauté.
     De nature très curieuse,  j’adore réaliser des projets différents les uns des autres, en gardant en tête l’objectif “Always a better way”.
     Retrouvez moi <a href="https://www.linkedin.com/in/nicolasgutierrez/">ici</a> :)
+
+ - poly: NOVA
+  name: Alice Novazzi
+  job: Coaching Agile et Porduit
+  bio: |
+
+- poly: STED
+  name: Steeve Descarpentries
+  job: Consultant développeur
+  bio: |
+
+- poly: WAHA
+  name: Harold Wartelle
+  job: Software Craftsman
+  bio: |
+    Passionné par le développement depuis très jeune, ma curiosité m’a poussé à voir et toucher à tous les langages qui pouvaient se présenter à moi. En découvrant le mouvement du Software Craftmanship, j’ai pris conscience de l’importance et de la satisfaction de produire un code de qualité, ce qui m’a poussé à rejoindre OCTO. Aujourd’hui, je souhaite mettre à disposition et continuer à partager mes compétences pour peut-être en passionner d’autres à mon tour.
+
+- poly: DALE
+  name: Léa D Avola
+  job: La chtigiaire
+  accroche: |
+     Soon in town
+  bio: |

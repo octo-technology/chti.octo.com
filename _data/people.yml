@@ -44,15 +44,6 @@
     Férue de clean code, j'aime aider les équipes à grandir sur les pratiques de dev de qualité.
     Vous pouvez me croiser au meetup Software Craft Lille !
 
-- poly: MOI
-  name: Mathieu Moisant
-  job: Business Manager / Leader campement
-  accroche: |
-    Coach en organisation, Delivery Manager, Dirty consultant : “You can’t be what you can’t see!
-  bio: |
-    Quand on m’a proposé de monter un campement (c’est une agence :p ) pour OCTO dans le Nord, j’ai dit go!
-    Depuis on a construit collectivement une super équipe qui a de l’impact sur nos missions avec un vraie conscience de notre responsabilité en tant que conseillers tech et méthodo. Je suis leader de ce campement mais consultant avant tout sur des sujets de coaching d’équipe et de formation méthodo, de transformation des organisations, de cadrage de produit logiciel, et de leur réalisation pilotée par la valeur (mais c’est quoi pour vous la valeur? on en parle?).
-
 - poly: OLWU
   name: Olivier Wulveryck
   job: Fiabiliste / ML Geek / Gopher
@@ -120,19 +111,6 @@
     J'aime les legacies, j'aime travailler en collaboration avec une équipe de développement pour ensemble créer des logiciels qui déchirent !
     J’aime les défis, me remettre en en question et le partage de connaissances.
     Guidé par la passion du développement et l’envie de redonner une nouvelle jeunesse à votre Legacy, allons ensemble dans le terrier du lapin blanc et reprenons-en le contrôle.
-
-- poly: TOP
-  name: Pierre Top
-  job: Développeur
-  accroche: |
-    La bibliothèque d’OCTO Nord. Si vous cherchez des informations sur un sujet tech, méthodo ou philosophique, Pierre a surement déjà réfléchi et s’est documenté sur le sujet.
-  bio: |
-    2007: début de ma carrière.
-    J’observe partout le même problème: comment intervenir sur des applications en production depuis plusieurs années ?
-    2007: OCTO apporte une réponse en introduisant XP en France.
-    Mais cela, je ne le découvre qu’en...
-    2019: et je rejoins aussitôt OCTO Nord pour partager XP avec les développeurs lillois !
-    A bientôt sur votre codebase, les MeetUps Software Craftsmanship, GDG ou à SoCraTesFr.
 
 - poly: DEME
   name: Maxime Delattre

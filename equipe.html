@@ -11,8 +11,8 @@ title: L'équipe
             {% for people in site.data.people %}
             <div class="people row" id="{{people.poly}}">
                 <div class="col">
-                    <img src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
-                        alt="{{people.name}}" class="img-people">
+                    <img alt="{{people.name}}"
+                         class="img-people" src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}">
                 </div>
 
                 <div class="col col--important">
@@ -22,7 +22,7 @@ title: L'équipe
                         <small>{{people.job}}</small>
                     </h4>
                     <i>{{people.accroche}}</i>
-                    <div>{{people.bio | rstrip | prepend: '"' | append: '"'  | newline_to_br | markdownify}}</div>
+                    <div>{{people.bio | rstrip | prepend: '"' | append: '"' | newline_to_br | markdownify}}</div>
 
                     {% assign bbls = site.data.bbl | where: "poly", people.poly %}
                     {% if bbls.size > 0 %}

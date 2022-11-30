@@ -1,4 +1,3 @@
-
 function shuffle() {
     var container = document.getElementById("toShuffle");
     var elementsArray = Array.prototype.slice.call(container.getElementsByClassName('shuffleMe'));

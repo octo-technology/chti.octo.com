@@ -2,25 +2,25 @@
 <html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1, user-scalable=no, minimal-ui" />
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, minimum-scale=1, user-scalable=no, minimal-ui" name="viewport"/>
 
     <title>
         {% if page.title %}{{ page.title | escape }} | {{ site.title |
-            escape }}{% else %}{{ site.title | escape }}{% endif %}
+        escape }}{% else %}{{ site.title | escape }}{% endif %}
     </title>
-    <meta name="description"
-        content="{{ page.excerpt | default: content | default: site.description | strip_html | normalize_whitespace | truncate: 240 | escape }}" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta content="{{ page.excerpt | default: content | default: site.description | strip_html | normalize_whitespace | truncate: 240 | escape }}"
+          name="description"/>
+    <meta content="yes" name="mobile-web-app-capable"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
 
-    <link href="{{ '/assets/images/favicon.ico' | absolute_url }}" rel="shortcut icon" />
-    <link rel="stylesheet" href="{{ '/assets/normalize.css' | absolute_url }}" />
-    <link rel="stylesheet" href="{{ '/assets/main.css' | absolute_url }}" />
+    <link href="{{ '/assets/images/favicon.ico' | absolute_url }}" rel="shortcut icon"/>
+    <link href="{{ '/assets/normalize.css' | absolute_url }}" rel="stylesheet"/>
+    <link href="{{ '/assets/main.css' | absolute_url }}" rel="stylesheet"/>
 
-    <link rel="stylesheet" type="text/css"
-        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" rel="stylesheet"
+          type="text/css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
     <script>
         window.addEventListener("load", function () {
@@ -42,112 +42,113 @@
     </script>
 
     {% if jekyll.environment == 'production' and site.google_analytics %} {%
-        include google-analytics.html %} {% endif %} {% seo title=false %}
+    include google-analytics.html %} {% endif %} {% seo title=false %}
 </head>
 
 <body class="page-{{page.name | split: '.' | first}}">
-    <header>
+<header>
+    <!--
+    <div class="wrapper col">
+        <a href="/"><img src="{{ '/assets/images/brand.png' | absolute_url }}" class="brand-image"></a>
+    </div>
+
+    {% if page.name == 'index.html' %}
+    <div class="text-center banner">
+        <img src="{{ '/assets/images/header.svg' | absolute_url }}">
+    </div>
+    {% endif %}
+    -->
+
+    <div id="navbar">
+        <a href="{{ '/' | absolute_url }}">
+            <img class="brand-image" src="{{ '/assets/images/logo-mini-color.svg' | absolute_url }}"/>
+        </a>
         <!--
-        <div class="wrapper col">
-            <a href="/"><img src="{{ '/assets/images/brand.png' | absolute_url }}" class="brand-image"></a>
-        </div>
-
-        {% if page.name == 'index.html' %}
-        <div class="text-center banner">
-            <img src="{{ '/assets/images/header.svg' | absolute_url }}">
-        </div>
-        {% endif %}
+        <ul>
+            <li><a>Nos expertises</a></li>
+            <li><a>Notre collectif</a></li>
+            <li><a>Rejoindre l’équipe</a></li>
+            <li><a>Nos BBL</a></li>
+            <li><a>Suivez-nous</a></li>
+            <li><a>Les mots des fondateurs</a></li>
+            <li><a>Nous contacter</a></li>
+        </ul>
         -->
+    </div>
 
-        <div id="navbar">
-            <a href="{{ '/' | absolute_url }}">
-                <img src="{{ '/assets/images/logo-mini-color.svg' | absolute_url }}" class="brand-image" />
-            </a>
-            <!--
-            <ul>
-                <li><a>Nos expertises</a></li>
-                <li><a>Notre collectif</a></li>
-                <li><a>Rejoindre l’équipe</a></li>
-                <li><a>Nos BBL</a></li>
-                <li><a>Suivez-nous</a></li>
-                <li><a>Les mots des fondateurs</a></li>
-                <li><a>Nous contacter</a></li>
-            </ul>
-            -->
-        </div>
+    <div class="text-center banner">
+        <a href="https://www.octo.com/" target="_blank"><img class="brand-image"
+                                                             src="{{ '/assets/images/brand.png' | absolute_url }}"/></a>
 
-        <div class="text-center banner">
-            <a href="https://www.octo.com/" target="_blank"><img src="{{ '/assets/images/brand.png' | absolute_url }}"
-                    class="brand-image" /></a>
+        <br/>
+        <h3 class="title--section">Digital Thinkers & Doers</h3>
+        <h4>Conseil et réalisation IT dans les Hauts-de-France</h4>
+    </div>
+</header>
 
-            <br />
-            <h3 class="title--section">Digital Thinkers & Doers</h3>
-            <h4>Conseil et réalisation IT dans les Hauts-de-France</h4>
-        </div>
-    </header>
+<a class="contact-link" href="#contactez">Contact</a>
 
-    <a href="#contactez" class="contact-link">Contact</a>
+<main class="wrapper">
+    {{ content }}
+</main>
 
-    <main class="wrapper">
-        {{ content }}
-    </main>
+<footer>
+    <div class="wrapper content" id="contactez">
+        <h3 class="title--section">Contactez-nous.</h3>
 
-    <footer>
-        <div class="wrapper content" id="contactez">
-            <h3 class="title--section">Contactez-nous.</h3>
+        <p class="wazemmes">
+            Promis on ne revendra pas vos données sur le marché de
+            Wazemmes !
+        </p>
 
-            <p class="wazemmes">
-                Promis on ne revendra pas vos données sur le marché de
-                Wazemmes !
+        <div class="adress" itemscope itemtype="http://schema.org/LocalBusiness">
+            <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <span itemprop="streetAddress">WOJO, 19 rue d'Amiens</span>,<br>
+                <span itemprop="postalCode">59800 Lille</span><br>
+                <span content="{{site.tel}}" itemprop="telephone">{{site.tel}}</span><br>
+                <a content="{{site.email}}" href="mailto:{{site.email}}" itemprop="email"
+                   target="_blank">{{site.email}}</a>
             </p>
+        </div>
 
-            <div class="adress" itemscope itemtype="http://schema.org/LocalBusiness">
-                <p itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">WOJO, 19 rue d'Amiens</span>,<br>
-                    <span itemprop="postalCode">59800 Lille</span><br>
-                    <span itemprop="telephone" content="{{site.tel}}">{{site.tel}}</span><br>
-                    <a href="mailto:{{site.email}}" itemprop="email" content="{{site.email}}"
-                        target="_blank">{{site.email}}</a>
-                </p>
+        <div class="row">
+
+            <div class="col footer-social flex-center align-text--right">
+
+                <div style="display: block;">
+                    <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank"><img
+                        src="{{ '/assets/images/social/linkedin.png' | absolute_url }}"/></a>
+                </div>
+
             </div>
 
-            <div class="row">
-
-                <div class="col footer-social flex-center align-text--right">
-
-                    <div style="display: block;">
-                        <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank"><img
-                                src="{{ '/assets/images/social/linkedin.png' | absolute_url }}" /></a>
-                    </div>
-
-                </div>
-
-                <div class="col thereisabetterway">
-                    <img src="{{ '/assets/images/thereisabetterway.png' | absolute_url }}" />
-                </div>
-
-                <div class="col footer-social flex-center">
-                    <div style="display: block;">
-                        <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><img
-                                src="{{ '/assets/images/social/twitter.svg' | absolute_url }}" /></a>
-                    </div>
-
-                </div>
+            <div class="col thereisabetterway">
+                <img src="{{ '/assets/images/thereisabetterway.png' | absolute_url }}"/>
             </div>
 
-
-
-            <div class="row row--alignCenter">
-                <div class="col text-center signature">
-                    © OCTO Technology <script>document.write(new Date().getFullYear())</script> - Part of Accenture
+            <div class="col footer-social flex-center">
+                <div style="display: block;">
+                    <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><img
+                        src="{{ '/assets/images/social/twitter.svg' | absolute_url }}"/></a>
                 </div>
-            </div>
-    </footer>
-    <script src="{{ '/assets/main.js' | absolute_url }}"></script>
 
-   <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6695516.js"></script>
-   <!-- End of HubSpot Embed Code -->
+            </div>
+        </div>
+
+
+        <div class="row row--alignCenter">
+            <div class="col text-center signature">
+                © OCTO Technology
+                <script>document.write(new Date().getFullYear())</script>
+                - Part of Accenture
+            </div>
+        </div>
+</footer>
+<script src="{{ '/assets/main.js' | absolute_url }}"></script>
+
+<!-- Start of HubSpot Embed Code -->
+<script async defer id="hs-script-loader" src="//js.hs-scripts.com/6695516.js" type="text/javascript"></script>
+<!-- End of HubSpot Embed Code -->
 
 </body>
 

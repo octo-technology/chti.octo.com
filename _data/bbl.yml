@@ -1,46 +1,46 @@
-- title: "[REX] Le ML sans Tensorflow ni Python: Rex sur l'implémentation ONNX en Go"
-  poly: OLWU
-  description: |
-      Open Neural Network eXchange semble être la référence émergente du logiciel 2.0.
-      En tant que Gopher et contributeur de la bibliothèque Gorgonia, j'ai voulu rendre la technologie ONNX accessible à cet écosystème. Les cas d'usage sont multiples.
-      Par exemple: utiliser le binaire statique Go pour développer un *Neural Network Runtime Environment* facilement exploitable, ou encore utiliser les réseaux de neurones comme des capacités quelconque du langage Go, sans binding.
+-   title: "[REX] Le ML sans Tensorflow ni Python: Rex sur l'implémentation ONNX en Go"
+    poly: OLWU
+    description: |
+        Open Neural Network eXchange semble être la référence émergente du logiciel 2.0.
+        En tant que Gopher et contributeur de la bibliothèque Gorgonia, j'ai voulu rendre la technologie ONNX accessible à cet écosystème. Les cas d'usage sont multiples.
+        Par exemple: utiliser le binaire statique Go pour développer un *Neural Network Runtime Environment* facilement exploitable, ou encore utiliser les réseaux de neurones comme des capacités quelconque du langage Go, sans binding.
 
-- title: DTO, DAO, API, SLO and Go - Designing a REST API driven by the objectives
-  poly: OLWU
-  description: |
-      Les API sont devenues une obligation pour les sociétés qui souhaitent s'ouvrir à l'extérieur.
-      Ainsi, c'est pour beaucoup une porte d'entrée vers les plateformes de services. De plus, la donnée est au centre des stratégies. C'est donc naturellement que l'API s'est imposée comme un moyen de récupérer de la donnée dans le but d'y ajouter de la valeur.
-      La disponibilité de l'API est donc, plus que jamais, un concept qui revet une importance particulière si elle n'est pas prise au sérieux. Elle peut être la cause de perte de business importante.
+-   title: DTO, DAO, API, SLO and Go - Designing a REST API driven by the objectives
+    poly: OLWU
+    description: |
+        Les API sont devenues une obligation pour les sociétés qui souhaitent s'ouvrir à l'extérieur.
+        Ainsi, c'est pour beaucoup une porte d'entrée vers les plateformes de services. De plus, la donnée est au centre des stratégies. C'est donc naturellement que l'API s'est imposée comme un moyen de récupérer de la donnée dans le but d'y ajouter de la valeur.
+        La disponibilité de l'API est donc, plus que jamais, un concept qui revet une importance particulière si elle n'est pas prise au sérieux. Elle peut être la cause de perte de business importante.
 
-- title: "Sur le chemin de la qualité : en équipe et dès demain !"
-  poly: JJA
-  description: |
-      Ça y est ! C’est décidé ! Vous allez construire des applications de meilleure qualité.
-      Vous êtes convaincu(e) que, pour cela, certaines pratiques de développement sont fondamentales comme par exemple les revues de code ou les tests automatisés.
-      Mais vos collègues n’en font pas. Parce que « c’est trop cher on n’a pas le temps », « ça ne marchera pas chez nous »...
-      Après ce BBL, quand vous reviendrez sur votre plateau projet, vous aurez des éléments à essayer tout de suite. Et peut-être de quoi élaborer un plan de bataille pour que vous et votre équipe soyez fiers de votre code et ainsi conquérir le monde ! ;-)
+-   title: "Sur le chemin de la qualité : en équipe et dès demain !"
+    poly: JJA
+    description: |
+        Ça y est ! C’est décidé ! Vous allez construire des applications de meilleure qualité.
+        Vous êtes convaincu(e) que, pour cela, certaines pratiques de développement sont fondamentales comme par exemple les revues de code ou les tests automatisés.
+        Mais vos collègues n’en font pas. Parce que « c’est trop cher on n’a pas le temps », « ça ne marchera pas chez nous »...
+        Après ce BBL, quand vous reviendrez sur votre plateau projet, vous aurez des éléments à essayer tout de suite. Et peut-être de quoi élaborer un plan de bataille pour que vous et votre équipe soyez fiers de votre code et ainsi conquérir le monde ! ;-)
 
-- title: "Alliés contre les défauts - talk avec le WebCenter d'AXA"
-  poly: JJA
-  description: |
-      La pratique de la revue de code prévient énormément de défauts. Mais elle a aussi d’autres “effets kiss-cool”.
-      C’est une pratique qui existe depuis une soixantaine d’années. Mais pourquoi est-elle si rarement rencontrée dans les DSI ?
-      Sans doute parce qu’elle est méconnue, mais aussi parce qu’elle fait l’objet d’appréhensions.
-      Faites-vous des revues de code chez vous ? Et sinon, pourquoi pas ?
-      Peut-être pensez-vous que cela prend trop de temps, que c’est trop cher, qu’en jugeant le code on jugera l’auteur…
-      Au Webcenter AXA, le code est revu systématiquement avant de partir en production.
-      Cela porte ses fruits. Mais cela ne s’est pas fait sans accrocs. Venez découvrir un retour d’expérience.
+-   title: "Alliés contre les défauts - talk avec le WebCenter d'AXA"
+    poly: JJA
+    description: |
+        La pratique de la revue de code prévient énormément de défauts. Mais elle a aussi d’autres “effets kiss-cool”.
+        C’est une pratique qui existe depuis une soixantaine d’années. Mais pourquoi est-elle si rarement rencontrée dans les DSI ?
+        Sans doute parce qu’elle est méconnue, mais aussi parce qu’elle fait l’objet d’appréhensions.
+        Faites-vous des revues de code chez vous ? Et sinon, pourquoi pas ?
+        Peut-être pensez-vous que cela prend trop de temps, que c’est trop cher, qu’en jugeant le code on jugera l’auteur…
+        Au Webcenter AXA, le code est revu systématiquement avant de partir en production.
+        Cela porte ses fruits. Mais cela ne s’est pas fait sans accrocs. Venez découvrir un retour d’expérience.
 
-- title: Epic Legacy Code Challenge
-  poly: JJA
-  description: |
-      Vous venez d'être embauchés chez Paladin Inventories Company. Elle gagne beaucoup d'argent avec son logiciel. Mais le gobelin qui l'a écrit s'est fait dévorer par un dragon. Vous ne comprenez rien au code. Et bien sûr il n'y a pas de tests. Le problème : une horde de trolls se rue vers vous avec plein de nouvelles demandes pour ce logiciel, qui est maintenant le vôtre...
-      Cette situation vous dit quelquechose ?
-      Et si on se mettait dans cette situation, en équipes et en compétition ? Qui sera alors l'équipe la plus à même de faire évoluer le code legacy, tout en continuant à gagner de l'argent ?
-      Venez relever le challenge, avec votre env de dev favori et Node.js installé au préalable !
+-   title: Epic Legacy Code Challenge
+    poly: JJA
+    description: |
+        Vous venez d'être embauchés chez Paladin Inventories Company. Elle gagne beaucoup d'argent avec son logiciel. Mais le gobelin qui l'a écrit s'est fait dévorer par un dragon. Vous ne comprenez rien au code. Et bien sûr il n'y a pas de tests. Le problème : une horde de trolls se rue vers vous avec plein de nouvelles demandes pour ce logiciel, qui est maintenant le vôtre...
+        Cette situation vous dit quelquechose ?
+        Et si on se mettait dans cette situation, en équipes et en compétition ? Qui sera alors l'équipe la plus à même de faire évoluer le code legacy, tout en continuant à gagner de l'argent ?
+        Venez relever le challenge, avec votre env de dev favori et Node.js installé au préalable !
 
-- title: Speed consulting sur la productivité des développements
-  poly: JJA
-  description: |
-      Comment être plus productif ? Avoir moins de bugs ? Que faire concrètement sur mon projet pour cela ?
-      Même le temps d'un déjeuner, on peut trouver quelques pistes.
+-   title: Speed consulting sur la productivité des développements
+    poly: JJA
+    description: |
+        Comment être plus productif ? Avoir moins de bugs ? Que faire concrètement sur mon projet pour cela ?
+        Même le temps d'un déjeuner, on peut trouver quelques pistes.

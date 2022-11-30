@@ -398,6 +398,26 @@ footer {
     }
 }
 
+.octo-france-link {
+    position: fixed;
+    z-index: 9200;
+    top: 51vh;
+    font-size: 22px;
+    color: #0e2356;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    left: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg) translate(0, -100%);
+    transform: rotate(-90deg) translate(0, -100%);
+
+    @media screen and (max-width: $desktop-size) {
+        left: 0rem;
+    }
+}
+
 // Expertises
 
 .solutions {

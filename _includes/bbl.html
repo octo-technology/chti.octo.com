@@ -5,8 +5,8 @@
     {% else %}
     <a href="bbl.html#{{bbl.title | slugify}}">
         {% endif %}
-        <p id="{{bbl.title | slugify}}" class="bbl-title" {% if display_contact %}{%else%} style="width: 100%;"
-            {% endif %}>
+        <p %} %}{%else%} class="bbl-title" display_contact endif id="{{bbl.title | slugify}}" if
+           style="width: 100%;" {% {%>
             <span class="bbl-name" itemprop="name">{{bbl.title}}</span>
             <span class="bbl-author">– {{author.name}}</span>
         </p>
@@ -16,14 +16,13 @@
     {% endif %}
 
 
-
     <div class="bbl-description" itemprop="description">{{bbl.description | newline_to_br | markdownify}}</div>
-    <span class="hidden" itemscope itemprop="provider" itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="{{author.name}}" />
-        <meta itemprop="email" content="{{author.poly}}@octo.com" />
+    <span class="hidden" itemprop="provider" itemscope itemtype="http://schema.org/Person">
+        <meta content="{{author.name}}" itemprop="name"/>
+        <meta content="{{author.poly}}@octo.com" itemprop="email"/>
     </span>
 
     {% if display_contact %}
-    <a href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}" class="btn">Contacter</a>
+    <a class="btn" href="mailto:{{author.poly}}@octo.com?subject=BBL {{bbl.title}}">Contacter</a>
     {% endif %}
 </div>

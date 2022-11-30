@@ -33,29 +33,29 @@ layout: default
                         <div class="solutions">
                             <div class="row">
                                 <div class="col align-item--bottom pad-col--left">
-                                    <img src="{{ '/assets/images/about/conseil_sur_mesure.png' | absolute_url }}"
-                                        alt="conseil_sur_mesure" />
+                                    <img alt="conseil_sur_mesure"
+                                         src="{{ '/assets/images/about/conseil_sur_mesure.png' | absolute_url }}"/>
 
                                     <div class="col text-center title-about">
                                         <strong class="title">Conseil sur mesure</strong>
                                     </div>
                                 </div>
                                 <div class="col align-item--bottom pad-col--center">
-                                    <img src="{{ '/assets/images/about/delivery.png' | absolute_url }}"
-                                        alt="delivery" />
+                                    <img alt="delivery"
+                                         src="{{ '/assets/images/about/delivery.png' | absolute_url }}"/>
 
                                     <div class="col text-center title-about">
-                                        <strong class="title">Delivery<br />&nbsp;
+                                        <strong class="title">Delivery<br/>&nbsp;
                                         </strong>
                                     </div>
                                 </div>
                                 <div class="col align-item--bottom pad-col--right">
-                                    <img src="{{ '/assets/images/about/formations.png' | absolute_url }}"
-                                        alt="formations" />
+                                    <img alt="formations"
+                                         src="{{ '/assets/images/about/formations.png' | absolute_url }}"/>
                                     <div class="col text-center title-about">
                                         <strong class="title">
                                             Formations
-                                            <br />
+                                            <br/>
                                             <a href="https://www.octo.academy/" target="_blank">En savoir plus
                                             </a>
                                         </strong>
@@ -78,8 +78,9 @@ layout: default
                         <div class="poles">
                             <div class="row">
                                 <div class="col half">
-                                    <img src="{{ '/assets/images/expertises/Illustration_Realisation_projet.png' | absolute_url }}"
-                                        alt="Illustration_Realisation_projet" />
+                                    <img
+                                        alt="Illustration_Realisation_projet"
+                                        src="{{ '/assets/images/expertises/Illustration_Realisation_projet.png' | absolute_url }}"/>
                                 </div>
                                 <div class="col aligner-item--top col-text">
                                     <strong>Méthodo & Change</strong>
@@ -94,8 +95,9 @@ layout: default
                                     </ul>
                                 </div>
                                 <div class="col half">
-                                    <img src="{{ '/assets/images/expertises/Illustration_Etude_tech.png' | absolute_url }}"
-                                        alt="Illustration_Etude_tech" />
+                                    <img
+                                        alt="Illustration_Etude_tech"
+                                        src="{{ '/assets/images/expertises/Illustration_Etude_tech.png' | absolute_url }}"/>
                                 </div>
                                 <div class="col aligner-item--top col-text">
                                     <strong>Data & Cognitive Automation</strong>
@@ -110,8 +112,8 @@ layout: default
 
                             <div class="row row-margintop">
                                 <div class="col half">
-                                    <img src="{{ '/assets/images/expertises/Illustration_tresor.png' | absolute_url }}"
-                                        alt="Illustration_tresor." />
+                                    <img alt="Illustration_tresor."
+                                         src="{{ '/assets/images/expertises/Illustration_tresor.png' | absolute_url }}"/>
                                 </div>
                                 <div class="col aligner-item--top col-text">
                                     <strong>Software engineering</strong>
@@ -129,8 +131,8 @@ layout: default
                                     </ul>
                                 </div>
                                 <div class="col half">
-                                    <img src="{{ '/assets/images/expertises/Illustration_Tipi.png' | absolute_url }}"
-                                        alt="Illustration_Tipi" />
+                                    <img alt="Illustration_Tipi"
+                                         src="{{ '/assets/images/expertises/Illustration_Tipi.png' | absolute_url }}"/>
                                 </div>
                                 <div class="col aligner-item--top col-text">
                                     <strong>Architecture</strong>
@@ -186,8 +188,6 @@ layout: default
             </div>
 
 
-
-
             <div class="col equipe">
                 <div class="box content">
                     <h3 class="title--section">Notre collectif.</h3>
@@ -196,23 +196,24 @@ layout: default
                         {% assign peoples = site.data.people %} {% for people in peoples
                         %}
                         <a class="col people-card shuffleMe"
-                            href=" {{ '/equipe.html#' | append: people.poly | absolute_url }}">
+                           href=" {{ '/equipe.html#' | append: people.poly | absolute_url }}">
 
-                            <img src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
-                                alt="{{people.name}}" class="img-people" />
+                            <img
+                                alt="{{people.name}}"
+                                class="img-people" src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"/>
 
                             <h4 class="text-center people-info">
                                 {% assign name = people.name | replace: " ",
                                 "&#8239;&#8239;" %}
                                 <span class="people-name">{{name}}</span>
-                                <br />
+                                <br/>
                                 <small>{{people.job}}</small>
                             </h4>
                         </a>
                         {% endfor %}
                     </div>
                     <div class="equipe-rejoignez">
-                        <a href="{{ '/join-us.html' | absolute_url }}" class="btn">Rejoignez-nous !</a>
+                        <a class="btn" href="{{ '/join-us.html' | absolute_url }}">Rejoignez-nous !</a>
                     </div>
                 </div>
             </div>
@@ -232,13 +233,13 @@ layout: default
                         <b class="emphase">Best Place To Grow</b>.
                     </p>
 
-                    <a href="/join-us.html" class="btn">Rejoignez-nous !</a>
-                    
-                    <img src="{{ '/assets/images/great_place_to_work_2021.jpg' | absolute_url }}"
-                        alt="great_place_to_work_2021" class="img-gpt" />
-                    
-                    <img src="{{ '/assets/images/2018-Certifee-B-Logo-Black-XS.png' | absolute_url }}"
-                        alt="bcorp" class="img-gpt" />
+                    <a class="btn" href="/join-us.html">Rejoignez-nous !</a>
+
+                    <img alt="great_place_to_work_2021"
+                         class="img-gpt" src="{{ '/assets/images/great_place_to_work_2021.jpg' | absolute_url }}"/>
+
+                    <img alt="bcorp"
+                         class="img-gpt" src="{{ '/assets/images/2018-Certifee-B-Logo-Black-XS.png' | absolute_url }}"/>
 
                 </div>
             </div>
@@ -252,13 +253,12 @@ layout: default
                     <div class="content">
 
 
-
                         <h4 class="text-center first-title">
                             Julien Jakubowski
                         </h4>
                         <div class="text-center">
-                            <img src="{{ '/assets/images/people/' | append: 'JJA.jpg' | absolute_url }}"
-                                alt="Julien Jakubowski" class="img-wbo" />
+                            <img alt="Julien Jakubowski"
+                                 class="img-wbo" src="{{ '/assets/images/people/' | append: 'JJA.jpg' | absolute_url }}"/>
                         </div>
 
 
@@ -276,8 +276,8 @@ layout: default
                             Mathieu Moisant
                         </h4>
                         <div class="text-center">
-                            <img src="{{ '/assets/images/people/' | append: 'MOI.jpg' | absolute_url }}"
-                                alt="Mathieu Moisant" class="img-wbo" />
+                            <img alt="Mathieu Moisant"
+                                 class="img-wbo" src="{{ '/assets/images/people/' | append: 'MOI.jpg' | absolute_url }}"/>
                         </div>
 
 
@@ -302,15 +302,15 @@ layout: default
 
                     <div class="content">
                         <a class="twitter-timeline" data-height="600"
-                            href="https://twitter.com/octochti?ref_src=twsrc%5Etfw">Tweets by octoNord</a>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                           href="https://twitter.com/octochti?ref_src=twsrc%5Etfw">Tweets by octoNord</a>
+                        <script async charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- 
+<!--
 <div class="row row--vertical equipe">
     <div class="col">
         <div class="box content">

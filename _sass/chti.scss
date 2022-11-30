@@ -48,6 +48,7 @@ header {
     }
 
 }
+
 // Footer
 
 footer {
@@ -63,6 +64,7 @@ footer {
 
 .footer-social {
     text-align: left;
+
     img {
         width: 35px;
     }
@@ -79,12 +81,12 @@ footer {
     font-size: 1.2rem;
 }
 
-.flex-center{
+.flex-center {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex:1;
-} 
+    flex: 1;
+}
 
 // Homepage
 
@@ -126,17 +128,17 @@ footer {
 
 // Recrute
 
-.img-gpt{
+.img-gpt {
     margin-top: 32px;
     max-width: 250px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 // Equipe
 
-.equipe-rejoignez{
+.equipe-rejoignez {
     text-align: center;
 }
 
@@ -242,7 +244,7 @@ footer {
 // BBL
 
 .bbl {
-    
+
     margin-bottom: $desktop-padding;
 
     .page-index & .bbl-description {
@@ -260,7 +262,7 @@ footer {
             color: $brand-color;
         }
     }
-    
+
 }
 
 .bbl-name {
@@ -294,7 +296,7 @@ footer {
         text-align: justify;
         padding-bottom: 6px;
     }
-    
+
     strong {
         font-family: "Avenir LT Com 65", "Arial Black", Gadget, sans-serif;
         font-weight: bolder;
@@ -324,7 +326,7 @@ footer {
     }
 
     &-bbl {
-        
+
         h5 {
             margin-block-start: 1em;
             margin-block-end: 1em;
@@ -410,12 +412,12 @@ footer {
 .title-about {
     margin: auto;
     margin-top: 15px;
-    width:213px;
+    width: 213px;
 
     a {
         font-size: small;
-        position:relative;
-        top:-5px;
+        position: relative;
+        top: -5px;
     }
 }
 
@@ -448,8 +450,6 @@ footer {
 .row-margintop {
     margin-top: 20px;
 }
-
-
 
 
 .poles {
@@ -523,7 +523,7 @@ strong.title {
 }
 
 .col-founders .first-title {
-    margin-top:0px;
+    margin-top: 0px;
 }
 
 .col-founders {
@@ -537,6 +537,7 @@ strong.title {
 .italic {
     font-style: italic;
 }
+
 .no-margin-bottom {
     margin-bottom: 0rem;
 }

@@ -10,10 +10,10 @@ title: Rejoignez-nous
 
             <div class="content">
                 {% for job in site.data.jobs %}
-                <a class="row job" href="{{job.url}}" target="_blank" itemscope itemtype="http://schema.org/JobPosting">
+                <a class="row job" href="{{job.url}}" itemscope itemtype="http://schema.org/JobPosting" target="_blank">
                     <div class="col text-center job-image">
-                        <img src="{{ '/assets/images/jobs/' | append: job.image | append: '.svg' | absolute_url }}"
-                            alt="{{job.title}}">
+                        <img alt="{{job.title}}"
+                             src="{{ '/assets/images/jobs/' | append: job.image | append: '.svg' | absolute_url }}">
                     </div>
                     <div class="col col--important job-content">
                         <div class="content">
@@ -22,17 +22,17 @@ title: Rejoignez-nous
                         </div>
                     </div>
 
-                    <meta itemprop="datePosted" content="{{job.datePosted}}" />
-                    <span class="hidden" itemscope itemprop="jobLocation" itemtype="http://schema.org/Place">
+                    <meta content="{{job.datePosted}}" itemprop="datePosted"/>
+                    <span class="hidden" itemprop="jobLocation" itemscope itemtype="http://schema.org/Place">
                         <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                            <meta itemprop="streetAddress" content="1 place de la Gare" />
-                            <meta itemprop="postalCode" content="59000" />
-                            <meta itemprop="addressLocality" content="Lille" />
+                            <meta content="1 place de la Gare" itemprop="streetAddress"/>
+                            <meta content="59000" itemprop="postalCode"/>
+                            <meta content="Lille" itemprop="addressLocality"/>
                         </span>
                     </span>
-                    <div class="hidden" itemscope itemprop="hiringOrganization"
-                        itemtype="http://schema.org/Organization">
-                        <meta itemprop="name" content="OCTO chti" />
+                    <div class="hidden" itemprop="hiringOrganization" itemscope
+                         itemtype="http://schema.org/Organization">
+                        <meta content="OCTO chti" itemprop="name"/>
                     </div>
                 </a>
                 {% endfor %}

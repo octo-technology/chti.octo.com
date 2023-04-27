@@ -1,5 +1,6 @@
 function shuffle() {
     var container = document.getElementById("toShuffle");
+    console.log(container)
     var elementsArray = Array.prototype.slice.call(container.getElementsByClassName('shuffleMe'));
     elementsArray.forEach(function (element) {
         container.removeChild(element);

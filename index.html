@@ -33,7 +33,7 @@ layout: default
                         <div class="solutions">
                             <div class="row">
                                 <div class="col align-item--bottom pad-col--left">
-                                    <img alt="conseil_sur_mesure"
+                                    <img alt="conseil sur mesure"
                                          src="{{ '/assets/images/about/conseil_sur_mesure.webp' | absolute_url }}"/>
 
                                     <div class="col text-center title-about">
@@ -79,7 +79,7 @@ layout: default
                             <div class="row">
                                 <div class="col half">
                                     <img
-                                        alt="Illustration_Realisation_projet"
+                                        alt="Illustration Realisation projet"
                                         src="{{ '/assets/images/expertises/Illustration_Realisation_projet.webp' | absolute_url }}"/>
                                 </div>
                                 <div class="col aligner-item--top col-text">
@@ -96,7 +96,7 @@ layout: default
                                 </div>
                                 <div class="col half">
                                     <img
-                                        alt="Illustration_Etude_tech"
+                                        alt="Illustration Etude tech"
                                         src="{{ '/assets/images/expertises/Illustration_Etude_tech.webp' | absolute_url }}"/>
                                 </div>
                                 <div class="col aligner-item--top col-text">
@@ -112,7 +112,7 @@ layout: default
 
                             <div class="row row-margintop">
                                 <div class="col half">
-                                    <img alt="Illustration_tresor."
+                                    <img alt="Illustration tresor."
                                          src="{{ '/assets/images/expertises/Illustration_tresor.webp' | absolute_url }}"/>
                                 </div>
                                 <div class="col aligner-item--top col-text">
@@ -131,7 +131,7 @@ layout: default
                                     </ul>
                                 </div>
                                 <div class="col half">
-                                    <img alt="Illustration_Tipi"
+                                    <img alt="Illustration Tipi"
                                          src="{{ '/assets/images/expertises/Illustration_Tipi.webp' | absolute_url }}"/>
                                 </div>
                                 <div class="col aligner-item--top col-text">
@@ -193,8 +193,7 @@ layout: default
                     <h3 class="title--section">Notre collectif.</h3>
 
                     <div class="row" id="toShuffle">
-                        {% assign peoples = site.data.people %} {% for people in peoples
-                        %}
+                        {% assign peoples = site.data.people %} {% for people in peoples %}
                         <a class="col people-card shuffleMe"
                            href=" {{ '/equipe.html#' | append: people.poly | absolute_url }}">
 
@@ -203,8 +202,7 @@ layout: default
                                 class="img-people" src="{{ '/assets/images/people/' | append: people.poly | append: '.webp' | absolute_url }}"/>
 
                             <h4 class="text-center people-info">
-                                {% assign name = people.name | replace: " ",
-                                "&#8239;&#8239;" %}
+                                {% assign name = people.name | replace: " ", "&#8239;&#8239;" %}
                                 <span class="people-name">{{name}}</span>
                                 <br/>
                                 <small>{{people.job}}</small>
@@ -236,7 +234,7 @@ layout: default
                     <a class="btn" href="/join-us.html">Rejoignez-nous !</a>
 
                     <img alt="great_place_to_work_2021"
-                         class="img-gpt" src="{{ '/assets/images/great_place_to_work_2021.jpg' | absolute_url }}"/>
+                         class="img-gpt" src="{{ '/assets/images/great_place_to_work_2021.webp' | absolute_url }}"/>
 
                     <img alt="bcorp"
                          class="img-gpt" src="{{ '/assets/images/2018-Certifee-B-Logo-Black-XS.webp' | absolute_url }}"/>
@@ -299,35 +297,3 @@ layout: default
         </div>
     </div>
 </div>
-<!--
-<div class="row row--vertical equipe">
-    <div class="col">
-        <div class="box content">
-            <h3 class="title--section">Notre collectif.</h3>
-
-            <div class="row" id="toShuffle">
-                {% assign peoples = site.data.people %} {% for people in peoples
-                %}
-                <a class="col people-card shuffleMe" href=" {{ '/equipe.html#' | append: people.poly | absolute_url }}">
-
-                    <img src="{{ '/assets/images/people/' | append: people.poly | append: '.webp' | absolute_url }}"
-                        alt="{{people.name}}" class="img-people" />
-
-                    <h4 class="text-center people-info">
-                        {% assign name = people.name | replace: " ",
-                            "&#8239;&#8239;" %}
-                        <span class="people-name">{{name}}</span>
-                        <br />
-                        <small>{{people.job}}</small>
-                    </h4>
-
-                </a>
-                {% endfor %}
-            </div>
-            <div class="equipe-rejoignez">
-                <a href="{{ '/join-us.html' | absolute_url }}" class="btn">Rejoignez-nous !</a>
-            </div>
-        </div>
-    </div>
-
-</div> -->

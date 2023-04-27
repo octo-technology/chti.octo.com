@@ -1,6 +1,6 @@
 ![OCTO Chti](brand.webp)
 
-# Installation
+# Installation using Make
 
 ```bash
 make install-dependencies  #use sudo sorry
@@ -18,9 +18,9 @@ connect to: http://localhost:4000/chti.octo.com/
 
 Tada.
 
-# Installation MAC OS
+# Installation on MAC OS
 
-1. Install chruby (ruby version manager) and the last ruby version
+1. Install chruby (ruby version manager) and the last ruby version or RVM
 ```bash
 brew install chruby ruby-install xz
 ```
@@ -42,3 +42,16 @@ echo "chruby ruby-3.1.2" >> ~/.zshrc
 chruby
 ruby -v
 ```
+
+5. Run
+```
+    bundle install
+```
+NOTE : if you run an error on eventmachine -> run the following
+```
+gem install eventmachine -- --with-openssl-dir=/usr/bin/openssl
+```
+Then re-run bundle install
+
+6. To
+

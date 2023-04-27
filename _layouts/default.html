@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <meta content="width=device-width, minimum-scale=1, user-scalable=no, minimal-ui" name="viewport"/>
+    <meta content="width=device-width, minimum-scale=1, minimal-ui" name="viewport"/>
 
     <title>
         {% if page.title %}{{ page.title | escape }} | {{ site.title |
@@ -60,8 +60,8 @@
     -->
 
     <div id="navbar">
-        <a href="{{ '/' | absolute_url }}">
-            <img class="brand-image" src="{{ '/assets/images/logo-mini-color.svg' | absolute_url }}"/>
+        <a href="{{ '/' | absolute_url }}" aria-label="Visitez le site Octo Technology France">
+            <img class="brand-image" alt="logo Octo" src="{{ '/assets/images/logo-mini-color.svg' | absolute_url }}"/>
         </a>
         <!--
         <ul>
@@ -77,7 +77,7 @@
     </div>
 
     <div class="text-center banner">
-        <a href="https://www.octo.com/" target="_blank"><img class="brand-image"
+        <a href="https://www.octo.com/" target="_blank"><img class="brand-image" alt="Logo Octo Nord"
                                                              src="{{ '/assets/images/brand.webp' | absolute_url }}"/></a>
 
         <br/>
@@ -117,20 +117,20 @@
             <div class="col footer-social flex-center align-text--right">
 
                 <div style="display: block;">
-                    <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank"><img
-                        src="{{ '/assets/images/social/linkedin.webp' | absolute_url }}"/></a>
+                    <a href="https://www.linkedin.com/showcase/octo-ch'ti/" target="_blank" aria-label="Aller sur la page LinkedIn d'Octo Nord"><img
+                        src="{{ '/assets/images/social/linkedin.webp' | absolute_url }}" alt="logo LinkedIn"/></a>
                 </div>
 
             </div>
 
             <div class="col thereisabetterway">
-                <img src="{{ '/assets/images/thereisabetterway.webp' | absolute_url }}"/>
+                <img src="{{ '/assets/images/thereisabetterway.webp' | absolute_url }}" alt="octo - there is a better way"/>
             </div>
 
             <div class="col footer-social flex-center">
                 <div style="display: block;">
-                    <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><img
-                        src="{{ '/assets/images/social/twitter.svg' | absolute_url }}"/></a>
+                    <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank" aria-label="Aller sur le compte Twitter d'Octo Technology France"><img
+                        src="{{ '/assets/images/social/twitter.svg' | absolute_url }}" alt="logo twitter "/></a>
                 </div>
 
             </div>
@@ -140,8 +140,7 @@
 
             <div class="row row--alignCenter">
                 <div class="col text-center signature">
-                    © OCTO Technology
-                    <script>document.write(new Date().getFullYear())</script> - Part of Accenture
+                    © OCTO Technology - Part of Accenture
                 </div>
             </div>
         </div>

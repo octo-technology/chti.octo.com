@@ -1,4 +1,4 @@
-![OCTO Chti](brand.png)
+![OCTO Chti](brand.webp)
 
 # Installation
 

@@ -121,19 +121,6 @@
     J’aime les défis, me remettre en en question et le partage de connaissances.
     Guidé par la passion du développement et l’envie de redonner une nouvelle jeunesse à votre Legacy, allons ensemble dans le terrier du lapin blanc et reprenons-en le contrôle.
 
-- poly: TOP
-  name: Pierre Top
-  job: Développeur
-  accroche: |
-    La bibliothèque d’OCTO Nord. Si vous cherchez des informations sur un sujet tech, méthodo ou philosophique, Pierre a surement déjà réfléchi et s’est documenté sur le sujet.
-  bio: |
-    2007: début de ma carrière.
-    J’observe partout le même problème: comment intervenir sur des applications en production depuis plusieurs années ?
-    2007: OCTO apporte une réponse en introduisant XP en France.
-    Mais cela, je ne le découvre qu’en...
-    2019: et je rejoins aussitôt OCTO Nord pour partager XP avec les développeurs lillois !
-    A bientôt sur votre codebase, les MeetUps Software Craftsmanship, GDG ou à SoCraTesFr.
-
 - poly: DEME
   name: Maxime Delattre
   job: Ingénieur du logiciel - Software Craftsman
@@ -182,7 +169,7 @@
 
 - poly: NIGU
   name: Nicolas Gutierrez
-  job: Le chtigiaire Padawan de la data, qui rejoint la team en CDI en octobre !
+  job: Le Padawan de la data
   accroche: |
   bio: |
     Actuellement en fin d’études, j’ai rejoint Octo pour sa communauté.
@@ -194,7 +181,7 @@
   job: Coaching Agile et Produit
   accroche: |
   bio: |
-    Ma devise : Less is more ! Quand on pilote des produits numériques, ce ne sont pas les idées d’évolutions qui manquent, mais plutôt les clés pour les prioriser. 
+    Ma devise : Less is more ! Quand on pilote des produits numériques, ce ne sont pas les idées d’évolutions qui manquent, mais plutôt les clés pour les prioriser.
     Et si on essayait de faire moins de choses, mais qui aient vraiment de l’impact ? Pour vous aider dans cette transformation, j’aime jongler avec les contextes, les casquettes (Product Owner, Coach, Formatrice) et les langues (você fala portugues?).
     Passionnée par le Produit, je participe à l’organisation de School of Product (Conférence, meetups et Newsletter sur le Product Management).
 
@@ -217,7 +204,7 @@
 
 - poly: DALE
   name: Léa D Avola
-  job: La chtigiaire
+  job: Software Craftwoman
   accroche: |
   bio: |
     J’ai rejoint OCTO pour mon stage de fin d’études avec la volonté de confirmer mon attrait pour le développement. J’aime apprendre et je me sens progresser grâce aux Octos qui m’entourent. De nature engagée je suis également convaincue qu’il existe de meilleures façons d’agir : There is a better way

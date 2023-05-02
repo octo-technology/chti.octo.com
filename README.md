@@ -1,57 +1,23 @@
 ![OCTO Chti](brand.webp)
 
-# Installation using Make
+## Available how-to documentation :
 
-```bash
-make install-dependencies  #use sudo sorry
-make install-gems          #again sorry
-```
+- [How-to install project](https://github.com/octo-technology/chti.octo.com/tree/master/docs/how-to-install.md)
+- [How-to run project locally](https://github.com/octo-technology/chti.octo.com/tree/master/docs/how-to-run-project.md)
+- [How-to edit static data](https://github.com/octo-technology/chti.octo.com/tree/master/docs/how-to-edit.md)
 
-# Start hot reloading server
+## Explanations :
 
-```bash
-make start-server
-```
+### Chti.octo.com
+Chti.octo.com runs on Jekyll Server (ruby static site framework)
+It's deployed via github-pages
 
-Please, do not use the adresse given in the console (127.0.0.1). Prefer the use of localhost (for CORS issues). So,
-connect to: http://localhost:4000/chti.octo.com/
+You can edit member of team, bbl and page jobs.
 
-Tada.
+You don't need to modify html and css files to update data.
 
-# Installation on MAC OS
-
-1. Install chruby (ruby version manager) and the last ruby version or RVM
-```bash
-brew install chruby ruby-install xz
-```
-
-2. Install latest stable Ruby version
-```bash
-ruby-install ruby
-```
-
-3. Configure your zshrc to use chruby
-```bash
-echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
-echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
-echo "chruby ruby-3.1.2" >> ~/.zshrc
-```
-
-4. Quit and relaunch Terminal, then check that everything is working:
-```bash
-chruby
-ruby -v
-```
-
-5. Run
-```
-    bundle install
-```
-NOTE : if you run an error on eventmachine -> run the following
-```
-gem install eventmachine -- --with-openssl-dir=/usr/bin/openssl
-```
-Then re-run bundle install
-
-6. To
+### Some decisions
+- Use webp format for images.
+  In order to make static site as efficient as possible, you have to use the smallest images.
+- To help you do that you can follow [this tutorial](how-to-convert-images.md)
 

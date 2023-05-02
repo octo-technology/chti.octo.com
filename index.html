@@ -181,9 +181,7 @@ layout: default
                             plus concret dans le cadre de votre entreprise ou de votre équipe.
                         </li>
                     </ul>
-
-                    {% for bbl in site.data.bbl %} {% include bbl.html bbl=bbl
-                    %} {% endfor %}
+                    {% for bbl in site.data.bbl %} {% include bbl.html bbl=bbl %} {% endfor %}
                 </div>
             </div>
 
@@ -195,7 +193,7 @@ layout: default
                     <div class="row" id="toShuffle">
                         {% assign peoples = site.data.people %} {% for people in peoples %}
                         <a class="col people-card shuffleMe"
-                           href=" {{ '/equipe.html#' | append: people.poly | absolute_url }}">
+                           href="/equipe.html#{{people.poly}}">
 
                             <img
                                 alt="{{people.name}}"

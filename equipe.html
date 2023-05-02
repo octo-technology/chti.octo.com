@@ -5,11 +5,11 @@ title: L'équipe
 
 <div class="row row-page">
     <div class="col">
-        <div class="box content content-equipe">
+        <div class="box content content-equipe" id="toShuffle">
             <h3 class="title--section">Notre collectif.</h3>
 
             {% for people in site.data.people %}
-            <div class="people row" id="toShuffle">
+            <div class="people row shuffleMe" id="{{people.poly}}">
                 <div class="col">
                     <img alt="{{people.name}}"
                          class="img-people" src="{{ '/assets/images/people/' | append: people.poly | append: '.webp' | absolute_url }}">

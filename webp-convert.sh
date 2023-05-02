@@ -1,6 +1,11 @@
 #!/bin/bash
 
-PARAMS=('-m 6 -q 50 -mt -af -progress')
+# cweb parameters
+# -m -> compress method -> here at best compression
+# -q -> quality -> change quality to 50% lower than the original image
+# --resize height width -> Please make your image lower than 1000p for heigh and width -> don't forget scale !)
+# - progress -> show progress during script
+PARAMS=('-m 6 -q 50 --resize 393 393 -progress')
 
 if [ $# -ne 0 ]; then
 	PARAMS=$@;

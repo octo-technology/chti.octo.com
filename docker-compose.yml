@@ -1,0 +1,8 @@
+services:
+    jekyll:
+        image: bretfisher/jekyll-serve
+        volumes:
+        # Creates a volume from /chti.octo.com
+            - .:/site
+        ports:
+            - '4000:4000'

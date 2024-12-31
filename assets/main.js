@@ -20,7 +20,7 @@ function shuffleArray(array) {
     return array;
 }
 
-shuffle();
+//shuffle();
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

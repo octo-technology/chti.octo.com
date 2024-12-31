@@ -3,17 +3,13 @@ lang: fr
 email: octo.campements.lille@accenture.com
 url: "https://chti.octo.com"
 tel: +33 6 29 08 29 91
-twitter:
-    username: OCTOTechnology
-    card: summary
 repository: octo-technology/chti.octo.com
 social:
     name: OCTO chti
     links:
-        - https://twitter.com/OCTOchti
         - https://github.com/OCTOTechnology
+        - https://www.linkedin.com/showcase/octo-nord
 logo: /brand.webp
-google_analytics: UA-134710918-1
 
 markdown: kramdown
 theme: minima
